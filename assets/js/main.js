@@ -1,19 +1,35 @@
 "use strict";
 
+/* import { slide } from "./slider.js"; */
+import {slider2}  from "./slider2.js";
+
+slider2(".receipt");
+slider2(".promo");
+slider2(".yeezy");
+slider2(".nbalance");
+slider2(".jordan");
+slider2(".kaws");
+
+
+
 
 
 const header = document.querySelector(".header");
 const headerHamburger = document.querySelector(".header__hamburger");
+const headerAction = document.querySelector(".header__action");
 const navClose = document.querySelector(".nav__close");
 const navCloseBox = document.querySelector(".nav__close-box");
 const page = document.querySelector(".page");
 const nav = document.querySelector(".nav");
+const intro = document.querySelector(".intro");
+const headerFooter = document.querySelector(".header__footer");
 
 
-
-const openCloseNav = function(status){
+const openCloseNav = function(status,e){
   nav.classList.toggle("nav__transform");
-  status =="open" ?   page.classList.add("shadow"):page.classList.remove("shadow");
+  status == "open" ? page.classList.add("shadow") : page.classList.remove("shadow");
+  status == "open" ? headerAction.style.display = "none" : headerAction.style.display = "flex";
+  status == "open" ? headerFooter.classList.add("hide") : headerFooter.classList.remove("hide");
 }
 
 navCloseBox.addEventListener("click", ()=>{
