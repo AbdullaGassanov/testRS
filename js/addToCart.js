@@ -1,3 +1,5 @@
+import { cartOpen } from './openCart.js';
+
 const cartBox = document.querySelector('.cart');
 const headerHamburger = document.querySelector('.header__hamburger');
 const page = document.querySelector('.page');
@@ -41,6 +43,8 @@ export const addProduct = function () {
     product.name = name;
     product.price = price;
     product.img = imgPath;
+
+    /*     cartOpen(product); */
 
     cart.cartItem.push(product);
 
