@@ -1,0 +1,144 @@
+<div class="order">
+  <div class="order__content">
+    <h2 class="order__title">Контактные данные</h2>
+    <div class="order__box">
+      <div class="order__left">
+        <form action="#" class="order__form">
+          <p class="form-dialog">
+            <label for="order__txtName" class="order__lblName"
+              >Ваше имя <span class="star">*</span>
+            </label>
+            <input
+              type="text"
+              name="order__txtName"
+              id="order__txtName"
+              class="order__txtName"
+            />
+          </p>
+          <p class="form-dialog">
+            <label for="order__txtPhone" class="order__lblPhone"
+              >Контактный номер: <span class="star">*</span>
+            </label>
+            <input
+              type="text"
+              name="order__txtPhone"
+              id="order__txtPhone"
+              class="order__txtPhone"
+            />
+          </p>
+          <p class="form-dialog">
+            <label for="order__txtEmail" class="order__lblEmail">E-mail </label>
+            <input
+              type="email"
+              name="order__txtEmail"
+              id="order__txtEmail"
+              class="order__txtEmail"
+            />
+          </p>
+          <p class="form-dialog order__delivery-place">
+            <h3 class="order__delivery-title">Доставка</h3>
+            <label for="order__txtName" class="order__lblName"
+              >Населенный пункт<span class="star">*</span>
+            </label>
+            <select id="order__txtCity" class="order__txtCity">
+              <option value="mos">Moscow</option>
+              <option value="mos">New-York</option>
+              <option value="mos">Dubai</option>
+            </select>
+          </p>
+          <p class="form-dialog">
+            <div class="order__delivery-option">
+                <div class="order__delivery-box order__delivery-box-self">
+                    <input type="radio" name="order__delivery-opt" id="order__delivery-self" class="order__delivery-self">
+                    <div class="order__delivery-desc">
+                        <p class="order__delivery-desc-big">Самовывоз</p>
+                        <p class="order__delivery-desc-small">В нашем шоуруме по адресу улица Красносельская 40</p>
+                    </div>
+                    <div class="order__delivery-sum">
+                        + 0 P
+                    </div>
+                </div>
+
+                <div class="order__delivery-box order__delivery-box-currier">
+                    <input type="radio" name="order__delivery-opt" id="order__delivery-self" class="order__delivery-self">
+                    <div class="order__delivery-desc">
+                        <p class="order__delivery-desc-big">Курьерской службой</p>
+                        <p class="order__delivery-desc-small">Доставка по всем городам России и Мира</p>
+                        <p class="order__delivery-desc-small">Стоимость заказа будет рассчитываться после оформления заказа</p>
+                    </div>
+                    <div class="order__delivery-sum">
+                        + 0 P
+                    </div>
+                </div>
+            </div>
+          </p>
+          <p class="form__dialog">
+
+            <div class="order__pay">
+                <div class="order__pay-title">Способ оплаты</div>
+                <div class="order__pay-cash">
+                    <input type="radio" name="order__radioCash" id="order__radioCash">
+                    <span>Оплата наличными или СБП (оплата по QR коду) при получении заказа</span>
+                </div>
+
+                <div class="order__pay-notice">
+                    <input type="checkbox" name="order__chkNotice" id="order__chkNotice">
+                    <p>
+                    <span class="order__pay-notice-title">Получать уведомления о заказе</span>
+                    <span class="order__pay-notice-small">С помощью уведомлений о заказе можно не только получать актуальную
+информацию по заказу, но и иметь быстрый канал связи с магазином</span></p>
+                </div>
+
+                <div class="order__pay-agree">
+                     <input type="checkbox" name="order__chkAgree" id="order__chkAgree">
+                     <span>Согласие на обработку персональных данных</span>
+                </div>
+
+            </div>
+            <div class="order__footer">
+                <span>Я ознакомлен и согласен с условиями <a href="">оферты и политики конфиденциальности</a> </span>
+            </div>
+
+
+          </p>
+          <div class="order__form-footer">
+            <a href="#" class="order__btn btn">Подтвердить заказ</a>
+          </div>
+        </form>
+      </div>
+
+      <div class="order__right">
+
+        <div class="order__items">
+                 <div class="order__item">
+                    <img class="order__item-img" src="img/2002r-protection-pack-grey.jpg" alt="img" />
+                    <h2 class="order__item-name">2002R "Protection Pack - Rain Cloud"</h2>
+                   <div class="order__item-priceBox"><span class="order__item-piece">1 x</span><h2 class="order__item-price">  39 000 ₽</h2></div> 
+                </div>
+                  <div class="order__item">
+                    <img class="order__item-img" src="img/2002r-protection-pack-grey.jpg" alt="img" />
+                    <h2 class="order__item-name">2002R "Protection Pack - Rain Cloud"</h2>
+                   <div class="order__item-priceBox"><span class="order__item-piece">1 x</span><h2 class="order__item-price">  39 000 ₽</h2></div> 
+                </div>
+        </div>
+
+        <div class="order__summary">
+            <div class="order__row"> <div class="order__sum-desc">Сумма по товарам</div>
+            <h3 class="order__sum"> 78 000 P</h3></div>
+
+            <div class="order__row"> <div class="order__sum-delivery">Сумма доставки</div>
+            <h3 class="order__sum"> 0 P</h3></div>     
+            <div class="order__row">
+                <h2 class="order__amount-desc">Итого:</h2>
+                <h2 class="order__amount">78 000 P</h2>
+
+            </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
