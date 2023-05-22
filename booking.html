@@ -1,715 +1,695 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="stylesheet" href="css/style.min.css" />
-		<style>
-			@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap");
-		</style>
-
-		<!-- Useful meta tags -->
-		<meta http-equiv="x-ua-compatible" content="ie=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta content="width=1140" name="viewport" id="viewport" />
-		<meta name="robots" content="index, follow, noodp" />
-		<meta name="googlebot" content="index, follow" />
-		<meta name="google" content="notranslate" />
-		<meta name="description" content="Ramster Online Shop " />
-		<meta
-			name="keywords"
-			content="Магазин одежды, онлайн магазин, YEEZY, Jordan, Caws, Clothes, Adidas"
-		/>
-		<meta name="author" content="NewGen" />
-		<meta name="format-detection" content="telephone=no" />
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-
-		<title>Ramster Shop - Онлайн Магазин</title>
-
-		<style>
-			.card:hover {
-				scale: 1;
-				padding: 0;
-				margin: 0;
-				border: none;
-			}
-			.card::before {
-				content: "";
-				background-color: transparent;
-			}
-		</style>
-	</head>
-	<body>
-		<nav class="nav nav__transform">
-			<div class="nav__content">
-				<div class="nav__content-box">
-					<div class="nav__close">
-						<svg class="nav__icon">
-							<use xlink:href="img/symbol-defs.svg#icon-cross"></use>
-						</svg>
-					</div>
-
-					<div class="nav__close-box">
-						<svg class="nav__close-box-icon">
-							<use xlink:href="img/symbol-defs.svg#icon-cross"></use>
-						</svg>
-					</div>
-
-					<div class="nav__search-box">
-						<label class="nav__title" for="nav__search">Поиск</label>
-						<input
-							class="nav__search-input"
-							type="text"
-							name="nav__seach"
-							id="nav__search"
-						/>
-						<a class="nav__icon-link" href="#">
-							<svg class="nav__icon-search">
-								<use xlink:href="img/symbol-defs.svg#icon-search"></use>
-							</svg>
-						</a>
-					</div>
-
-					<!--NAV MENU-->
-					<ol class="nav__menu">
-						<h2 class="nav__menu-title">Каталог товаров</h2>
-						<li class="nav__menu-item">
-							<a href="#" class="nav__menu-link">Новые поступления</a>
-						</li>
-						<li class="nav__menu-item">
-							<a href="#" class="nav__menu-link">Акции </a>
-						</li>
-
-						<li class="nav__menu-item">
-							<a href="#" class="nav__menu-link" data-brand="yeezy">
-								YEEZY &#9661;
-							</a>
-
-							<div class="nav__menu-content" data-brandID="1">
-								<ul class="nav__menu-list">
-									<li class="nav__menu-list-item">YEEZY 350</li>
-									<li class="nav__menu-list-item">YEEZY 380</li>
-									<li class="nav__menu-list-item">YEEZY 450</li>
-									<li class="nav__menu-list-item">YEEZY 500</li>
-									<li class="nav__menu-list-item">YEEZY 700</li>
-									<li class="nav__menu-list-item">desert boot</li>
-									<li class="nav__menu-list-item">Yeezy foam</li>
-									<li class="nav__menu-list-item">Yeezy slide</li>
-								</ul>
-							</div>
-						</li>
-						<li class="nav__menu-item">
-							<a href="#" class="nav__menu-link" data-brand="nike"
-								>Nike &#9661;</a
-							>
-							<div class="nav__menu-content" data-brandID="2">
-								<ul class="nav__menu-list">
-									<li class="nav__menu-list-item">Dunk</li>
-									<li class="nav__menu-list-item">AirForce 1</li>
-									<li class="nav__menu-list-item">Nike & Sacal</li>
-									<li class="nav__menu-list-item">Air Max</li>
-									<li class="nav__menu-list-item">Nike X OFF-White</li>
-								</ul>
-							</div>
-						</li>
-						<li class="nav__menu-item">
-							<a href="#" class="nav__menu-link" data-brand="jordan"
-								>Jordan &#9661;</a
-							>
-							<div class="nav__menu-content" data-brandID="3">
-								<ul class="nav__menu-list">
-									<li class="nav__menu-list-item">Air jordan 1</li>
-									<li class="nav__menu-list-item">Air jordan 3</li>
-									<li class="nav__menu-list-item">Air jordan 4</li>
-									<li class="nav__menu-list-item">Air jordan 5</li>
-									<li class="nav__menu-list-item">Air jordan 6</li>
-									<li class="nav__menu-list-item">Air jordan 11</li>
-									<li class="nav__menu-list-item">Air jordan 13</li>
-								</ul>
-							</div>
-						</li>
-						<li class="nav__menu-item">
-							<a href="#" class="nav__menu-link" data-brand="newbalance"
-								>New balance &#9661;</a
-							>
-							<div class="nav__menu-content" data-brandID="4">
-								<ul class="nav__menu-list">
-									<li class="nav__menu-list-item">530</li>
-									<li class="nav__menu-list-item">550</li>
-									<li class="nav__menu-list-item">574</li>
-									<li class="nav__menu-list-item">650R</li>
-									<li class="nav__menu-list-item">827</li>
-									<li class="nav__menu-list-item">2002R</li>
-									<li class="nav__menu-list-item">990</li>
-									<li class="nav__menu-list-item">991</li>
-									<li class="nav__menu-list-item">992</li>
-									<li class="nav__menu-list-item">9060</li>
-									<li class="nav__menu-list-item">XC-72</li>
-									<li class="nav__menu-list-item">1906D</li>
-									<li class="nav__menu-list-item">1906R</li>
-									<li class="nav__menu-list-item">997</li>
-									<li class="nav__menu-list-item">Ct302</li>
-									<li class="nav__menu-list-item">327</li>
-									<li class="nav__menu-list-item">993</li>
-									<li class="nav__menu-list-item">FuelCell</li>
-									<li class="nav__menu-list-item">Rc</li>
-									<li class="nav__menu-list-item">920</li>
-								</ul>
-							</div>
-						</li>
-						<li class="nav__menu-item">
-							<a href="#" class="nav__menu-link" data-brand="clothes"
-								>Одежда &#9661;</a
-							>
-							<div class="nav__menu-content" data-brandID="5">
-								<ul class="nav__menu-list">
-									<li class="nav__menu-list-item">Travis scott</li>
-									<li class="nav__menu-list-item">supreme</li>
-									<li class="nav__menu-list-item">fear of god</li>
-									<li class="nav__menu-list-item">carhartt wip</li>
-									<li class="nav__menu-list-item">chrome hearts</li>
-									<li class="nav__menu-list-item">jordan</li>
-									<li class="nav__menu-list-item">kith</li>
-								</ul>
-							</div>
-						</li>
-						<li class="nav__menu-item">
-							<a href="#" class="nav__menu-link" data-brand="toys"
-								>Коллекционные фигурки &#9661;</a
-							>
-
-							<div class="nav__menu-content" data-brandID="5">
-								<ul class="nav__menu-list">
-									<li class="nav__menu-list-item">Kaws</li>
-									<li class="nav__menu-list-item">Medicom toy</li>
-								</ul>
-							</div>
-						</li>
-					</ol>
-
-					<div class="nav__menu-nav">
-						<h3 class="nav__sub-title">Навигация</h3>
-						<ul class="nav__list">
-							<li class="nav__item">
-								<a href="#" class="nav__list-link">Шоурум</a>
-							</li>
-							<li class="nav__item">
-								<a href="delivery.html" class="nav__list-link"
-									>Доставка и оплата</a
-								>
-							</li>
-							<li class="nav__item">
-								<a href="change.html" class="nav__list-link">Обмен и возврат</a>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__list-link">Личный кабинет</a>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__list-link">Контакты</a>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__list-link">Отзывы</a>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__list-link">FAQ</a>
-							</li>
-						</ul>
-
-						<div class="nav__contact">
-							<div class="nav__contact-title">Контакты</div>
-							<div class="nav__contact-phones">
-								<span class="nav__contact-phone">+7 (915) 463-98-53</span
-								><span class="contact__phone">+7 (999) 003-03-32</span>
-							</div>
-							<div class="nav__contact-address">
-								<span
-									>м. Бауманская / Красносельская Улица Нижняя Красносельская
-									35с9 Цокольный этаж, помещение 003, Москва.</span
-								>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
-
-		<div class="cart cart__transform">
-			<div class="cart__close">
-				<svg class="icon cart__icon-close">
-					<use xlink:href="img/symbol-defs.svg#icon-cross"></use>
-				</svg>
-			</div>
-
-			<!--   <div class="cart__close-absolute">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+    </style>
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="width=1140" name="viewport" id="viewport" />
+    <meta name="robots" content="index, follow, noodp" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta name="description" content="Ramster Online Shop " />
+    <meta
+      name="keywords"
+      content="Магазин одежды, онлайн магазин, YEEZY, Jordan, Caws, Clothes, Adidas"
+    />
+    <meta name="author" content="NewGen" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    
+    <title>Ramster Shop - Онлайн Магазин</title>
+    
+    <style>
+      .card:hover {
+        scale: 1;
+        padding: 0;
+        margin: 0;
+        border: none;
+      }
+      .card::before {
+        content: '';
+        background-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav nav__transform">
+      <div class="nav__content">
+        <div class="nav__content-box">
+          <div class="nav__close">
+            <svg class="nav__icon">
+              <use xlink:href="img/symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </div>
+    
+          <div class="nav__close-box">
+            <svg class="nav__close-box-icon">
+              <use xlink:href="img/symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </div>
+    
+          <div class="nav__search-box">
+            <label class="nav__title" for="nav__search">Поиск</label>
+            <input
+              class="nav__search-input"
+              type="text"
+              name="nav__seach"
+              id="nav__search"
+            />
+            <a class="nav__icon-link" href="#">
+              <svg class="nav__icon-search">
+                <use xlink:href="img/symbol-defs.svg#icon-search"></use>
+              </svg>
+            </a>
+          </div>
+    
+          <!--NAV MENU-->
+          <ol class="nav__menu">
+            <h2 class="nav__menu-title">Каталог товаров</h2>
+            <li class="nav__menu-item">
+              <a href="#" class="nav__menu-link">Новые поступления</a>
+            </li>
+            <li class="nav__menu-item">
+              <a href="#" class="nav__menu-link">Акции </a>
+            </li>
+    
+            <li class="nav__menu-item">
+              <a href="#" class="nav__menu-link" data-brand="yeezy">
+                YEEZY &#9661;
+              </a>
+    
+              <div class="nav__menu-content" data-brandID="1">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">YEEZY 350</li>
+                  <li class="nav__menu-list-item">YEEZY 380</li>
+                  <li class="nav__menu-list-item">YEEZY 450</li>
+                  <li class="nav__menu-list-item">YEEZY 500</li>
+                  <li class="nav__menu-list-item">YEEZY 700</li>
+                  <li class="nav__menu-list-item">desert boot</li>
+                  <li class="nav__menu-list-item">Yeezy foam</li>
+                  <li class="nav__menu-list-item">Yeezy slide</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__menu-item">
+              <a href="#" class="nav__menu-link" data-brand="nike">Nike &#9661;</a>
+              <div class="nav__menu-content" data-brandID="2">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">Dunk</li>
+                  <li class="nav__menu-list-item">AirForce 1</li>
+                  <li class="nav__menu-list-item">Nike & Sacal</li>
+                  <li class="nav__menu-list-item">Air Max</li>
+                  <li class="nav__menu-list-item">Nike X OFF-White</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__menu-item">
+              <a href="#" class="nav__menu-link" data-brand="jordan"
+                >Jordan &#9661;</a
+              >
+              <div class="nav__menu-content" data-brandID="3">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">Air jordan 1</li>
+                  <li class="nav__menu-list-item">Air jordan 3</li>
+                  <li class="nav__menu-list-item">Air jordan 4</li>
+                  <li class="nav__menu-list-item">Air jordan 5</li>
+                  <li class="nav__menu-list-item">Air jordan 6</li>
+                  <li class="nav__menu-list-item">Air jordan 11</li>
+                  <li class="nav__menu-list-item">Air jordan 13</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__menu-item">
+              <a href="#" class="nav__menu-link" data-brand="newbalance"
+                >New balance &#9661;</a
+              >
+              <div class="nav__menu-content" data-brandID="4">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">530</li>
+                  <li class="nav__menu-list-item">550</li>
+                  <li class="nav__menu-list-item">574</li>
+                  <li class="nav__menu-list-item">650R</li>
+                  <li class="nav__menu-list-item">827</li>
+                  <li class="nav__menu-list-item">2002R</li>
+                  <li class="nav__menu-list-item">990</li>
+                  <li class="nav__menu-list-item">991</li>
+                  <li class="nav__menu-list-item">992</li>
+                  <li class="nav__menu-list-item">9060</li>
+                  <li class="nav__menu-list-item">XC-72</li>
+                  <li class="nav__menu-list-item">1906D</li>
+                  <li class="nav__menu-list-item">1906R</li>
+                  <li class="nav__menu-list-item">997</li>
+                  <li class="nav__menu-list-item">Ct302</li>
+                  <li class="nav__menu-list-item">327</li>
+                  <li class="nav__menu-list-item">993</li>
+                  <li class="nav__menu-list-item">FuelCell</li>
+                  <li class="nav__menu-list-item">Rc</li>
+                  <li class="nav__menu-list-item">920</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__menu-item">
+              <a href="#" class="nav__menu-link" data-brand="clothes"
+                >Одежда &#9661;</a
+              >
+              <div class="nav__menu-content" data-brandID="5">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">Travis scott</li>
+                  <li class="nav__menu-list-item">supreme</li>
+                  <li class="nav__menu-list-item">fear of god</li>
+                  <li class="nav__menu-list-item">carhartt wip</li>
+                  <li class="nav__menu-list-item">chrome hearts</li>
+                  <li class="nav__menu-list-item">jordan</li>
+                  <li class="nav__menu-list-item">kith</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__menu-item">
+              <a href="#" class="nav__menu-link" data-brand="toys"
+                >Коллекционные фигурки &#9661;</a
+              >
+    
+              <div class="nav__menu-content" data-brandID="5">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">Kaws</li>
+                  <li class="nav__menu-list-item">Medicom toy</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+    
+          <div class="nav__menu-nav">
+            <h3 class="nav__sub-title">Навигация</h3>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__list-link">Шоурум</a>
+              </li>
+              <li class="nav__item">
+                <a href="delivery.html" class="nav__list-link">Доставка и оплата</a>
+              </li>
+              <li class="nav__item">
+                <a href="change.html" class="nav__list-link">Обмен и возврат</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__list-link">Личный кабинет</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__list-link">Контакты</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__list-link">Отзывы</a>
+              </li>
+              <li class="nav__item"><a href="#" class="nav__list-link">FAQ</a></li>
+            </ul>
+    
+            <div class="nav__contact">
+              <div class="nav__contact-title">Контакты</div>
+              <div class="nav__contact-phones">
+                <span class="nav__contact-phone">+7 (915) 463-98-53</span
+                ><span class="contact__phone">+7 (999) 003-03-32</span>
+              </div>
+              <div class="nav__contact-address">
+                <span
+                  >м. Бауманская / Красносельская Улица Нижняя Красносельская 35с9
+                  Цокольный этаж, помещение 003, Москва.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="cart cart__transform">
+      <div class="cart__close">
+        <svg class="icon cart__icon-close">
+          <use xlink:href="img/symbol-defs.svg#icon-cross"></use>
+        </svg>
+      </div>
+    
+      <!--   <div class="cart__close-absolute">
         <svg class="icon cart__icon-close">
           <use xlink:href="img/symbol-defs.svg#icon-cross"></use>
         </svg>
       </div> -->
+    
+      <div class="cart__content">
+        <div class="cart__order">
+          <ul class="cart__list">
+            <li class="cart__item">
+              <span class="cart__item-number">1</span>
+    
+              <div class="cart__item-name">New Balance Protection Pack Grey</div>
+              <div class="cart__item-price">28 000 Р</div>
+    
+              <div class="cart__item-img">
+                <img
+                  class="cart__item-img-item"
+                  src="img/2002r-protection-pack-grey.jpg"
+                  alt="img"
+                />
+              </div>
+            </li>
+          </ul>
+          <div class="cart__summary">
+            <span class="cart__all">Итого:</span>
+            <div class="cart__sum">28 000 Р</div>
+          </div>
+        </div>
+    
+        <form action="#" class="cart__contact">
+          <h2 class="cart__title">Контактная информация</h2>
+          <input
+            type="text"
+            name="cart__customer"
+            id="cart__customer"
+            class="cart__cuctomer"
+            placeholder="Ваше имя"
+          />
+          <input
+            type="text"
+            name="cart__address"
+            id="cart__address"
+            class="cart__address"
+            placeholder="Ваш адрес"
+          />
+          <input
+            type="email"
+            name="cart__email"
+            id="cart__email"
+            class="cart__email"
+            placeholder="Ваш Email"
+          />
+          <input
+            class="cart__phone"
+            type="text"
+            name="cart__phone"
+            id="cart__phone"
+            placeholder="Контактный номер"
+          />
+          <div class="cart__connection">
+            <label for="" class="cart__conopt"> Как лучше с вами связаться? </label>
+            <div class="cart__radio-watsapp">
+              <input
+                type="radio"
+                class="cart__whatsapp"
+                name="cart__link"
+                id="cart__whatsapp"
+              />
+              <span>По Whatsapp</span>
+            </div>
+            <div class="cart__radio-telegram">
+              <input
+                type="radio"
+                class="cart__telegram"
+                name="cart__link"
+                id="cart__telegram"
+              /><span>По Telegram</span>
+            </div>
+          </div>
+    
+          <div class="cart__additional">
+            <div class="cart__agrrement">
+              <input
+                class="cart__agree"
+                type="radio"
+                name="cart__agree"
+                id="cart__agree"
+              />
+              <div class="cart__agreement-txt">
+                Нажимая на кнопку, вы даёте согласие на обработку Ваших персональных
+                данных и соглашаетесь с
+                <a href="#">
+                  условием пользовательского соглашения и политикой
+                  конфиденциальности.</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="cart__footer">
+            <a href="neworder.html" class="btn cart__btnconfirm">
+              Перейти к оформлению
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <div class="overlay"></div>
 
-			<div class="cart__content">
-				<div class="cart__order">
-					<ul class="cart__list">
-						<li class="cart__item">
-							<span class="cart__item-number">1</span>
+    <div class="page">
+      <header class="header">
+        <div class="header__content">
+          <div class="header__top">
+            <div class="header__hamburger">
+              <svg class="icon header__icon">
+                <use xlink:href="img/symbol-defs.svg#icon-menu"></use>
+              </svg>
+              <span class="header__span-menu"> Menu</span>
+            </div>
+            <div class="header__brand">
+              <a class="header__home" href="index.html">
+                <div class="header__logo">
+                  <img src="img/logo-rs.PNG" alt="logo" />
+                </div>
+              </a>
+            </div>
+            <div class="header__action">
+              <svg class="icon header__icon header__icon--search">
+                <use xlink:href="img/symbol-defs.svg#icon-search"></use>
+              </svg>
+              <div class="header__icon-cart-box">
+                <a href="booking.html">
+                  <svg class="icon header__icon header__icon--cart">
+                    <use xlink:href="img/symbol-defs.svg#icon-shopping-cart"></use>
+                  </svg>
+                </a>
+                <span class="header__icon-cart-piece">31</span>
+              </div>
+            </div>
+          </div>
+          <div class="header__footer">
+            <ol class="header__menu">
+              <li class="header__menu-item header__menu-item--main">
+                <a href="#" class="header__menu-link">Главная</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Новые поступления</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Акции </a>
+              </li>
+      
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link" data-brand="yeezy"
+                  >YEEZY &#9661;</a
+                >
+      
+                <div class="header__menu-content" data-brandID="1">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">YEEZY 350</li>
+                    <li class="header__menu-list-item">YEEZY 380</li>
+                    <li class="header__menu-list-item">YEEZY 450</li>
+                    <li class="header__menu-list-item">YEEZY 500</li>
+                    <li class="header__menu-list-item">YEEZY 700</li>
+                    <li class="header__menu-list-item">desert boot</li>
+                    <li class="header__menu-list-item">Yeezy foam</li>
+                    <li class="header__menu-list-item">Yeezy slide</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link" data-brand="nike"
+                  >Nike &#9661;</a
+                >
+                <div class="header__menu-content" data-brandID="2">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">Dunk</li>
+                    <li class="header__menu-list-item">AirForce 1</li>
+                    <li class="header__menu-list-item">Nike & Sacal</li>
+                    <li class="header__menu-list-item">Air Max</li>
+                    <li class="header__menu-list-item">Nike X OFF-White</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link" data-brand="jordan"
+                  >Jordan &#9661;</a
+                >
+                <div class="header__menu-content" data-brandID="3">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">Air jordan 1</li>
+                    <li class="header__menu-list-item">Air jordan 3</li>
+                    <li class="header__menu-list-item">Air jordan 4</li>
+                    <li class="header__menu-list-item">Air jordan 5</li>
+                    <li class="header__menu-list-item">Air jordan 6</li>
+                    <li class="header__menu-list-item">Air jordan 11</li>
+                    <li class="header__menu-list-item">Air jordan 13</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link" data-brand="newbalance"
+                  >New balance &#9661;</a
+                >
+                <div class="header__menu-content" data-brandID="4">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">530</li>
+                    <li class="header__menu-list-item">550</li>
+                    <li class="header__menu-list-item">574</li>
+                    <li class="header__menu-list-item">650R</li>
+                    <li class="header__menu-list-item">827</li>
+                    <li class="header__menu-list-item">2002R</li>
+                    <li class="header__menu-list-item">990</li>
+                    <li class="header__menu-list-item">991</li>
+                    <li class="header__menu-list-item">992</li>
+                    <li class="header__menu-list-item">9060</li>
+                    <li class="header__menu-list-item">XC-72</li>
+                    <li class="header__menu-list-item">1906D</li>
+                    <li class="header__menu-list-item">1906R</li>
+                    <li class="header__menu-list-item">997</li>
+                    <li class="header__menu-list-item">Ct302</li>
+                    <li class="header__menu-list-item">327</li>
+                    <li class="header__menu-list-item">993</li>
+                    <li class="header__menu-list-item">FuelCell</li>
+                    <li class="header__menu-list-item">Rc</li>
+                    <li class="header__menu-list-item">920</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link" data-brand="clothes"
+                  >Одежда &#9661;</a
+                >
+                <div class="header__menu-content" data-brandID="5">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">Travis scott</li>
+                    <li class="header__menu-list-item">supreme</li>
+                    <li class="header__menu-list-item">fear of god</li>
+                    <li class="header__menu-list-item">carhartt wip</li>
+                    <li class="header__menu-list-item">chrome hearts</li>
+                    <li class="header__menu-list-item">jordan</li>
+                    <li class="header__menu-list-item">kith</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link" data-brand="toys"
+                  >Коллекционные фигурки &#9661;</a
+                >
+      
+                <div class="header__menu-content" data-brandID="5">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">Kaws</li>
+                    <li class="header__menu-list-item">Medicom toy</li>
+                  </ul>
+                </div>
+              </li>
+      
+              <li class="header__menu-item">
+                <a href="goodscart.html" class="header__menu-link">Корзина </a>
+              </li>
+      
+              <!-- 	&#10225; -->
+            </ol>
+          </div>
+        </div>
+      </header>
+      
+      <main class="main offtop">
+        <div class="cardViewer">
+          <div class="cardViewer__header">
+            <div class="cardViewer__header-string">
+              <a href="index.html" class="cardViewer__header-main">Главная</a
+              ><span class="cardViewer__header-slash"
+                >- &nbsp; &nbsp; / &nbsp; &nbsp; -</span
+              >
+              <span class="cardViewer__header-brand">Air Force</span>
+            </div>
+          </div>
+          <div class="cardViewer__content">
+            <div class="cardViewer__left">
+              <div class="cardViewer__gallery">
+                <div class="cardViewer__selectImg">
+                  <a class="cardViewer__arrowLeft" href="#">
+                    <svg class="icon">
+                      <use
+                        xlink:href="../img/symbol-defs.svg#icon-arrow-left"
+                      ></use></svg
+                  ></a>
+                  <a class="cardViewer__arrowRight" href="#">
+                    <svg class="icon">
+                      <use xlink:href="../img/symbol-defs.svg#icon-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <div class="cardViewer__box">
+                    <img
+                      class="cardViewer__box-item cardViewer__box-item-1"
+                      src="../img/orange-air-force-1-low-orange-skeleton.jpg"
+                      alt="img"
+                    />
+        
+                    <img
+                      class="cardViewer__box-item cardViewer__box-item-2"
+                      src="../img/orange-air-force-1-low-orange-skeleton-2.webp"
+                      alt="img"
+                    />
+                    <img
+                      class="cardViewer__box-item cardViewer__box-item-3"
+                      src="../img/orange-air-force-1-low-orange-skeleton-3.jpg"
+                      alt="img"
+                    />
+                    <img
+                      class="cardViewer__box-item cardViewer__box-item-4"
+                      src="../img/orange-air-force-1-low-orange-skeleton-4.webp"
+                      alt="img"
+                    />
+                    <img
+                      class="cardViewer__box-item cardViewer__box-item-5"
+                      src="../img/orange-air-force-1-low-orange-skeleton-5.webp"
+                      alt="img"
+                    />
+                  </div>
+                </div>
+                <div class="cardViewer__selectList">
+                  <div class="cardViewer__selectItem">
+                    <img
+                      class="cardViewer__selectItemImg"
+                      data-img="1"
+                      src="../img/orange-air-force-1-low-orange-skeleton.webp"
+                      alt="img"
+                    />
+                  </div>
+                  <div class="cardViewer__selectItem">
+                    <img
+                      class="cardViewer__selectItemImg"
+                      data-img="2"
+                      src="../img/orange-air-force-1-low-orange-skeleton-2.avif"
+                      alt="img"
+                    />
+                  </div>
+                  <div class="cardViewer__selectItem">
+                    <img
+                      class="cardViewer__selectItemImg"
+                      data-img="3"
+                      src="../img/orange-air-force-1-low-orange-skeleton-3.jpg"
+                      alt="img"
+                    />
+                  </div>
+                  <div class="cardViewer__selectItem">
+                    <img
+                      class="cardViewer__selectItemImg"
+                      data-img="4"
+                      src="../img/orange-air-force-1-low-orange-skeleton-4.avif"
+                      alt="img"
+                    />
+                  </div>
+                  <div class="cardViewer__selectItem">
+                    <img
+                      class="cardViewer__selectItemImg"
+                      data-img="5"
+                      src="../img/orange-air-force-1-low-orange-skeleton-5.webp"
+                      alt="img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cardViewer__right">
+              <div class="cardViewer__product">
+                <div class="cardViewer__articul">арт. CU8067 800</div>
+                <div class="cardViewer__name">Air Force 1 Low "Orange Skeleton"</div>
+                <div class="cardViewer__price-box">
+                  <div class="cardViewer__price">30 000</div>
+                  <span>₽</span>
+                </div>
+              </div>
+              <p class="cardViewer__tax">
+                Все налоги и таможенные сборы включены. Стоимость доставки
+                рассчитывается на этапе оформления заказа.
+              </p>
+              <a href="#" class="cardViewer__sizes">Таблица размеров</a>
+              <div class="cardViewer__sizeBox">
+                <a href="#" class="cardViewer__sizeBoxItem">US 4</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 4.5</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 5</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 5.5</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 6</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 6.5</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 7</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 7.5</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 8</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 8.5</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 9</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 9.5</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 10</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 10.5</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 11</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 11.5</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 12</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 12.5</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 13</a
+                ><a href="#" class="cardViewer__sizeBoxItem">US 13.5</a>
+              </div>
+              <p class="cardViewer__desc">
+                Данный товар доступен под заказ. Среднее время доставки: 15-20 рабочих
+                дней.
+              </p>
+              <div class="cardViewer__btnBox">
+                <a href="#" class="cardViewer__btnCart btn">В корзину</a>
+                <a href="#" class="cardViewer__btnBuy btn">Купить в клик</a>
+              </div>
+              <div class="cardViewer__instruction">
+                <details class="cardViewer__details">
+                  <summary class="cardViewer__summary">Гарантия лучшей цены</summary>
+        
+                  Если вы нашли данную модель где-либо в наличии по более низкой цене —
+                  пришлите нам ссылку на данную модель в другом магазине. Мы будем рады
+                  предложить вам скидку, компенсирующую разницу в стоимости, и лучшую
+                  цену относительно конкурентов. Обратите внимание, что акция
+                  распространяется только на российские платформы.
+                </details>
+                <details class="cardViewer__details">
+                  <summary class="cardViewer__summary">
+                    Способы доставки и оплаты
+                  </summary>
+        
+                  Доставка Доставка по Москве и Московской Области осуществляется до
+                  двери курьером магазина / курьером транспортных компаний в зависимости
+                  от вашего местоположения. Также доставка осуществляется транспортной
+                  компанией СДЭК / Почта России. Подробнее об условиях доставки можно
+                  узнать на этой странице. Оплата Мы принимаем платежи наличными или
+                  переводом по указанным реквизитам. Все платежи осуществляются путем
+                  выставления счета на электронную почту после завершения заказа. Оплата
+                  банковской картой будет доступна позже.
+                </details>
+                <details class="cardViewer__details">
+                  <summary class="cardViewer__summary">Обмен и возврат</summary>
+        
+                  Вы можете обменять товар, купленный в нашем магазине, при соблюдении
+                  следующих условий: 1) С момента получения товара и на момент его
+                  обмена прошло не более 14 календарных дней; 2) Товар не был в
+                  употреблении (стиран, ношен); 3) Сохранены его товарный вид,
+                  потребительские свойства; 4) Фабричные ярлыки, в том числе КИЗ
+                  (контрольно-идентификационный знак) на товаре или его упаковке (в
+                  зависимости от того, что применимо) должны быть целыми, не мятыми и не
+                  повреждёнными. Больше информации можно найти на этой странице.
+                </details>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </main>
+    </div>
+  </body>
 
-							<div class="cart__item-name">
-								New Balance Protection Pack Grey
-							</div>
-							<div class="cart__item-price">28 000 Р</div>
-
-							<div class="cart__item-img">
-								<img
-									class="cart__item-img-item"
-									src="img/2002r-protection-pack-grey.jpg"
-									alt="img"
-								/>
-							</div>
-						</li>
-					</ul>
-					<div class="cart__summary">
-						<span class="cart__all">Итого:</span>
-						<div class="cart__sum">28 000 Р</div>
-					</div>
-				</div>
-
-				<form action="#" class="cart__contact">
-					<h2 class="cart__title">Контактная информация</h2>
-					<input
-						type="text"
-						name="cart__customer"
-						id="cart__customer"
-						class="cart__cuctomer"
-						placeholder="Ваше имя"
-					/>
-					<input
-						type="text"
-						name="cart__address"
-						id="cart__address"
-						class="cart__address"
-						placeholder="Ваш адрес"
-					/>
-					<input
-						type="email"
-						name="cart__email"
-						id="cart__email"
-						class="cart__email"
-						placeholder="Ваш Email"
-					/>
-					<input
-						class="cart__phone"
-						type="text"
-						name="cart__phone"
-						id="cart__phone"
-						placeholder="Контактный номер"
-					/>
-					<div class="cart__connection">
-						<label for="" class="cart__conopt">
-							Как лучше с вами связаться?
-						</label>
-						<div class="cart__radio-watsapp">
-							<input
-								type="radio"
-								class="cart__whatsapp"
-								name="cart__link"
-								id="cart__whatsapp"
-							/>
-							<span>По Whatsapp</span>
-						</div>
-						<div class="cart__radio-telegram">
-							<input
-								type="radio"
-								class="cart__telegram"
-								name="cart__link"
-								id="cart__telegram"
-							/><span>По Telegram</span>
-						</div>
-					</div>
-
-					<div class="cart__additional">
-						<div class="cart__agrrement">
-							<input
-								class="cart__agree"
-								type="radio"
-								name="cart__agree"
-								id="cart__agree"
-							/>
-							<div class="cart__agreement-txt">
-								Нажимая на кнопку, вы даёте согласие на обработку Ваших
-								персональных данных и соглашаетесь с
-								<a href="#">
-									условием пользовательского соглашения и политикой
-									конфиденциальности.</a
-								>
-							</div>
-						</div>
-					</div>
-					<div class="cart__footer">
-						<a href="neworder.html" class="btn cart__btnconfirm">
-							Перейти к оформлению
-						</a>
-					</div>
-				</form>
-			</div>
-		</div>
-
-		<div class="overlay"></div>
-
-		<div class="page">
-			<header class="header">
-				<div class="header__content">
-					<div class="header__top">
-						<div class="header__hamburger">
-							<svg class="icon header__icon">
-								<use xlink:href="img/symbol-defs.svg#icon-menu"></use>
-							</svg>
-							<span class="header__span-menu"> Menu</span>
-						</div>
-						<div class="header__brand">
-							<a class="header__home" href="index.html">
-								<div class="header__logo">
-									<img src="img/logo-rs.PNG" alt="logo" />
-								</div>
-							</a>
-						</div>
-						<div class="header__action">
-							<svg class="icon header__icon header__icon--search">
-								<use xlink:href="img/symbol-defs.svg#icon-search"></use>
-							</svg>
-							<div class="header__icon-cart-box">
-								<a href="booking.html">
-									<svg class="icon header__icon header__icon--cart">
-										<use
-											xlink:href="img/symbol-defs.svg#icon-shopping-cart"
-										></use>
-									</svg>
-								</a>
-								<span class="header__icon-cart-piece">31</span>
-							</div>
-						</div>
-					</div>
-					<div class="header__footer">
-						<ol class="header__menu">
-							<li class="header__menu-item header__menu-item--main">
-								<a href="#" class="header__menu-link">Главная</a>
-							</li>
-							<li class="header__menu-item">
-								<a href="#" class="header__menu-link">Новые поступления</a>
-							</li>
-							<li class="header__menu-item">
-								<a href="#" class="header__menu-link">Акции </a>
-							</li>
-
-							<li class="header__menu-item">
-								<a href="#" class="header__menu-link" data-brand="yeezy"
-									>YEEZY &#9661;</a
-								>
-
-								<div class="header__menu-content" data-brandID="1">
-									<ul class="header__menu-list">
-										<li class="header__menu-list-item">YEEZY 350</li>
-										<li class="header__menu-list-item">YEEZY 380</li>
-										<li class="header__menu-list-item">YEEZY 450</li>
-										<li class="header__menu-list-item">YEEZY 500</li>
-										<li class="header__menu-list-item">YEEZY 700</li>
-										<li class="header__menu-list-item">desert boot</li>
-										<li class="header__menu-list-item">Yeezy foam</li>
-										<li class="header__menu-list-item">Yeezy slide</li>
-									</ul>
-								</div>
-							</li>
-							<li class="header__menu-item">
-								<a href="#" class="header__menu-link" data-brand="nike"
-									>Nike &#9661;</a
-								>
-								<div class="header__menu-content" data-brandID="2">
-									<ul class="header__menu-list">
-										<li class="header__menu-list-item">Dunk</li>
-										<li class="header__menu-list-item">AirForce 1</li>
-										<li class="header__menu-list-item">Nike & Sacal</li>
-										<li class="header__menu-list-item">Air Max</li>
-										<li class="header__menu-list-item">Nike X OFF-White</li>
-									</ul>
-								</div>
-							</li>
-							<li class="header__menu-item">
-								<a href="#" class="header__menu-link" data-brand="jordan"
-									>Jordan &#9661;</a
-								>
-								<div class="header__menu-content" data-brandID="3">
-									<ul class="header__menu-list">
-										<li class="header__menu-list-item">Air jordan 1</li>
-										<li class="header__menu-list-item">Air jordan 3</li>
-										<li class="header__menu-list-item">Air jordan 4</li>
-										<li class="header__menu-list-item">Air jordan 5</li>
-										<li class="header__menu-list-item">Air jordan 6</li>
-										<li class="header__menu-list-item">Air jordan 11</li>
-										<li class="header__menu-list-item">Air jordan 13</li>
-									</ul>
-								</div>
-							</li>
-							<li class="header__menu-item">
-								<a href="#" class="header__menu-link" data-brand="newbalance"
-									>New balance &#9661;</a
-								>
-								<div class="header__menu-content" data-brandID="4">
-									<ul class="header__menu-list">
-										<li class="header__menu-list-item">530</li>
-										<li class="header__menu-list-item">550</li>
-										<li class="header__menu-list-item">574</li>
-										<li class="header__menu-list-item">650R</li>
-										<li class="header__menu-list-item">827</li>
-										<li class="header__menu-list-item">2002R</li>
-										<li class="header__menu-list-item">990</li>
-										<li class="header__menu-list-item">991</li>
-										<li class="header__menu-list-item">992</li>
-										<li class="header__menu-list-item">9060</li>
-										<li class="header__menu-list-item">XC-72</li>
-										<li class="header__menu-list-item">1906D</li>
-										<li class="header__menu-list-item">1906R</li>
-										<li class="header__menu-list-item">997</li>
-										<li class="header__menu-list-item">Ct302</li>
-										<li class="header__menu-list-item">327</li>
-										<li class="header__menu-list-item">993</li>
-										<li class="header__menu-list-item">FuelCell</li>
-										<li class="header__menu-list-item">Rc</li>
-										<li class="header__menu-list-item">920</li>
-									</ul>
-								</div>
-							</li>
-							<li class="header__menu-item">
-								<a href="#" class="header__menu-link" data-brand="clothes"
-									>Одежда &#9661;</a
-								>
-								<div class="header__menu-content" data-brandID="5">
-									<ul class="header__menu-list">
-										<li class="header__menu-list-item">Travis scott</li>
-										<li class="header__menu-list-item">supreme</li>
-										<li class="header__menu-list-item">fear of god</li>
-										<li class="header__menu-list-item">carhartt wip</li>
-										<li class="header__menu-list-item">chrome hearts</li>
-										<li class="header__menu-list-item">jordan</li>
-										<li class="header__menu-list-item">kith</li>
-									</ul>
-								</div>
-							</li>
-							<li class="header__menu-item">
-								<a href="#" class="header__menu-link" data-brand="toys"
-									>Коллекционные фигурки &#9661;</a
-								>
-
-								<div class="header__menu-content" data-brandID="5">
-									<ul class="header__menu-list">
-										<li class="header__menu-list-item">Kaws</li>
-										<li class="header__menu-list-item">Medicom toy</li>
-									</ul>
-								</div>
-							</li>
-
-							<li class="header__menu-item">
-								<a href="goodscart.html" class="header__menu-link">Корзина </a>
-							</li>
-
-							<!-- 	&#10225; -->
-						</ol>
-					</div>
-				</div>
-			</header>
-
-			<main class="main offtop">
-				<div class="cardViewer">
-					<div class="cardViewer__header">
-						<div class="cardViewer__header-string">
-							<a href="index.html" class="cardViewer__header-main">Главная</a
-							><span class="cardViewer__header-slash"
-								>- &nbsp; &nbsp; / &nbsp; &nbsp; -</span
-							>
-							<span class="cardViewer__header-brand">Air Force</span>
-						</div>
-					</div>
-					<div class="cardViewer__content">
-						<div class="cardViewer__left">
-							<div class="cardViewer__gallery">
-								<div class="cardViewer__selectImg">
-									<a class="cardViewer__arrowLeft" href="#">
-										<svg class="icon">
-											<use
-												xlink:href="../img/symbol-defs.svg#icon-arrow-left"
-											></use></svg
-									></a>
-									<a class="cardViewer__arrowRight" href="#">
-										<svg class="icon">
-											<use
-												xlink:href="../img/symbol-defs.svg#icon-arrow-right"
-											></use>
-										</svg>
-									</a>
-									<div class="cardViewer__box">
-										<img
-											class="cardViewer__box-item cardViewer__box-item-1"
-											src="../img/orange-air-force-1-low-orange-skeleton.jpg"
-											alt="img"
-										/>
-
-										<img
-											class="cardViewer__box-item cardViewer__box-item-2"
-											src="../img/orange-air-force-1-low-orange-skeleton-2.webp"
-											alt="img"
-										/>
-										<img
-											class="cardViewer__box-item cardViewer__box-item-3"
-											src="../img/orange-air-force-1-low-orange-skeleton-3.jpg"
-											alt="img"
-										/>
-										<img
-											class="cardViewer__box-item cardViewer__box-item-4"
-											src="../img/orange-air-force-1-low-orange-skeleton-4.webp"
-											alt="img"
-										/>
-										<img
-											class="cardViewer__box-item cardViewer__box-item-5"
-											src="../img/orange-air-force-1-low-orange-skeleton-5.webp"
-											alt="img"
-										/>
-									</div>
-								</div>
-								<div class="cardViewer__selectList">
-									<div class="cardViewer__selectItem">
-										<img
-											class="cardViewer__selectItemImg"
-											data-img="1"
-											src="../img/orange-air-force-1-low-orange-skeleton.webp"
-											alt="img"
-										/>
-									</div>
-									<div class="cardViewer__selectItem">
-										<img
-											class="cardViewer__selectItemImg"
-											data-img="2"
-											src="../img/orange-air-force-1-low-orange-skeleton-2.avif"
-											alt="img"
-										/>
-									</div>
-									<div class="cardViewer__selectItem">
-										<img
-											class="cardViewer__selectItemImg"
-											data-img="3"
-											src="../img/orange-air-force-1-low-orange-skeleton-3.jpg"
-											alt="img"
-										/>
-									</div>
-									<div class="cardViewer__selectItem">
-										<img
-											class="cardViewer__selectItemImg"
-											data-img="4"
-											src="../img/orange-air-force-1-low-orange-skeleton-4.avif"
-											alt="img"
-										/>
-									</div>
-									<div class="cardViewer__selectItem">
-										<img
-											class="cardViewer__selectItemImg"
-											data-img="5"
-											src="../img/orange-air-force-1-low-orange-skeleton-5.webp"
-											alt="img"
-										/>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="cardViewer__right">
-							<div class="cardViewer__product">
-								<div class="cardViewer__articul">арт. CU8067 800</div>
-								<div class="cardViewer__name">
-									Air Force 1 Low "Orange Skeleton"
-								</div>
-								<div class="cardViewer__price-box">
-									<div class="cardViewer__price">30 000</div>
-									<span>₽</span>
-								</div>
-							</div>
-							<p class="cardViewer__tax">
-								Все налоги и таможенные сборы включены. Стоимость доставки
-								рассчитывается на этапе оформления заказа.
-							</p>
-							<a href="#" class="cardViewer__sizes">Таблица размеров</a>
-							<div class="cardViewer__sizeBox">
-								<a href="#" class="cardViewer__sizeBoxItem">US 4</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 4.5</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 5</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 5.5</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 6</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 6.5</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 7</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 7.5</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 8</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 8.5</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 9</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 9.5</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 10</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 10.5</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 11</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 11.5</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 12</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 12.5</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 13</a
-								><a href="#" class="cardViewer__sizeBoxItem">US 13.5</a>
-							</div>
-							<p class="cardViewer__desc">
-								Данный товар доступен под заказ. Среднее время доставки: 15-20
-								рабочих дней.
-							</p>
-							<div class="cardViewer__btnBox">
-								<a href="#" class="cardViewer__btnCart btn">В корзину</a>
-								<a href="#" class="cardViewer__btnBuy btn">Купить в клик</a>
-							</div>
-							<div class="cardViewer__instruction">
-								<details class="cardViewer__details">
-									<summary class="cardViewer__summary">
-										Гарантия лучшей цены
-									</summary>
-
-									Если вы нашли данную модель где-либо в наличии по более низкой
-									цене — пришлите нам ссылку на данную модель в другом магазине.
-									Мы будем рады предложить вам скидку, компенсирующую разницу в
-									стоимости, и лучшую цену относительно конкурентов. Обратите
-									внимание, что акция распространяется только на российские
-									платформы.
-								</details>
-								<details class="cardViewer__details">
-									<summary class="cardViewer__summary">
-										Способы доставки и оплаты
-									</summary>
-
-									Доставка Доставка по Москве и Московской Области
-									осуществляется до двери курьером магазина / курьером
-									транспортных компаний в зависимости от вашего местоположения.
-									Также доставка осуществляется транспортной компанией СДЭК /
-									Почта России. Подробнее об условиях доставки можно узнать на
-									этой странице. Оплата Мы принимаем платежи наличными или
-									переводом по указанным реквизитам. Все платежи осуществляются
-									путем выставления счета на электронную почту после завершения
-									заказа. Оплата банковской картой будет доступна позже.
-								</details>
-								<details class="cardViewer__details">
-									<summary class="cardViewer__summary">Обмен и возврат</summary>
-
-									Вы можете обменять товар, купленный в нашем магазине, при
-									соблюдении следующих условий: 1) С момента получения товара и
-									на момент его обмена прошло не более 14 календарных дней; 2)
-									Товар не был в употреблении (стиран, ношен); 3) Сохранены его
-									товарный вид, потребительские свойства; 4) Фабричные ярлыки, в
-									том числе КИЗ (контрольно-идентификационный знак) на товаре
-									или его упаковке (в зависимости от того, что применимо) должны
-									быть целыми, не мятыми и не повреждёнными. Больше информации
-									можно найти на этой странице.
-								</details>
-							</div>
-						</div>
-					</div>
-				</div>
-			</main>
-		</div>
-	</body>
-
-	<!--   <script type="module" defer src="../js/card.js"></script> -->
-	<script type="module" defer src="../js/booking.js"></script>
+  <!--   <script type="module" defer src="../js/card.js"></script> -->
+  <script type="module" defer src="../js/main.min.js"></script>
 </html>
