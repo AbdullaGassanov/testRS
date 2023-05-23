@@ -4,7 +4,7 @@
 import { slider } from './slider.js';
 import { cardSave } from './cardSave.js';
 import { nav } from './nav.js';
-import { cartOpen } from './openCart.js';
+import { openSearch } from './openSearch.js';
 
 slider('.receipt');
 slider('.promo');
@@ -15,7 +15,7 @@ slider('.jordan');
 slider('.kaws');
 cardSave();
 nav();
-cartOpen();
+openSearch();
 
 /* const openCloseNav = function (status, e) {
   nav.classList.toggle('nav__transform');

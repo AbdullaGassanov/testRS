@@ -11,9 +11,10 @@ const navCloseBox = document.querySelector('.nav__close-box');
 
 const nav = document.querySelector('.nav');
 const intro = document.querySelector('.intro');
-const shopCart = document.querySelector('.header__icon--cart');
+const btnBuy = document.querySelector('.cardViewer__btnBuy');
+/* const shopCart = document.querySelector('.header__icon-cart-box '); */
 const cart = document.querySelector('.cart');
-const cartIconClose = document.querySelector('.cart__icon-close');
+const cartIconClose = document.querySelector('.cart__close');
 
 export const cartOpen = function () {
   const openCloseCart = function (status, e) {
@@ -37,7 +38,7 @@ export const cartOpen = function () {
       : headerFooter.classList.remove('hide');
   };
 
-  shopCart.addEventListener('click', e => {
+  btnBuy.addEventListener('click', e => {
     e.preventDefault();
     openCloseCart('open');
   });
