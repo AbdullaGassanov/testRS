@@ -31,6 +31,7 @@ const cartSuccess = document.querySelector('.cart__success');
 export const cartOpen = function () {
   const openCloseCart = function (status, e) {
     cart.classList.toggle('cart__transform');
+    cart.style.visibility = 'visible';
     status == 'open'
       ? page.classList.add('shadow')
       : page.classList.remove('shadow');
@@ -67,6 +68,7 @@ export const cartOpen = function () {
   cartIconClose.addEventListener('click', e => {
     e.preventDefault();
     openCloseCart('close');
+    cart.style.visibility = 'hidden';
   });
 
   btnConfirm.addEventListener('click', e => {
