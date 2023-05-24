@@ -233,13 +233,26 @@
         </svg>
       </div>
     
+      <div class="cart__success">
+        <img
+          src="img/greenMark2.png"
+          alt=""
+          srcset=""
+          style="background-color: white; border-radius: 50%"
+        />
+        <p class="cart__success-txt">
+          Ваш заказ отправлен. Наш менеджер свяжется с вами в ближайщее время
+        </p>
+        <a href="index.html" class="btn">На главную</a>
+      </div>
+    
       <!--   <div class="cart__close-absolute">
         <svg class="icon cart__icon-close">
           <use xlink:href="img/symbol-defs.svg#icon-cross"></use>
         </svg>
       </div> -->
     
-      <div class="cart__content">
+      <div class="cart__content" id="cart__content">
         <div class="cart__order">
           <ul class="cart__list">
             <li class="cart__item">
@@ -259,7 +272,10 @@
           </ul>
           <div class="cart__summary">
             <span class="cart__all">Итого:</span>
-            <div class="cart__sum">28 000 Р</div>
+            <div class="cart__sum-box">
+              <div class="cart__sum">28 000</div>
+              <span>P</span>
+            </div>
           </div>
         </div>
     
@@ -271,6 +287,7 @@
             id="cart__customer"
             class="cart__cuctomer"
             placeholder="Ваше имя"
+            required
           />
           <input
             type="text"
@@ -292,6 +309,7 @@
             name="cart__phone"
             id="cart__phone"
             placeholder="Контактный номер"
+            required
           />
           <div class="cart__connection">
             <label for="" class="cart__conopt"> Как лучше с вами связаться? </label>
@@ -301,6 +319,7 @@
                 class="cart__whatsapp"
                 name="cart__link"
                 id="cart__whatsapp"
+                required
               />
               <span>По Whatsapp</span>
             </div>
@@ -333,9 +352,11 @@
             </div>
           </div>
           <div class="cart__footer">
-            <a href="neworder.html" class="btn cart__btnconfirm">
-              Перейти к оформлению
-            </a>
+            <input
+              type="submit"
+              class="btn cart__btnconfirm"
+              value="Подтердить заказ"
+            />
           </div>
         </form>
       </div>
@@ -395,7 +416,7 @@
               </li>
       
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="yeezy"
+                <a href="yeezy.html" class="header__menu-link" data-brand="yeezy"
                   >YEEZY &#9661;</a
                 >
       
@@ -413,7 +434,7 @@
                 </div>
               </li>
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="nike"
+                <a href="nike.html" class="header__menu-link" data-brand="nike"
                   >Nike &#9661;</a
                 >
                 <div class="header__menu-content" data-brandID="2">
@@ -427,7 +448,7 @@
                 </div>
               </li>
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="jordan"
+                <a href="jordan.html" class="header__menu-link" data-brand="jordan"
                   >Jordan &#9661;</a
                 >
                 <div class="header__menu-content" data-brandID="3">
@@ -443,7 +464,10 @@
                 </div>
               </li>
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="newbalance"
+                <a
+                  href="newbalance.html"
+                  class="header__menu-link"
+                  data-brand="newbalance"
                   >New balance &#9661;</a
                 >
                 <div class="header__menu-content" data-brandID="4">
@@ -472,7 +496,7 @@
                 </div>
               </li>
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="clothes"
+                <a href="clothes.html" class="header__menu-link" data-brand="clothes"
                   >Одежда &#9661;</a
                 >
                 <div class="header__menu-content" data-brandID="5">
@@ -488,7 +512,7 @@
                 </div>
               </li>
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="toys"
+                <a href="kaws.html" class="header__menu-link" data-brand="toys"
                   >Коллекционные фигурки &#9661;</a
                 >
       
@@ -498,10 +522,6 @@
                     <li class="header__menu-list-item">Medicom toy</li>
                   </ul>
                 </div>
-              </li>
-      
-              <li class="header__menu-item">
-                <a href="goodscart.html" class="header__menu-link">Корзина </a>
               </li>
       
               <!-- 	&#10225; -->
@@ -539,11 +559,15 @@
                   <div class="cardViewer__box">
                     <img
                       class="cardViewer__box-item cardViewer__box-item-1"
-                      src="../img/orange-air-force-1-low-orange-skeleton.jpg"
                       alt="img"
                     />
+                    <!-- <img
+                      class="cardViewer__box-item cardViewer__box-item-1"
+                      src="../img/orange-air-force-1-low-orange-skeleton.jpg"
+                      alt="img"
+                    /> -->
         
-                    <img
+                    <!--  <img
                       class="cardViewer__box-item cardViewer__box-item-2"
                       src="../img/orange-air-force-1-low-orange-skeleton-2.webp"
                       alt="img"
@@ -562,19 +586,20 @@
                       class="cardViewer__box-item cardViewer__box-item-5"
                       src="../img/orange-air-force-1-low-orange-skeleton-5.webp"
                       alt="img"
-                    />
+                    /> -->
                   </div>
                 </div>
                 <div class="cardViewer__selectList">
                   <div class="cardViewer__selectItem">
-                    <img
+                    <img class="cardViewer__selectItemImg" data-img="1" alt="img" />
+                    <!--             <img
                       class="cardViewer__selectItemImg"
                       data-img="1"
-                      src="../img/orange-air-force-1-low-orange-skeleton.webp"
+                      src='../img/orange-air-force-1-low-orange-skeleton.webp'
                       alt="img"
-                    />
+                    /> -->
                   </div>
-                  <div class="cardViewer__selectItem">
+                  <!-- <div class="cardViewer__selectItem">
                     <img
                       class="cardViewer__selectItemImg"
                       data-img="2"
@@ -605,7 +630,7 @@
                       src="../img/orange-air-force-1-low-orange-skeleton-5.webp"
                       alt="img"
                     />
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>

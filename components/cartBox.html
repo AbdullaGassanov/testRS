@@ -5,13 +5,26 @@
     </svg>
   </div>
 
+  <div class="cart__success">
+    <img
+      src="img/greenMark2.png"
+      alt=""
+      srcset=""
+      style="background-color: white; border-radius: 50%"
+    />
+    <p class="cart__success-txt">
+      Ваш заказ отправлен. Наш менеджер свяжется с вами в ближайщее время
+    </p>
+    <a href="index.html" class="btn">На главную</a>
+  </div>
+
   <!--   <div class="cart__close-absolute">
     <svg class="icon cart__icon-close">
       <use xlink:href="img/symbol-defs.svg#icon-cross"></use>
     </svg>
   </div> -->
 
-  <div class="cart__content">
+  <div class="cart__content" id="cart__content">
     <div class="cart__order">
       <ul class="cart__list">
         <li class="cart__item">
@@ -31,7 +44,10 @@
       </ul>
       <div class="cart__summary">
         <span class="cart__all">Итого:</span>
-        <div class="cart__sum">28 000 Р</div>
+        <div class="cart__sum-box">
+          <div class="cart__sum">28 000</div>
+          <span>P</span>
+        </div>
       </div>
     </div>
 
@@ -43,6 +59,7 @@
         id="cart__customer"
         class="cart__cuctomer"
         placeholder="Ваше имя"
+        required
       />
       <input
         type="text"
@@ -64,6 +81,7 @@
         name="cart__phone"
         id="cart__phone"
         placeholder="Контактный номер"
+        required
       />
       <div class="cart__connection">
         <label for="" class="cart__conopt"> Как лучше с вами связаться? </label>
@@ -73,6 +91,7 @@
             class="cart__whatsapp"
             name="cart__link"
             id="cart__whatsapp"
+            required
           />
           <span>По Whatsapp</span>
         </div>
@@ -105,9 +124,11 @@
         </div>
       </div>
       <div class="cart__footer">
-        <a href="neworder.html" class="btn cart__btnconfirm">
-          Перейти к оформлению
-        </a>
+        <input
+          type="submit"
+          class="btn cart__btnconfirm"
+          value="Подтердить заказ"
+        />
       </div>
     </form>
   </div>

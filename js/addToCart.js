@@ -30,7 +30,7 @@ const cartPiece = document.querySelector('.header__icon-cart-piece');
 const card = btn.closest('.cardViewer__content');
 const btnBuy = document.querySelector('.cardViewer__btnBuy');
 
-let pieces = 1;
+let pieces = 0;
 
 export const addProduct = function () {
   btn.addEventListener('click', e => {
@@ -50,9 +50,12 @@ export const addProduct = function () {
 
     console.log(cart);
 
+    cartPiece.textContent = ++pieces;
+
     localStorage.setItem('product', JSON.stringify(cart.cartItem));
 
-    cartPiece.textContent = pieces++;
+    localStorage.setItem('product', JSON.stringify(pieces));
+
     cartPiece.style.visibility = 'visible';
   });
 };

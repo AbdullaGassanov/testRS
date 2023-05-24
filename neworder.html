@@ -240,13 +240,26 @@
         </svg>
       </div>
     
+      <div class="cart__success">
+        <img
+          src="img/greenMark2.png"
+          alt=""
+          srcset=""
+          style="background-color: white; border-radius: 50%"
+        />
+        <p class="cart__success-txt">
+          Ваш заказ отправлен. Наш менеджер свяжется с вами в ближайщее время
+        </p>
+        <a href="index.html" class="btn">На главную</a>
+      </div>
+    
       <!--   <div class="cart__close-absolute">
         <svg class="icon cart__icon-close">
           <use xlink:href="img/symbol-defs.svg#icon-cross"></use>
         </svg>
       </div> -->
     
-      <div class="cart__content">
+      <div class="cart__content" id="cart__content">
         <div class="cart__order">
           <ul class="cart__list">
             <li class="cart__item">
@@ -266,7 +279,10 @@
           </ul>
           <div class="cart__summary">
             <span class="cart__all">Итого:</span>
-            <div class="cart__sum">28 000 Р</div>
+            <div class="cart__sum-box">
+              <div class="cart__sum">28 000</div>
+              <span>P</span>
+            </div>
           </div>
         </div>
     
@@ -278,6 +294,7 @@
             id="cart__customer"
             class="cart__cuctomer"
             placeholder="Ваше имя"
+            required
           />
           <input
             type="text"
@@ -299,6 +316,7 @@
             name="cart__phone"
             id="cart__phone"
             placeholder="Контактный номер"
+            required
           />
           <div class="cart__connection">
             <label for="" class="cart__conopt"> Как лучше с вами связаться? </label>
@@ -308,6 +326,7 @@
                 class="cart__whatsapp"
                 name="cart__link"
                 id="cart__whatsapp"
+                required
               />
               <span>По Whatsapp</span>
             </div>
@@ -340,9 +359,11 @@
             </div>
           </div>
           <div class="cart__footer">
-            <a href="neworder.html" class="btn cart__btnconfirm">
-              Перейти к оформлению
-            </a>
+            <input
+              type="submit"
+              class="btn cart__btnconfirm"
+              value="Подтердить заказ"
+            />
           </div>
         </form>
       </div>
@@ -402,7 +423,7 @@
               </li>
       
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="yeezy"
+                <a href="yeezy.html" class="header__menu-link" data-brand="yeezy"
                   >YEEZY &#9661;</a
                 >
       
@@ -420,7 +441,7 @@
                 </div>
               </li>
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="nike"
+                <a href="nike.html" class="header__menu-link" data-brand="nike"
                   >Nike &#9661;</a
                 >
                 <div class="header__menu-content" data-brandID="2">
@@ -434,7 +455,7 @@
                 </div>
               </li>
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="jordan"
+                <a href="jordan.html" class="header__menu-link" data-brand="jordan"
                   >Jordan &#9661;</a
                 >
                 <div class="header__menu-content" data-brandID="3">
@@ -450,7 +471,10 @@
                 </div>
               </li>
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="newbalance"
+                <a
+                  href="newbalance.html"
+                  class="header__menu-link"
+                  data-brand="newbalance"
                   >New balance &#9661;</a
                 >
                 <div class="header__menu-content" data-brandID="4">
@@ -479,7 +503,7 @@
                 </div>
               </li>
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="clothes"
+                <a href="clothes.html" class="header__menu-link" data-brand="clothes"
                   >Одежда &#9661;</a
                 >
                 <div class="header__menu-content" data-brandID="5">
@@ -495,7 +519,7 @@
                 </div>
               </li>
               <li class="header__menu-item">
-                <a href="#" class="header__menu-link" data-brand="toys"
+                <a href="kaws.html" class="header__menu-link" data-brand="toys"
                   >Коллекционные фигурки &#9661;</a
                 >
       
@@ -507,10 +531,6 @@
                 </div>
               </li>
       
-              <li class="header__menu-item">
-                <a href="goodscart.html" class="header__menu-link">Корзина </a>
-              </li>
-      
               <!-- 	&#10225; -->
             </ol>
           </div>
@@ -519,6 +539,20 @@
       
       <main class="main offtop">
         <div class="order">
+        
+          <div class="order__success">
+          <img
+              src="img/greenMark2.png"
+              alt=""
+              srcset=""
+              style="background-color: white; border-radius: 50%"
+            />
+            <p class="order__success-txt">
+              Ваш заказ отправлен. Наш менеджер свяжется с вами в ближайщее время
+            </p>
+        
+          </div>
+        
           <div class="order__content">
             <h2 class="order__title">Контактные данные</h2>
             <div class="order__box">
@@ -533,6 +567,7 @@
                       name="order__txtName"
                       id="order__txtName"
                       class="order__txtName"
+                      required
                     />
                   </p>
                   <p class="form-dialog">
@@ -544,6 +579,8 @@
                       name="order__txtPhone"
                       id="order__txtPhone"
                       class="order__txtPhone"
+                      required
+        
                     />
                   </p>
                   <p class="form-dialog">
@@ -560,7 +597,7 @@
                     <label for="order__txtName" class="order__lblName"
                       >Населенный пункт<span class="star">*</span>
                     </label>
-                    <select id="order__txtCity" class="order__txtCity">
+                    <select id="order__txtCity" class="order__txtCity" >
                       <option value="mos">Moscow</option>
                       <option value="mos">New-York</option>
                       <option value="mos">Dubai</option>
@@ -622,28 +659,33 @@
         
                   </p>
                   <div class="order__form-footer">
-                    <a href="#" class="order__btn btn">Подтвердить заказ</a>
+                   
+                       <input
+                  type="submit"
+                  class="order__btn btn"
+                  value="Подтердить заказ"
+                />
                   </div>
+               
                 </form>
               </div>
         
               <div class="order__right">
         
                 <div class="order__items">
-                         <div class="order__item">
-                            <img class="order__item-img" src="img/2002r-protection-pack-grey.jpg" alt="img" />
-                            <h2 class="order__item-name">2002R "Protection Pack - Rain Cloud"</h2>
-                           <div class="order__item-priceBox"><span class="order__item-piece">1 x</span><h2 class="order__item-price">  39 000 ₽</h2></div> 
-                        </div>
-                          <div class="order__item">
-                            <img class="order__item-img" src="img/2002r-protection-pack-grey.jpg" alt="img" />
-                            <h2 class="order__item-name">2002R "Protection Pack - Rain Cloud"</h2>
-                           <div class="order__item-priceBox"><span class="order__item-piece">1 x</span><h2 class="order__item-price">  39 000 ₽</h2></div> 
-                        </div>
+                       <!--   <div class="order__item">
+                          <div class="order__item-close"  title="Удалить заказ">x</div>
+                            <div class="order__item-content">
+                              <img class="order__item-img" src="img/2002r-protection-pack-grey.jpg" alt="img" />
+                              <h2 class="order__item-name">2002R "Protection Pack - Rain Cloud"</h2>
+                              <div class="order__item-priceBox"><span class="order__item-piece">1 x</span><h2 class="order__item-price">  39 000 ₽</h2></div> 
+                            </div>
+                        </div> -->
+             
                 </div>
         
                 <div class="order__summary">
-                    <div class="order__row"> <div class="order__sum-desc">Сумма по товарам</div>
+                    <!-- <div class="order__row"> <div class="order__sum-desc">Сумма по товарам</div>
                     <h3 class="order__sum"> 78 000 P</h3></div>
         
                     <div class="order__row"> <div class="order__sum-delivery">Сумма доставки</div>
@@ -652,7 +694,7 @@
                         <h2 class="order__amount-desc">Итого:</h2>
                         <h2 class="order__amount">78 000 P</h2>
         
-                    </div>
+                    </div> -->
                 </div>
         
         
