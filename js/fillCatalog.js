@@ -26,10 +26,10 @@ export const fill = function (brand) {
 
         row.insertAdjacentHTML(
           'afterbegin',
-          ` <a class="catalog__link" href="booking.html" >
-              <div class="catalog__product">
+          ` <a class="catalog__link" href="booking.html" oncontextmenu="return false" >
+              <div class="catalog__product" >
               <div class="catalog__product-img">
-              <img class="catalog__productImg" src=${product['img-src']} alt="" srcset="" />
+              <img class="catalog__productImg" src=${product['img-src']} alt="" srcset=""  />
               </div>
               <h3 class="catalog__product-model">${product['model']}</h3>
               <p class="catalog__product-brand">${product['brand']}</p>
