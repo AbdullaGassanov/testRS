@@ -6,6 +6,7 @@ import { cardSave } from './cardSave.js';
 import { nav } from './nav.js';
 import { openSearch } from './openSearch.js';
 import { checkPiece } from './cartItem.js';
+import { openCatalogList } from './openNavCatalog.js';
 
 slider('.receipt');
 slider('.promo');
@@ -14,8 +15,10 @@ slider('.nike');
 slider('.nbalance');
 slider('.jordan');
 slider('.kaws');
+
 cardSave();
 nav();
+openCatalogList();
 openSearch();
 checkPiece();
 
