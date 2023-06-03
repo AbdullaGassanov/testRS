@@ -1,6 +1,9 @@
 import { nav } from './nav.js';
 import { checkPiece } from './cartItem.js';
 import { openSearch } from './openSearch.js';
+import { openCatalogList } from './linkOpenNavCatalog.js';
+
+openCatalogList();
 openSearch();
 checkPiece();
 nav();

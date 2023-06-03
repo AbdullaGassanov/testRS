@@ -5,6 +5,7 @@ import { cartOpen } from './openCart.js';
 import { cardViewer } from './cardViewerSlider.js';
 import { checkPiece } from './cartItem.js';
 import { openSearch } from './openSearch.js';
+
 openSearch();
 checkPiece();
 cardOpen();

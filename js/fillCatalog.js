@@ -1,4 +1,7 @@
 'use strict';
+import { openCatalogList } from './linkOpenNavCatalog.js';
+
+openCatalogList();
 
 class Product {
   constructor(cardImg, cardName, cardBrand = '', cardPrice) {

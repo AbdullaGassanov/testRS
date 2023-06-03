@@ -1,3 +1,7 @@
+import { openCatalogList } from './linkOpenNavCatalog.js';
+
+openCatalogList();
+
 const cardViewerBox = document.querySelector('.cardViewer__box');
 const cardViewerItems = document.querySelectorAll('.cardViewer__box-item');
 const arrowLeft = document.querySelector('.cardViewer__arrowLeft');
