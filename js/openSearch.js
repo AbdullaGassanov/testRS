@@ -1,16 +1,19 @@
 const btnSearchOpen = document.querySelector('.header__icon--search');
 const sectionSearch = document.querySelector('.header__brand-search');
+const headerCart = document.querySelector('.header__icon-cart-item');
+const searchInput = document.querySelector('.header__brand-searchTXT');
+
 const headerTop = document.querySelector('.header__top');
-const home = document.querySelector('.header__home');
+
 const humburg = document.querySelector('.header__hamburger');
 
 export const openSearch = function () {
   btnSearchOpen.addEventListener('click', e => {
-    headerTop.style.gridTemplateColumns = '80% 20%';
+    headerTop.style.justifyContent = 'center';
+    headerCart.style.display = 'none';
     sectionSearch.style.display = 'flex';
-    home.style.display = 'none';
+    searchInput.style.backgroundColor = '#000';
     humburg.style.display = 'none';
-    home.style.opacity = '0';
-    btnSearchOpen.style.visibility = 'hidden';
+    btnSearchOpen.style.display = 'none';
   });
 };
