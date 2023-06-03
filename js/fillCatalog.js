@@ -12,22 +12,23 @@ class Product {
 const row = document.querySelector('.catalog__row');
 
 export const fill = async function (brand) {
-  const brandJson = await fetch(`./data/${brand}.json`);
+  try {
+    const brandJson = await fetch(`./data/${brand}.json`);
 
-  const data = await brandJson.json();
+    const data = await brandJson.json();
 
-  let products = [...data.products];
+    let products = [...data.products];
 
-  console.log(products);
+    console.log(products);
 
-  products.forEach(product => {
-    product['articul'] = product['web-scraper-order'];
-    delete product['web-scraper-order'];
-    delete product['web-scraper-start-url'];
+    products.forEach(product => {
+      product['articul'] = product['web-scraper-order'];
+      delete product['web-scraper-order'];
+      delete product['web-scraper-start-url'];
 
-    row.insertAdjacentHTML(
-      'afterbegin',
-      ` <a class="catalog__link" href="booking.html" oncontextmenu="return false" >
+      row.insertAdjacentHTML(
+        'afterbegin',
+        ` <a class="catalog__link" href="booking.html" oncontextmenu="return false" >
               <div class="catalog__product" >
               <div class="catalog__product-img">
               <img class="catalog__productImg" src=${product['img-src']} alt="" srcset=""  />
@@ -37,8 +38,12 @@ export const fill = async function (brand) {
               <span class="catalog__product-price">${product['price']}</span>
               
           </div></a>`
-    );
-  });
+      );
+      return true;
+    });
+  } catch (e) {
+    console.log(`Message: ${e}`);
+  }
 
   // OLD CODE without async await on then functions
 
