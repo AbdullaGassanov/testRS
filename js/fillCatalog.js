@@ -1,6 +1,7 @@
 'use strict';
 import { openCatalogList } from './linkOpenNavCatalog.js';
-
+import { searchCard } from './searchCard.js';
+searchCard();
 openCatalogList();
 
 class Product {

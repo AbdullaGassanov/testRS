@@ -30,7 +30,9 @@ const cartSuccess = document.querySelector('.cart__success');
 
 export const cartOpen = function () {
   const openCloseCart = function (status, e) {
+    cart.style.opacity = '1';
     cart.classList.toggle('cart__transform');
+
     cart.style.visibility = 'visible';
     status == 'open'
       ? page.classList.add('shadow')

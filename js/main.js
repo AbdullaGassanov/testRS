@@ -1,16 +1,21 @@
 'use strict';
 
+window.addEventListener('DOMContentLoaded', () => {
+  console.log('Loaded');
+  document.body.style.backgroudColor = 'white';
+});
 /* import { slide } from "./slider.js"; */
 import { slider } from './slider.js';
 import { cardSave } from './cardSave.js';
 import { nav } from './nav.js';
 import { openSearch } from './openSearch.js';
 import { checkPiece } from './cartItem.js';
-import { searchCard } from './searchCard.js';
-import { openCatalogList } from './linkOpenNavCatalog.js';
 
-openCatalogList();
+import { openCatalogList } from './linkOpenNavCatalog.js';
+import { searchCard } from './searchCard.js';
 searchCard();
+openCatalogList();
+
 try {
   slider('.receipt');
   slider('.promo');

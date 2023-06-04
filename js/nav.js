@@ -9,6 +9,7 @@ export const nav = function () {
   const ovelray = document.querySelector('.overlay');
 
   const openCloseNav = function (status, e) {
+    nav.style.opacity = '1';
     nav.classList.toggle('nav__transform');
     status == 'open'
       ? (ovelray.style.zIndex = '11')
