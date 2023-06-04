@@ -4,6 +4,14 @@ import { searchCard } from './searchCard.js';
 searchCard();
 openCatalogList();
 
+window.onload = function () {
+  document.body.classList.add('loaded_hiding');
+  window.setTimeout(function () {
+    document.body.classList.add('loaded');
+    document.body.classList.remove('loaded_hiding');
+  }, 500);
+};
+
 class Product {
   constructor(cardImg, cardName, cardBrand = '', cardPrice) {
     this.cardImg = cardImg;

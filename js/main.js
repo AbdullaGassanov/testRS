@@ -1,9 +1,12 @@
 'use strict';
 
-window.addEventListener('DOMContentLoaded', () => {
-  console.log('Loaded');
-  document.body.style.backgroudColor = 'white';
-});
+window.onload = function () {
+  document.body.classList.add('loaded_hiding');
+  window.setTimeout(function () {
+    document.body.classList.add('loaded');
+    document.body.classList.remove('loaded_hiding');
+  }, 500);
+};
 /* import { slide } from "./slider.js"; */
 import { slider } from './slider.js';
 import { cardSave } from './cardSave.js';
