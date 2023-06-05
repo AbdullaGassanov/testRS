@@ -1,5 +1,4 @@
 import { openCatalogList } from './linkOpenNavCatalog.js';
-
 openCatalogList();
 
 const cardViewerBox = document.querySelector('.cardViewer__box');

@@ -15,7 +15,7 @@ export const searchCard = function () {
     headerTop.style.justifyContent = 'space-between';
     headerCart.style.display = 'block';
     sectionSearch.style.display = 'none';
-    humburg.style.display = 'block';
+    humburg.style.display = 'flex';
     btnSearchOpen.style.display = 'block';
     closeBtn.style.display = 'none';
     console.log('show');

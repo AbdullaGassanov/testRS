@@ -1,12 +1,3 @@
-class Product {
-  constructor(cardImg, cardName, cardBrand = '', cardPrice) {
-    this.cardImg = cardImg;
-    this.cardName = cardName;
-    this.cardBrand = cardBrand;
-    this.cardPrice = cardPrice;
-  }
-}
-
 /*    new Promise((res, rej) => {
       const timeout = setTimeout(() => {
         clearTimeout(timeout);
@@ -24,6 +15,15 @@ class Product {
       }, 200);
     });
  */
+
+class Product {
+  constructor(cardImg, cardName, cardBrand = '', cardPrice) {
+    this.cardImg = cardImg;
+    this.cardName = cardName;
+    this.cardBrand = cardBrand;
+    this.cardPrice = cardPrice;
+  }
+}
 
 export const productSave = function () {
   window.addEventListener('DOMContentLoaded', () => {

@@ -22,7 +22,6 @@ import { cardSave } from './cardSave.js';
 import { nav } from './nav.js';
 import { openSearch } from './openSearch.js';
 import { checkPiece } from './cartItem.js';
-
 import { openCatalogList } from './linkOpenNavCatalog.js';
 import { searchCard } from './searchCard.js';
 searchCard();

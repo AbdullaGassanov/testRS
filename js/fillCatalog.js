@@ -34,7 +34,7 @@ export const fill = async function (brand) {
 
       row.insertAdjacentHTML(
         'afterbegin',
-        ` <a class="catalog__link" href="booking.html" oncontextmenu="return false" >
+        ` <a class="catalog__link" href="productview.html" oncontextmenu="return false" >
               <div class="catalog__product" >
               <div class="catalog__product-img">
               <img class="catalog__productImg" src=${product['img-src']} alt="" srcset=""  />

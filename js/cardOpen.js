@@ -9,23 +9,27 @@ class Card {
   }
 }
 
+// THIS code helps when we clicked on product open information in new web page PRODUCTVIEW.HTML
+
 const cardObj = JSON.parse(localStorage.getItem('newCard'));
 
-const box = document.querySelector('.cardViewer__box');
-const selectList = document.querySelector('.cardViewer__selectList');
-const name = document.querySelector('.cardViewer__name');
-const price = document.querySelector('.cardViewer__price');
-const brand = document.querySelector('.cardViewer__header-brand');
+const brand = document.querySelector('.wrapper__line-brand');
+const wrapperSplide = document.querySelector('.wrapper_splide');
+const thumbnail = document.querySelector('.thumbnail');
+const name = document.querySelector('.wrapper__splide__name');
+const price = document.querySelector('.wrapper__splide__price');
 
 export const cardOpen = function () {
   window.addEventListener('DOMContentLoaded', e => {
-    let img = box.querySelector('.cardViewer__box-item-1');
-    let selectImg = selectList.querySelector('.cardViewer__selectItemImg');
+    console.log(wrapperSplide.querySelector('.splide__slide-img'));
+    let img = wrapperSplide.querySelector('.splide__slide-img');
+    let selectImg = thumbnail.querySelector('.thumbnail-img');
     img.src = cardObj.cardImg;
     selectImg.src = cardObj.cardImg;
     name.textContent = cardObj.cardName;
-    brand.textContent = cardObj.cardBrand;
     price.textContent = cardObj.cardPrice;
+    brand.textContent = cardObj.cardBrand;
+    console.log('New Viewer');
   });
 };
 
