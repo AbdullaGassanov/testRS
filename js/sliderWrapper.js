@@ -1,3 +1,5 @@
+import { spliderFunc } from './spliderFunc.min.js';
+spliderFunc();
 let width;
 
 document.addEventListener('DOMContentLoaded', function () {
