@@ -1,11 +1,3 @@
-window.onload = function () {
-  document.body.classList.add('loaded_hiding');
-  window.setTimeout(function () {
-    document.body.classList.add('loaded');
-    document.body.classList.remove('loaded_hiding');
-  }, 500);
-};
-
 import { nav } from './nav.js';
 import { checkPiece } from './cartItem.js';
 import { openSearch } from './openSearch.js';
