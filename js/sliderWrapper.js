@@ -1,4 +1,6 @@
 import { spliderFunc } from './spliderFunc.min.js';
+import { preloader } from './_preloader.js';
+preloader();
 spliderFunc();
 let width;
 
