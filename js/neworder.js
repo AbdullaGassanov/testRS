@@ -3,6 +3,8 @@ import { checkPiece } from './cartItem.js';
 import { openSearch } from './openSearch.js';
 import { openCatalogList } from './linkOpenNavCatalog.js';
 import { searchCard } from './searchCard.js';
+import { preloader } from './_preloader.js';
+preloader();
 searchCard();
 openCatalogList();
 openSearch();

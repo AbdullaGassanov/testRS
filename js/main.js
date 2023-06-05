@@ -1,12 +1,21 @@
 'use strict';
 
-window.onload = function () {
+/* window.onload = function () {
   document.body.classList.add('loaded_hiding');
   window.setTimeout(function () {
     document.body.classList.add('loaded');
     document.body.classList.remove('loaded_hiding');
   }, 500);
-};
+}; */
+
+window.addEventListener('load', () => {
+  const loader = document.querySelector('.loader');
+  loader.classList.add('loader-hidden');
+  loader.addEventListener('transitionend', () => {
+    loader.remove();
+  });
+});
+
 /* import { slide } from "./slider.js"; */
 import { slider } from './slider.js';
 import { cardSave } from './cardSave.js';

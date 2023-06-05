@@ -14,6 +14,8 @@ import { cardViewer } from './cardViewerSlider.js';
 import { checkPiece } from './cartItem.js';
 import { openSearch } from './openSearch.js';
 import { searchCard } from './searchCard.js';
+import { preloader } from './_preloader.js';
+preloader();
 searchCard();
 openSearch();
 checkPiece();
