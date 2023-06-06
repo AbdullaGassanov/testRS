@@ -1,5 +1,9 @@
 'use strict';
 
+/* const CARTT = { apparel: 'Jordan' };
+
+window.order = { id: 'global' }; */
+
 /* window.onload = function () {
   document.body.classList.add('loaded_hiding');
   window.setTimeout(function () {

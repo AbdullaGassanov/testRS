@@ -14,6 +14,9 @@ nav();
 cardOpen();
 
 let width;
+/* window.order.owner = 'window';
+console.log(window.order);
+console.log(window.CARTT); */
 
 document.addEventListener('DOMContentLoaded', function () {
   new Splide('#image-slider', {
