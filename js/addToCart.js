@@ -1,4 +1,8 @@
-import { cartOpen } from './openCart.js';
+/* import { cartOpen } from './openCart.js'; */
+
+window.order = { cart: [] };
+
+import { cartOrders } from './globalOrder.js'; // Global Order
 
 const cartBox = document.querySelector('.cart');
 const headerHamburger = document.querySelector('.header__hamburger');
@@ -25,24 +29,35 @@ const cart = {
   },
 };
 
-const btn = document.querySelector('.cardViewer__btnCart');
+const btn = document.querySelector('.wrapper__splide__btnCart');
 const cartPiece = document.querySelector('.header__icon-cart-piece');
-const card = btn.closest('.cardViewer__content');
-const btnBuy = document.querySelector('.cardViewer__btnBuy');
+const card = btn.closest('.wrapper_splide');
 
 let pieces = 0;
 
 export const addProduct = function () {
   btn.addEventListener('click', e => {
-    const name = card.querySelector('.cardViewer__name').textContent;
-    const price = card.querySelector('.cardViewer__price').textContent;
+    const name = card.querySelector('.wrapper__splide__name').textContent;
+    const price = card.querySelector('.wrapper__splide__price').textContent;
     const imgPath = card
-      .querySelector('.cardViewer__selectItemImg')
+      .querySelector('.splide__slide-img')
       .src.replace('http://localhost:3000/', '');
 
     product.name = name;
     product.price = price;
     product.img = imgPath;
+
+    // global Order Specify
+
+    cartOrders['id'] = 1;
+    let order = {
+      name: name,
+      price: price,
+      imgSrc: imgPath,
+    };
+    window.order['cart'].push(order);
+
+    localStorage.setItem('order', JSON.stringify(window.order));
 
     /*     cartOpen(product); */
 

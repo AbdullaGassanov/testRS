@@ -5,6 +5,9 @@ import { openSearch } from './openSearch.js';
 import { searchCard } from './searchCard.js';
 import { nav } from './nav.js';
 import { cardOpen } from './cardOpen.js';
+import { addProduct } from './addToCart.js';
+import { cartOrders } from './globalOrder.js'; // Global Order
+addProduct();
 searchCard();
 openSearch();
 openCatalogList();
