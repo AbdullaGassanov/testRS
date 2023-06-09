@@ -16,38 +16,51 @@ const orderSucess = document.querySelector('.order__success');
 const orderItems = document.querySelector('.order__items');
 const summary = document.querySelector('.order__summary');
 const orderBtn = document.querySelector('.order__btn');
-const productPieces = localStorage.getItem('product');
-const product = JSON.parse(localStorage.getItem('newCard'));
+const productPieces = localStorage.getItem('numberOfOrders');
+const orders = JSON.parse(localStorage.getItem('order'));
+const cartIcon = document.querySelector('.header__icon-cart-piece');
+let sum = 0;
 
-let sum = Number(productPieces) * Number(product.cardPrice);
+let numberOfOrders = JSON.parse(localStorage.getItem('numberOfOrders'));
+console.log(numberOfOrders);
+const renderOrders = function (orderCards) {
+  let idCount = 0;
+  orderItems.innerHTML = '';
+  summary.innerHTML = '';
+  sum = 0;
+  if (orderCards) {
+    orders.forEach(orderCard => {
+      sum += Number(orderCard.price);
 
-console.log(sum);
+      console.log(sum);
 
-console.log(product);
-
-/* sum.replace(
+      /* sum.replace(
     /\B(?=(\d{3})+(?!\d))/g,
     ' '
   ) */
 
-orderItems.insertAdjacentHTML(
-  'afterbegin',
-  `
-                <div class="order__item">
+      orderItems.insertAdjacentHTML(
+        'afterbegin',
+        `
+                <div class="order__item" data-id=${idCount++}>
                   <div class="order__item-close"  title="Удалить заказ">x</div>
                     <div class="order__item-content">
-                      <img class="order__item-img" src=${product.cardImg} alt="img" />
-                      <h2 class="order__item-name">${product.cardName}</h2>
-                      <div class="order__item-priceBox"><span class="order__item-piece">${productPieces} x</span><h2 class="order__item-price">  ${sum} ₽</h2></div> 
+                      <img class="order__item-img" src=${
+                        orderCard.img
+                      } alt="img" />
+                      <h2 class="order__item-name">${orderCard.name}</h2>
+                      <div class="order__item-priceBox"><span class="order__item-piece">${productPieces} x</span><h2 class="order__item-price">  ${
+          orderCard.price
+        } ₽</h2></div> 
                     </div>
                 </div>
 
 `
-);
-
-summary.insertAdjacentHTML(
-  'afterbegin',
-  `
+      );
+    });
+    summary.insertAdjacentHTML(
+      'afterbegin',
+      `
             <div class="order__row"> <div class="order__sum-desc">Сумма по товарам</div>
             <h3 class="order__sum"> ${sum} P</h3></div>
 
@@ -59,7 +72,29 @@ summary.insertAdjacentHTML(
 
             </div>
 `
-);
+    );
+  }
+};
+
+renderOrders(orders);
+
+orderItems.addEventListener('click', e => {
+  if (e.target.classList.contains('order__item-close')) {
+    console.log(e.target);
+    console.log('delete');
+    let id = e.target.closest('.order__item').dataset.id;
+    console.log(id);
+    e.target.closest('.order__item').remove();
+    
+    delete orders[id];
+    console.log(orders);
+    renderOrders(orders);
+  }
+
+  --numberOfOrders;
+  cartIcon.textContent = numberOfOrders;
+  localStorage.setItem('numberOfOrders', numberOfOrders);
+});
 
 orderBtn.addEventListener('click', e => {
   e.preventDefault();

@@ -5,9 +5,9 @@ import { openSearch } from './openSearch.js';
 import { searchCard } from './searchCard.js';
 import { nav } from './nav.js';
 import { cardOpen } from './cardOpen.js';
-import { addProduct } from './addToCart.js';
-import { cartOrders } from './globalOrder.js'; // Global Order
-addProduct();
+import { addProductToCart } from './addToCart.js';
+
+addProductToCart();
 searchCard();
 openSearch();
 openCatalogList();
@@ -68,6 +68,20 @@ const cart = document.querySelector('.cart');
 const cartIconClose = document.querySelector('.cart__close');
 const btnConfirm = document.querySelector('.cart__btnconfirm');
 const cartSuccess = document.querySelector('.cart__success');
+const cartPiece = document.querySelector('.header__icon-cart-piece');
+const choosenSize = document.querySelector('.wrapper__splide-size-detail');
+const sizeBoxItem = document.querySelector('.wrapper__splide__sizeBox');
+
+sizeBoxItem.addEventListener('click', e => {
+  if (e.target.classList.contains('wrapper__splide__sizeBoxItem')) {
+    choosenSize.textContent = e.target.textContent;
+  }
+});
+
+if (localStorage.getItem('numberOfOrders') !== null) {
+  cartPiece.textContent = JSON.parse(localStorage.getItem('numberOfOrders'));
+  cartPiece.style.visibility = 'visible';
+}
 
 btnBuy.addEventListener('click', e => {
   console.log('btn buy');

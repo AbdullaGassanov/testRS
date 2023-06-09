@@ -21,15 +21,18 @@ const price = document.querySelector('.wrapper__splide__price');
 
 export const cardOpen = function () {
   window.addEventListener('DOMContentLoaded', e => {
-    console.log(wrapperSplide.querySelector('.splide__slide-img'));
-    let img = wrapperSplide.querySelector('.splide__slide-img');
-    let selectImg = thumbnail.querySelector('.thumbnail-img');
-    img.src = cardObj.cardImg;
-    selectImg.src = cardObj.cardImg;
-    name.textContent = cardObj.cardName;
-    price.textContent = cardObj.cardPrice;
-    brand.textContent = cardObj.cardBrand;
-    console.log('New Viewer');
+    try {
+      let img = wrapperSplide.querySelector('.splide__slide-img');
+      let selectImg = thumbnail.querySelector('.thumbnail-img');
+      img.src = cardObj.cardImg;
+      selectImg.src = cardObj.cardImg;
+      name.textContent = cardObj.cardName;
+      price.textContent = cardObj.cardPrice;
+      brand.textContent = cardObj.cardBrand;
+      localStorage.removeItem('newCard');
+    } catch (e) {
+      console.log(`Message: ${e}`);
+    }
   });
 };
 

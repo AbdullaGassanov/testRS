@@ -1,4 +1,4 @@
-const pieces = Number(localStorage.getItem('product'));
+const pieces = Number(localStorage.getItem('numberOfOrders'));
 const cartPiece = document.querySelector('.header__icon-cart-piece');
 
 export const checkPiece = function () {
