@@ -16,6 +16,8 @@ spliderFunc();
 nav();
 cardOpen();
 
+let quantityOrders = Number(localStorage.getItem('numberOfOrders'));
+
 let width;
 /* window.order.owner = 'window';
 console.log(window.order);
@@ -78,7 +80,7 @@ sizeBoxItem.addEventListener('click', e => {
   }
 });
 
-if (localStorage.getItem('numberOfOrders') !== null) {
+if (quantityOrders !== null && quantityOrders !== 0) {
   cartPiece.textContent = JSON.parse(localStorage.getItem('numberOfOrders'));
   cartPiece.style.visibility = 'visible';
 }

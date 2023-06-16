@@ -19,10 +19,11 @@ const orderBtn = document.querySelector('.order__btn');
 const productPieces = localStorage.getItem('numberOfOrders');
 const orders = JSON.parse(localStorage.getItem('order'));
 const cartIcon = document.querySelector('.header__icon-cart-piece');
+const orderItemQuantity = document.querySelector('.order__item-number');
 let sum = 0;
-
+let quantity = 1;
 let numberOfOrders = JSON.parse(localStorage.getItem('numberOfOrders'));
-console.log(numberOfOrders);
+
 const renderOrders = function (orderCards) {
   let idCount = 0;
   orderItems.innerHTML = '';
@@ -32,8 +33,6 @@ const renderOrders = function (orderCards) {
     orders.forEach(orderCard => {
       sum += Number(orderCard.price);
 
-      console.log(sum);
-
       /* sum.replace(
     /\B(?=(\d{3})+(?!\d))/g,
     ' '
@@ -42,16 +41,21 @@ const renderOrders = function (orderCards) {
       orderItems.insertAdjacentHTML(
         'afterbegin',
         `
-                <div class="order__item" data-id=${idCount++}>
-                  <div class="order__item-close"  title="Удалить заказ">x</div>
+          <div class="order__item" data-id=${idCount++}>
+                    <div class="order__item-close"  title="Удалить заказ">x</div>
                     <div class="order__item-content">
                       <img class="order__item-img" src=${
                         orderCard.img
                       } alt="img" />
                       <h2 class="order__item-name">${orderCard.name}</h2>
-                      <div class="order__item-priceBox"><span class="order__item-piece">${productPieces} x</span><h2 class="order__item-price">  ${
-          orderCard.price
-        } ₽</h2></div> 
+                      <div class="order__item-calc">
+                         <div class="order__item-priceBox"><h2 class="order__item-price">  ${
+                           orderCard.price
+                         } ₽</h2></div> 
+                        <div class="order__item-quantity"> <button class="order__item-quantity--minus">-</button>
+                          <span class="order__item-number">1</span>
+                          <button  class="order__item-quantity--plus">+</button> </div>
+                      </div>
                     </div>
                 </div>
 
@@ -62,13 +66,13 @@ const renderOrders = function (orderCards) {
       'afterbegin',
       `
             <div class="order__row"> <div class="order__sum-desc">Сумма по товарам</div>
-            <h3 class="order__sum"> ${sum} P</h3></div>
+            <h3 class="order__sum"> ${sum} ₽</h3></div>
 
             <div class="order__row"> <div class="order__sum-delivery">Сумма доставки</div>
-            <h3 class="order__sum"> 0 P</h3></div>     
+            <h3 class="order__sum"> 0 ₽</h3></div>     
             <div class="order__row">
                 <h2 class="order__amount-desc">Итого:</h2>
-                <h2 class="order__amount">${sum}P</h2>
+                <h2 class="order__amount">${sum}₽</h2>
 
             </div>
 `
@@ -76,7 +80,103 @@ const renderOrders = function (orderCards) {
   }
 };
 
+const calcSum = function () {
+  let amount = parseInt(summary.querySelector('.order__amount').textContent);
+  let summaryVal = [];
+
+  let pricePerItem = orderItems.querySelectorAll('.order__item-price');
+  let quantityPerItem = orderItems.querySelectorAll('.order__item-number');
+
+  let prices = [];
+  let quantities = [];
+  pricePerItem.forEach(p => {
+    prices.push(parseInt(p.textContent));
+  });
+  quantityPerItem.forEach(p => {
+    quantities.push(parseInt(p.textContent));
+  });
+
+  prices.forEach((price, index) => {
+    summaryVal.push(price * quantities[index]);
+  });
+
+  amount = summaryVal.reduce((a, b) => a + b);
+  console.log(amount);
+
+  summary.innerHTML = '';
+
+  summary.insertAdjacentHTML(
+    'afterbegin',
+    `
+            <div class="order__row"> <div class="order__sum-desc">Сумма по товарам</div>
+            <h3 class="order__sum"> ${amount} ₽</h3></div>
+
+            <div class="order__row"> <div class="order__sum-delivery">Сумма доставки</div>
+            <h3 class="order__sum"> 0 ₽</h3></div>     
+            <div class="order__row">
+                <h2 class="order__amount-desc">Итого:</h2>
+                <h2 class="order__amount">${amount}₽</h2>
+
+            </div>
+`
+  );
+};
+
 renderOrders(orders);
+
+orderItems.addEventListener('click', e => {
+  if (e.target.classList.contains('order__item-quantity--minus')) {
+    let val = Number(e.target.nextElementSibling.textContent);
+    let price = parseInt(
+      e.target
+        .closest('.order__item-quantity')
+        .previousElementSibling.querySelector('.order__item-price').textContent
+    );
+
+    if (val != 1) {
+      e.target.nextElementSibling.textContent = --val;
+      calcSum();
+    }
+  }
+
+  if (e.target.classList.contains('order__item-quantity--plus')) {
+    let price = parseInt(
+      e.target
+        .closest('.order__item-quantity')
+        .previousElementSibling.querySelector('.order__item-price').textContent
+    );
+    let val = Number(e.target.previousElementSibling.textContent);
+    if (val >= 1) {
+      e.target.previousElementSibling.textContent = ++val;
+
+      calcSum();
+    }
+  }
+
+  /*   const btnsMinus = orderItems.querySelectorAll('.order__item-quantity--minus');
+  const btnsPlus = orderItems.querySelectorAll('.order__item-quantity--plus');
+
+  btnsMinus.forEach(el => {
+    el.addEventListener('click', e => {
+      console.log(e.target);
+    });
+  });
+
+  btnsPlus.forEach(el => {
+    el.addEventListener('click', e => {
+      console.log('clicked +');
+    });
+  }); */
+
+  /*   if (e.target.classList.contains('order__item-quantity--minus')) {
+    console.log(orderItems.querySelector('.order__item-number'));
+    orderItems.querySelector('.order__item-number').textContent = --quantity;
+  }
+
+  if (e.target.classList.contains('order__item-quantity--plus')) {
+    orderItems.querySelector('.order__item-number').textContent = ++quantity;
+  } */
+});
 
 orderItems.addEventListener('click', e => {
   if (e.target.classList.contains('order__item-close')) {
@@ -85,15 +185,25 @@ orderItems.addEventListener('click', e => {
     let id = e.target.closest('.order__item').dataset.id;
     console.log(id);
     e.target.closest('.order__item').remove();
-    
-    delete orders[id];
+
+    orders.splice(id, 1);
+
     console.log(orders);
+
+    if (numberOfOrders > 0) {
+      --numberOfOrders;
+      cartIcon.textContent = numberOfOrders;
+      localStorage.setItem('numberOfOrders', numberOfOrders);
+    }
+
+    localStorage.setItem('order', JSON.stringify(orders));
     renderOrders(orders);
   }
 
-  --numberOfOrders;
-  cartIcon.textContent = numberOfOrders;
-  localStorage.setItem('numberOfOrders', numberOfOrders);
+  if (numberOfOrders == 0) {
+    localStorage.removeItem('order');
+    cartIcon.style.visibility = 'hidden';
+  }
 });
 
 orderBtn.addEventListener('click', e => {

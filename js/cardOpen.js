@@ -22,10 +22,17 @@ const price = document.querySelector('.wrapper__splide__price');
 export const cardOpen = function () {
   window.addEventListener('DOMContentLoaded', e => {
     try {
-      let img = wrapperSplide.querySelector('.splide__slide-img');
-      let selectImg = thumbnail.querySelector('.thumbnail-img');
-      img.src = cardObj.cardImg;
-      selectImg.src = cardObj.cardImg;
+      let img = wrapperSplide.querySelectorAll('.splide__slide-img');
+      let selectImg = thumbnail.querySelectorAll('.thumbnail-img');
+
+      img.forEach(i => {
+        console.log(cardObj.cardImg);
+        i.src = cardObj.cardImg;
+      }); // Adding images to slider in productview page
+      selectImg.forEach(imgSel => {
+        imgSel.src = cardObj.cardImg;
+      });
+
       name.textContent = cardObj.cardName;
       price.textContent = cardObj.cardPrice;
       brand.textContent = cardObj.cardBrand;
