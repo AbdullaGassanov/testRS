@@ -32,6 +32,23 @@ export const fill = async function (brand) {
       delete product['web-scraper-order'];
       delete product['web-scraper-start-url'];
 
+      if (brand === 'kaws') {
+        row.insertAdjacentHTML(
+          'afterbegin',
+          ` <a class="catalog__link" href="productview.html" oncontextmenu="return false" >
+              <div class="catalog__product" >
+              <div class="catalog__product-img">
+              <img class="catalog__productImg" src=${product['img-src']} alt="" srcset=""  />
+              </div>
+              <div class="catalog__text-kaws"> 
+              <h3 class="catalog__product-model">${product['model']}</h3>
+              <p class="catalog__product-brand">${product['brand']}</p>
+              <span class="catalog__product-price">${product['price']}</span>
+              </div>
+          </div></a>`
+        );
+        return true;
+      }
       row.insertAdjacentHTML(
         'afterbegin',
         ` <a class="catalog__link" href="productview.html" oncontextmenu="return false" >
@@ -39,10 +56,12 @@ export const fill = async function (brand) {
               <div class="catalog__product-img">
               <img class="catalog__productImg" src=${product['img-src']} alt="" srcset=""  />
               </div>
+              <div class="catalog__text-content"> 
+
               <h3 class="catalog__product-model">${product['model']}</h3>
               <p class="catalog__product-brand">${product['brand']}</p>
               <span class="catalog__product-price">${product['price']}</span>
-              
+              </div>
           </div></a>`
       );
       return true;
