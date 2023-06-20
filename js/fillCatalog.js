@@ -32,7 +32,7 @@ export const fill = async function (brand) {
       delete product['web-scraper-order'];
       delete product['web-scraper-start-url'];
 
-      if (brand === 'kaws') {
+      if (brand === 'kaws' || brand === 'clothes') {
         row.insertAdjacentHTML(
           'afterbegin',
           ` <a class="catalog__link" href="productview.html" oncontextmenu="return false" >
