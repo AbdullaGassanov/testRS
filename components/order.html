@@ -57,24 +57,16 @@
             <label for="order__txtName" class="order__lblName"
               >Населенный пункт<span class="star">*</span>
             </label>
-            <select id="order__txtCity" class="order__txtCity" >
-              <option value="mos">Moscow</option>
-              <option value="mos">New-York</option>
-              <option value="mos">Dubai</option>
-            </select>
+            <div class="block">
+              <input class="search" type="text" placeholder="Поиск города" />
+              <ul class="city" name="city" id="city">
+                <li value=""></li>
+              </ul>
+          </div>
           </p>
           <p class="form-dialog">
             <div class="order__delivery-option">
-                <div class="order__delivery-box order__delivery-box-self">
-                    <input type="radio" name="order__delivery-opt" id="order__delivery-self" class="order__delivery-self">
-                    <div class="order__delivery-desc">
-                        <p class="order__delivery-desc-big">Самовывоз</p>
-                        <p class="order__delivery-desc-small">В нашем магизине</p>
-                    </div>
-                    <div class="order__delivery-sum">
-                        
-                    </div>
-                </div>
+               
 
                 <div class="order__delivery-box order__delivery-box-currier">
                     <input type="radio" name="order__delivery-opt" id="order__delivery-self" class="order__delivery-self">

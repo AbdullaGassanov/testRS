@@ -4,12 +4,15 @@ import { openSearch } from './openSearch.js';
 import { openCatalogList } from './linkOpenNavCatalog.js';
 import { searchCard } from './searchCard.js';
 import { preloader } from './_preloader.js';
+import { searchCities } from './_city-seach.js';
+
 preloader();
 searchCard();
 openCatalogList();
 openSearch();
 checkPiece();
 nav();
+searchCities();
 
 const orderContent = document.querySelector('.order__content');
 const orderSucess = document.querySelector('.order__success');
