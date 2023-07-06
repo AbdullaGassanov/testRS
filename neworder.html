@@ -252,7 +252,7 @@
         </svg>
       </div>
     
-      <div class="cart__success">
+     <!--  <div class="cart__success">
         <img
           src="img/greenMark2.png"
           alt=""
@@ -263,7 +263,7 @@
           Ваш заказ отправлен. Наш менеджер свяжется с вами в ближайщее время
         </p>
         <a href="index.html" class="btn">На главную</a>
-      </div>
+      </div> -->
     
       <!--   <div class="cart__close-absolute">
         <svg class="icon cart__icon-close">
@@ -565,6 +565,8 @@
       <main class="main offtop">
         <div class="order">
         
+          
+
           <div class="order__success">
           <img
               src="img/greenMark2.png"
@@ -582,7 +584,7 @@
             <h2 class="order__title">Контактные данные</h2>
             <div class="order__box">
               <div class="order__left">
-                <form action="#" class="order__form">
+                <form method="POST" action="/send" class="order__form">
                   <p class="form-dialog">
                     <label for="order__txtName" class="order__lblName"
                       >Ваше имя <span class="star">*</span>
@@ -595,6 +597,7 @@
                       required
                     />
                   </p>
+                  
                   <p class="form-dialog">
                     <label for="order__txtPhone" class="order__lblPhone"
                       >Контактный номер: <span class="star">*</span>
@@ -646,7 +649,7 @@
                         </div>
                     </div>
                   </p>
-                  <p class="form__dialog">
+                  <p  class="form__dialog">
         
                     <div class="order__pay">
                         <div class="order__pay-title">Способ оплаты</div>
@@ -673,18 +676,15 @@
                         <span>Я ознакомлен и согласен с условиями <a href="">оферты и политики конфиденциальности</a> </span>
                     </div>
         
-        
-                  </p>
                   <div class="order__form-footer">
-                   
-                       <input
-                  type="submit"
-                  class="order__btn btn"
-                  value="Подтердить заказ"
-                />
+                       <input type="submit" 
+                  class="order__btn btn" value=" Подтердить заказ">
+                 
                   </div>
+                  </p>
+                 
                
-                </form>
+               
               </div>
         
               <div class="order__right">
@@ -714,7 +714,7 @@
                     </div> -->
                 </div>
         
-        
+         </form>
               </div>
             </div>
           </div>
