@@ -1,0 +1,1541 @@
+{
+  "products": [
+    {
+      "model": "BFF Open Edition Vinyl Figure Pink",
+      "img": [
+        "../img/kaws-bff.jpg",
+        "../img/kaws-bff-2.jpg",
+        "../img/kaws-bff-3.jpg"
+      ],
+      "price": "От 70 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-bff.jpg"
+    },
+    {
+      "model": "BFF Open Edition Vinyl Figure Black",
+      "img": [
+        "../img/kaws-bff-black.jpg",
+        "../img/kaws-bff-black-2.jpg",
+        "../img/kaws-bff-black-3.jpg"
+      ],
+      "price": "От 51 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-bff-black.jpg"
+    },
+    {
+      "model": "Companion Flayed Open Edition Vinyl Figure Blush",
+      "img": ["../img/IMG_3042.jpg"],
+      "price": "От 53 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3042.jpg"
+    },
+    {
+      "model": "Companion Flayed Open Edition Vinyl Figure Brown",
+      "img": ["../img/IMG_3044.jpg"],
+      "price": "От 78 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3044.jpg"
+    },
+    {
+      "model": "Holiday Singapore Companion Black",
+      "img": ["../img/IMG_3088.jpg", "../img/IMG_3048.jpg"],
+      "price": "От 49 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3088.jpg"
+    },
+    {
+      "model": "THE PROMISE Vinyl Figure Brown",
+      "img": ["../img/IMG_3340.jpg"],
+      "price": "От 90 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3340.jpg"
+    },
+    {
+      "model": "Take Vinyl Figure Pink",
+      "img": ["../img/IMG_3639.jpg"],
+      "price": "От 83 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3639.jpg"
+    },
+    {
+      "model": "Take Vinyl Figure Blue",
+      "img": [
+        "../img/kaws-companion-take-blue.jpg",
+        "../img/kaws-companion-take-blue-2.jpg",
+        "../img/kaws-companion-take-blue-3.jpg",
+        "../img/kaws-companion-take-blue-4.jpg"
+      ],
+      "price": "От 90 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-companion-take-blue.jpg"
+    },
+    {
+      "model": "BFF Open Edition Vinyl Figure Blue",
+      "img": ["../img/IMG_6152.jpg"],
+      "price": "От 65 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_6152.jpg"
+    },
+    {
+      "model": "TIME OFF Vinyl Figure Pink",
+      "img": ["../img/IMG_7474.jpg"],
+      "price": "От 60 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_7474.jpg"
+    },
+    {
+      "model": "TIME OFF Vinyl Figure Black",
+      "img": ["../img/IMG_7475.jpg"],
+      "price": "От 57 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_7475.jpg"
+    },
+    {
+      "model": "TIME OFF Vinyl Figure Blue",
+      "img": ["../img/IMG_7476.jpg"],
+      "price": "От 78 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_7476.jpg"
+    },
+    {
+      "model": "Holiday Changbai Mountain Vinyl Figure Brown",
+      "img": ["../img/image_a84db518-aa6a-4761-90a2-8fc8edeec153.jpg"],
+      "price": "От 81 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/image_a84db518-aa6a-4761-90a2-8fc8edeec153.jpg"
+    },
+    {
+      "model": "Holiday Changbai Mountain Vinyl Figure Snowy White",
+      "img": ["../img/image_91706f6b-3448-4f00-82e7-0f17f04d1192.jpg"],
+      "price": "От 58 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/image_91706f6b-3448-4f00-82e7-0f17f04d1192.jpg"
+    },
+    {
+      "model": "Holiday Changbai Mountain Vinyl Figure Set Brown / Snowy White / Black",
+      "img": ["../img/image_f704037c-7ae1-4acd-92a6-941a8a0aa9ec.jpg"],
+      "price": "От 213 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/image_f704037c-7ae1-4acd-92a6-941a8a0aa9ec.jpg"
+    },
+    {
+      "model": "KAWS Companion Open Edition Vinyl Figure Blush",
+      "img": [
+        "../img/kaws-companion-open-edition-vinyl-blush.jpg",
+        "../img/kaws-companion-open-edition-vinyl-blush-2.jpg",
+        "../img/kaws-companion-open-edition-vinyl-blush-3.jpg"
+      ],
+      "price": "От 62 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-companion-open-edition-vinyl-blush.jpg"
+    },
+    {
+      "model": "Holiday Companion Bath Toy Brown",
+      "img": ["../img/IMG_5647.jpg"],
+      "price": "От 39 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5647.jpg"
+    },
+    {
+      "model": "Companion Open Edition Vinyl Figure Grey",
+      "img": ["../img/IMG_5999.jpg"],
+      "price": "От 70 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5999.jpg"
+    },
+    {
+      "model": "Companion Flayed Open Edition Vinyl Figure Grey",
+      "img": ["../img/IMG_6001.jpg"],
+      "price": "От 82 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_6001.jpg"
+    },
+    {
+      "model": "Companion Open Edition Vinyl Figure Black",
+      "img": ["../img/IMG_6002.jpg"],
+      "price": "От 61 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_6002.jpg"
+    },
+    {
+      "model": "Tokyo First Companion Keychain 2021 Grey",
+      "img": ["../img/IMG_6003.jpg"],
+      "price": "От 7 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_6003.jpg"
+    },
+    {
+      "model": "Tokyo First Separated Jigsaw Puzzle 100 Pieces",
+      "img": ["../img/IMG_6068.jpg"],
+      "price": "От 23 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_6068.jpg"
+    },
+    {
+      "model": "Tokyo First Gone Jigsaw Puzzle 100 Pieces",
+      "img": ["../img/IMG_6067.jpg"],
+      "price": "От 26 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_6067.jpg"
+    },
+    {
+      "model": "Family Vinyl Figures Grey Pink",
+      "img": [
+        "../img/kaws-family-2022.jpg",
+        "../img/kaws-family-2022-2.jpg",
+        "../img/kaws-family-2022-3.jpg"
+      ],
+      "price": "От 123 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-family-2022.jpg"
+    },
+    {
+      "model": "Companion Open Edition Vinyl Figure Brown",
+      "img": [
+        "../img/kaws-companion-2016-3.jpg",
+        "../img/kaws-companion-2016-2.jpg",
+        "../img/kaws-companion-2016.jpg"
+      ],
+      "price": "От 63 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-companion-2016.jpg"
+    },
+    {
+      "model": "Companion 2020 Vinyl Figure Grey",
+      "img": [
+        "../img/kaws-companion-2020-5.jpg",
+        "../img/kaws-companion-2020-3.jpg",
+        "../img/kaws-companion-2020-2.jpg",
+        "../img/kaws-companion-2020.jpg"
+      ],
+      "price": "От 50 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-companion-2020.jpg"
+    },
+    {
+      "model": "Family Vinyl Figures Brown Blue White",
+      "img": [
+        "../img/kaws-family-2021-5_3fe06c73-442a-4baf-8cba-c2a898604a20.jpg",
+        "../img/kaws-family-2021-4_c508c6bc-5be7-479e-896c-87af4aedb30f.jpg",
+        "../img/kaws-family-2021-3_c5b573aa-3485-4a62-867c-834ac2271eb4.jpg",
+        "../img/kaws-family-2021-2_fb2e4647-f220-4619-8cdc-f02acd4d0a98.jpg",
+        "../img/kaws-family-2021_44036d7e-b630-49e8-99f4-63eeac35a2e9.jpg"
+      ],
+      "price": "От 148 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-family-2021_44036d7e-b630-49e8-99f4-63eeac35a2e9.jpg"
+    },
+    {
+      "model": "BFF Plush Pink",
+      "img": [
+        "../img/kaws-bff-plush.jpg",
+        "../img/kaws-bff-plush-5.jpg",
+        "../img/kaws-bff-plush-4.jpg",
+        "../img/kaws-bff-plush-3.jpg",
+        "../img/kaws-bff-plush-2.jpg",
+        "../img/kaws-bff-plush.jpg"
+      ],
+      "price": "От 63 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-bff-plush.jpg"
+    },
+    {
+      "model": "KACHAMUKKU Vinyl Figure Black",
+      "img": [
+        "../img/kaws-kachamukku-black-4.jpg",
+        "../img/kaws-kachamukku-black-3.jpg",
+        "../img/kaws-kachamukku-black-2.jpg",
+        "../img/kaws-kachamukku_8c204a7a-938c-46ef-bf71-1b728d1b1b72.jpg"
+      ],
+      "price": "От 38 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-kachamukku_8c204a7a-938c-46ef-bf71-1b728d1b1b72.jpg"
+    },
+    {
+      "model": "KACHAMUKKU Vinyl Figure Green Red",
+      "img": [
+        "../img/kaws-kachamukku-4.jpg",
+        "../img/kaws-kachamukku-3.jpg",
+        "../img/kaws-kachamukku-2.jpg",
+        "../img/kaws-kachamukku.jpg"
+      ],
+      "price": "От 44 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-kachamukku.jpg"
+    },
+    {
+      "model": "Family Vinyl Figures Black",
+      "img": [
+        "../img/kaws-family-2021-5.jpg",
+        "../img/kaws-family-2021-4.jpg",
+        "../img/kaws-family-2021-3.jpg",
+        "../img/kaws-family-2021-2.jpg",
+        "../img/kaws-family-2021.jpg"
+      ],
+      "price": "От 158 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-family-2021.jpg"
+    },
+    {
+      "model": "Separated Vinyl Figure Black",
+      "img": [
+        "../img/Separated-Vinyl-Figure-Black_5.jpg",
+        "../img/Separated-Vinyl-Figure-Black_4.jpg",
+        "../img/Separated-Vinyl-Figure-Black_3.jpg",
+        "../img/Separated-Vinyl-Figure-Black_2.jpg",
+        "../img/Separated-Vinyl-Figure-Black.jpg"
+      ],
+      "price": "От 83 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/Separated-Vinyl-Figure-Black.jpg"
+    },
+    {
+      "model": "Gone Figure Grey",
+      "img": [
+        "../img/KAWS-Gone-Figure-Grey_4.jpg",
+        "../img/KAWS-Gone-Figure-Grey_3.jpg",
+        "../img/KAWS-Gone-Figure-Grey_2.jpg",
+        "../img/KAWS-Gone-Figure-Grey.jpg"
+      ],
+      "price": "От 158 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/KAWS-Gone-Figure-Grey.jpg"
+    },
+    {
+      "model": "Gone Figure Black",
+      "img": [
+        "../img/KAWS-Gone-Figure-Black_3.jpg",
+        "../img/KAWS-Gone-Figure-Black_2.jpg",
+        "../img/KAWS-Gone-Figure-Black.jpg"
+      ],
+      "price": "От 158 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/KAWS-Gone-Figure-Black.jpg"
+    },
+    {
+      "model": "Gone Figure Brown",
+      "img": [
+        "../img/Kaws-Gone-Figure-Brown_3.jpg",
+        "../img/Kaws-Gone-Figure-Brown_2.jpg",
+        "../img/Kaws-Gone-Figure-Brown.jpg"
+      ],
+      "price": "От 136 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/Kaws-Gone-Figure-Brown.jpg"
+    },
+    {
+      "model": "What Party Figure White",
+      "img": [
+        "../img/kaws-What-Party-Figure-White_4.jpg",
+        "../img/kaws-What-Party-Figure-White_3.jpg",
+        "../img/kaws-What-Party-Figure-White_2.jpg",
+        "../img/kaws-What-Party-Figure-White.jpg"
+      ],
+      "price": "От 61 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-What-Party-Figure-White.jpg"
+    },
+    {
+      "model": "What Party Figure Black",
+      "img": [
+        "../img/Kaws-What-Party-Figure-Black_4.jpg",
+        "../img/Kaws-What-Party-Figure-Black_3.jpg",
+        "../img/Kaws-What-Party-Figure-Black_2.jpg",
+        "../img/Kaws-What-Party-Figure-Black.jpg"
+      ],
+      "price": "От 58 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/Kaws-What-Party-Figure-Black.jpg"
+    },
+    {
+      "model": "What Party Figure Yellow",
+      "img": [
+        "../img/kaws-what-party-Figure-Yellow_4.jpg",
+        "../img/kaws-what-party-Figure-Yellow_3.jpg",
+        "../img/kaws-what-party-Figure-Yellow_2.jpg",
+        "../img/kaws-what-party-Figure-Yellow.jpg"
+      ],
+      "price": "От 57 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-what-party-Figure-Yellow.jpg"
+    },
+    {
+      "model": "What Party Figure Orange",
+      "img": [
+        "../img/kaws-What-Party-Figure-Orange_4.jpg",
+        "../img/kaws-What-Party-Figure-Orange_3.jpg",
+        "../img/kaws-What-Party-Figure-Orange_2.jpg",
+        "../img/kaws-What-Party-Figure-Orange.jpg"
+      ],
+      "price": "От 58 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/kaws-What-Party-Figure-Orange.jpg"
+    },
+    {
+      "model": "What Party Figure Pink",
+      "img": [
+        "../img/What-Party-Figure-Pink_4.jpg",
+        "../img/What-Party-Figure-Pink_3.jpg",
+        "../img/What-Party-Figure-Pink_2.jpg",
+        "../img/What-Party-Figure-Pink.jpg"
+      ],
+      "price": "От 58 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/What-Party-Figure-Pink.jpg"
+    },
+    {
+      "model": "Small Lie Companion Vinyl Figure Brown",
+      "img": ["../img/IMG_8153.jpg", "../img/IMG_8151.jpg"],
+      "price": "От 82 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_8151.jpg"
+    },
+    {
+      "model": "Small Lie Companion Vinyl Figure Black",
+      "img": [
+        "../img/Kaws-Small-Lie-Companion-Vinyl-Figure-Black_3.jpg",
+        "../img/Kaws-Small-Lie-Companion-Vinyl-Figure-Black_2.jpg",
+        "../img/Kaws-Small-Lie-Companion-Vinyl-Figure-Black.jpg"
+      ],
+      "price": "От 83 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/Kaws-Small-Lie-Companion-Vinyl-Figure-Black.jpg"
+    },
+    {
+      "model": "Bearbrick Jean Michel Basquiat #8 1000%",
+      "img": [
+        "../img/bearbrick-jean-michel-basquiat-8-4.jpg",
+        "../img/bearbrick-jean-michel-basquiat-8-3.jpg",
+        "../img/bearbrick-jean-michel-basquiat-8-2.jpg",
+        "../img/bearbrick-jean-michel-basquiat-8.jpg"
+      ],
+      "price": "От 98 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-jean-michel-basquiat-8.jpg"
+    },
+    {
+      "model": "Bearbrick Leonardo De Vinci Mona Lisa 1000%",
+      "img": ["../img/bearbrick-leonardo-de-vinci-mona-lisa-1000.jpg"],
+      "price": "От 96 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-leonardo-de-vinci-mona-lisa-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Toshusai Sharaku Sansei Otanioniji No Ya 1000%",
+      "img": [
+        "../img/bearbrick-toshusai-sharaku-sansei-otanioniji-no-ya-1000-4.jpg",
+        "../img/bearbrick-toshusai-sharaku-sansei-otanioniji-no-ya-1000-3.jpg",
+        "../img/bearbrick-toshusai-sharaku-sansei-otanioniji-no-ya-1000-2.jpg",
+        "../img/bearbrick-toshusai-sharaku-sansei-otanioniji-no-ya-1000.jpg"
+      ],
+      "price": "От 83 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-toshusai-sharaku-sansei-otanioniji-no-ya-1000.jpg"
+    },
+    {
+      "model": "Bearbrick The British Museum Rosetta Stone 1000%",
+      "img": [
+        "../img/bearbrick-the-british-museum-rosetta-stone-1000-4.jpg",
+        "../img/bearbrick-the-british-museum-rosetta-stone-1000-3.jpg",
+        "../img/bearbrick-the-british-museum-rosetta-stone-1000-2.jpg",
+        "../img/bearbrick-the-british-museum-rosetta-stone-1000.jpg"
+      ],
+      "price": "От 108 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-the-british-museum-rosetta-stone-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Anever 100% and 400%",
+      "img": [
+        "../img/bearbrick-anever-100-and-400-4.jpg",
+        "../img/bearbrick-anever-100-and-400-3.jpg",
+        "../img/bearbrick-anever-100-and-400-2.jpg",
+        "../img/bearbrick-anever-100-and-400.jpg"
+      ],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-anever-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Psychedelic Paisley 1000%",
+      "img": [
+        "../img/bearbrick-psychedelic-paisley-1000-4.jpg",
+        "../img/bearbrick-psychedelic-paisley-1000-3.jpg",
+        "../img/bearbrick-psychedelic-paisley-1000-2.jpg",
+        "../img/bearbrick-psychedelic-paisley-1000.jpg"
+      ],
+      "price": "От 84 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-psychedelic-paisley-1000.jpg"
+    },
+    {
+      "model": "Bearbrick x WF Fashion x My First Bearbrick Baby 100% & 400% Set Green",
+      "img": ["../img/IMG_5653.jpg"],
+      "price": "От 55 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5653.jpg"
+    },
+    {
+      "model": "Bearbrick Jean-Michel Basquiat #7 1000%",
+      "img": ["../img/IMG_5654.jpg"],
+      "price": "От 93 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5654.jpg"
+    },
+    {
+      "model": "Bearbrick Disney Pixar Mr. Incredible 100% & 400% Set",
+      "img": ["../img/IMG_5652.jpg"],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5652.jpg"
+    },
+    {
+      "model": "Bearbrick 2G Exclusive 100% & 400% Set Pink Gold Chrome Ver.",
+      "img": ["../img/IMG_5651.jpg"],
+      "price": "От 44 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5651.jpg"
+    },
+    {
+      "model": "Bearbrick x BAPE Camo Shark 100% & 400% Set Gold",
+      "img": ["../img/IMG_4953.jpg"],
+      "price": "От 63 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_4953.jpg"
+    },
+    {
+      "model": "Bearbrick EVE - WALL E 400%",
+      "img": ["../img/IMG_3901.jpg"],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3901.jpg"
+    },
+    {
+      "model": "The Matrix Resurrections Bearbrick 100% and 400%",
+      "img": [
+        "../img/the-matrix-resurrections-400-bearbrick-100-and-400-4.jpg",
+        "../img/the-matrix-resurrections-400-bearbrick-100-and-400-3.jpg",
+        "../img/the-matrix-resurrections-400-bearbrick-100-and-400-2.jpg",
+        "../img/the-matrix-resurrections-400-bearbrick-100-and-400.jpg"
+      ],
+      "price": "От 44 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/the-matrix-resurrections-400-bearbrick-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick x Gelato Pique Pajamas 400% Brown",
+      "img": ["../img/image_a0b6e533-8095-47e4-a493-0c01eec62c57.jpg"],
+      "price": "От 30 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/image_a0b6e533-8095-47e4-a493-0c01eec62c57.jpg"
+    },
+    {
+      "model": "Bearbrick x Medicom Black Hearts 1000%",
+      "img": ["../img/IMG_3035.jpg"],
+      "price": "От 82 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3035.jpg"
+    },
+    {
+      "model": "Bearbrick Jackson Pollock Studio Splash 1000%",
+      "img": ["../img/IMG_3037.jpg"],
+      "price": "От 69 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3037.jpg"
+    },
+    {
+      "model": "Bearbrick Van Gogh Self Portrait 1000%",
+      "img": [
+        "../img/van-gogh-self-portrait-1000-4.jpg",
+        "../img/van-gogh-self-portrait-1000-3.jpg",
+        "../img/van-gogh-self-portrait-1000-2.jpg",
+        "../img/van-gogh-self-portrait-1000.jpg"
+      ],
+      "price": "От 118 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/van-gogh-self-portrait-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Space Jam A New Legacy Bugs Bunny 100% and 400%",
+      "img": [
+        "../img/bearbrick-space-jam-a-new-legacy-bugs-bunny-100-and-400-4.jpg",
+        "../img/bearbrick-space-jam-a-new-legacy-bugs-bunny-100-and-400-3.jpg",
+        "../img/bearbrick-space-jam-a-new-legacy-bugs-bunny-100-and-400-2.jpg",
+        "../img/bearbrick-space-jam-a-new-legacy-bugs-bunny-100-and-400.jpg"
+      ],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-space-jam-a-new-legacy-bugs-bunny-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Andy Warhol X Jean Michel Basquiat #4 1000%",
+      "img": [
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-4-1000-4.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-4-1000-3.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-4-1000-2.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-4-1000.jpg"
+      ],
+      "price": "От 110 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-4-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Emotionally Unavailable 1000%",
+      "img": [
+        "../img/bearbrick-emotionally-unavailable-1000-4.jpg",
+        "../img/bearbrick-emotionally-unavailable-1000-3.jpg",
+        "../img/bearbrick-emotionally-unavailable-1000-2.jpg",
+        "../img/bearbrick-emotionally-unavailable-1000.jpg"
+      ],
+      "price": "От 178 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-emotionally-unavailable-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Joe Cool 100% and 400%",
+      "img": [
+        "../img/bearbrick-joe-cool-100-and-400-4.jpg",
+        "../img/bearbrick-joe-cool-100-and-400-3.jpg",
+        "../img/bearbrick-joe-cool-100-and-400-2.jpg",
+        "../img/bearbrick-joe-cool-100-and-400.jpg"
+      ],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-joe-cool-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Batman Hush 1000%",
+      "img": [
+        "../img/bearbrick-batman-hush-1000-4.jpg",
+        "../img/bearbrick-batman-hush-1000-3.jpg",
+        "../img/bearbrick-batman-hush-1000-2.jpg",
+        "../img/bearbrick-batman-hush-1000.jpg"
+      ],
+      "price": "От 83 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-batman-hush-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Johannes Vermeer 1000%",
+      "img": [
+        "../img/bearbrick-johannes-vermeer-1000-4.jpg",
+        "../img/bearbrick-johannes-vermeer-1000-3.jpg",
+        "../img/bearbrick-johannes-vermeer-1000-2.jpg",
+        "../img/bearbrick-johannes-vermeer-1000.jpg"
+      ],
+      "price": "От 98 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-johannes-vermeer-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Tom and Jerry: Tom Flocky 1000%",
+      "img": [
+        "../img/tom-flocky-bearbrick-1000-4.jpg",
+        "../img/tom-flocky-bearbrick-1000-3.jpg",
+        "../img/tom-flocky-bearbrick-1000-2.jpg",
+        "../img/tom-flocky-bearbrick-1000.jpg"
+      ],
+      "price": "От 63 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/tom-flocky-bearbrick-1000.jpg"
+    },
+    {
+      "model": "Bearbrick x Sesame Street Elmo Costume Ver. 2 1000%",
+      "img": ["../img/IMG_6031.jpg"],
+      "price": "От 75 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_6031.jpg"
+    },
+    {
+      "model": "Bearbrick Elmo Costume 400% Red",
+      "img": ["../img/IMG_6030.jpg"],
+      "price": "От 44 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_6030.jpg"
+    },
+    {
+      "model": "Bearbrick x Care Bears Best Friend Bear 400% Purple",
+      "img": ["../img/IMG_6006.jpg"],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_6006.jpg"
+    },
+    {
+      "model": "Bearbrick x Disney Minnie Mouse 100% & 400% Set",
+      "img": [
+        "../img/disney-minnie-mouse-bearbrick-100-and-400-4.jpg",
+        "../img/disney-minnie-mouse-bearbrick-100-and-400-3.jpg",
+        "../img/disney-minnie-mouse-bearbrick-100-and-400-2.jpg",
+        "../img/disney-minnie-mouse-bearbrick-100-and-400.jpg"
+      ],
+      "price": "От 38 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/disney-minnie-mouse-bearbrick-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick x Marvel X-Men Happy Lottery Wolverine Brown Costume 400%",
+      "img": ["../img/IMG_6004.jpg"],
+      "price": "От 41 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_6004.jpg"
+    },
+    {
+      "model": "Bearbrick Garfield 100% & 400% Set Gold Chrome Ver.",
+      "img": ["../img/IMG_5998.jpg"],
+      "price": "От 41 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5998.jpg"
+    },
+    {
+      "model": "Bearbrick Tom and Jerry: Jerry Flocky 100% & 400% Set",
+      "img": ["../img/IMG_5997.jpg"],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5997.jpg"
+    },
+    {
+      "model": "Bearbrick Black Knight Satellite 100% & 400% Set Blue",
+      "img": ["../img/IMG_5996.jpg"],
+      "price": "От 27 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5996.jpg"
+    },
+    {
+      "model": "Bearbrick x Sesame Street Cookie Monster Costume Ver. 400%",
+      "img": ["../img/IMG_2254.jpg"],
+      "price": "От 47 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_2254.jpg"
+    },
+    {
+      "model": "Bearbrick x Kith 1000% Desert",
+      "img": ["../img/IMG_2252.jpg"],
+      "price": "От 100 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_2252.jpg"
+    },
+    {
+      "model": "Bearbrick x Kith 1000% Molecule",
+      "img": ["../img/IMG_2253.jpg"],
+      "price": "От 100 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_2253.jpg"
+    },
+    {
+      "model": "Bearbrick x 2G 100% & 400% Set",
+      "img": ["../img/IMG_4955.jpg"],
+      "price": "От 48 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_4955.jpg"
+    },
+    {
+      "model": "Bearbrick My First Nyabrick Baby Autumn Leaves Ver. 100% & 400% Set",
+      "img": ["../img/IMG_4956.jpg"],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_4956.jpg"
+    },
+    {
+      "model": "Bearbrick WF Fashion Macau My First Baby 100% & 400% Set Multi",
+      "img": ["../img/IMG_4954.jpg"],
+      "price": "От 47 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_4954.jpg"
+    },
+    {
+      "model": "Bearbrick x Hide Pink Heart 100% & 400% Set",
+      "img": ["../img/IMG_4952.jpg"],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_4952.jpg"
+    },
+    {
+      "model": "Bearbrick My First Nyabrick Baby 100% & 400% Set Water Crest",
+      "img": ["../img/IMG_4950.jpg"],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_4950.jpg"
+    },
+    {
+      "model": "Bearbrick My First Rabbrick Baby 100% & 400% Set Water Crest",
+      "img": ["../img/image_c34bf2d6-8000-4a0e-ba86-57c4ea242640.jpg"],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/image_c34bf2d6-8000-4a0e-ba86-57c4ea242640.jpg"
+    },
+    {
+      "model": "Bearbrick x Despicable Me 3 Mel Minion 400% Multi",
+      "img": ["../img/IMG_9383.jpg"],
+      "price": "От 46 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_9383.jpg"
+    },
+    {
+      "model": "Bearbrick Marble 1000%",
+      "img": ["../img/IMG_4939.jpg"],
+      "price": "От 108 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_4939.jpg"
+    },
+    {
+      "model": "Bearbrick WALL E 400%",
+      "img": ["../img/IMG_3908.jpg"],
+      "price": "От 22 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3908.jpg"
+    },
+    {
+      "model": "Bearbrick x Kith Beam Tokyo Exclusive 100% & 400% Set",
+      "img": ["../img/IMG_3909.jpg"],
+      "price": "От 31 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3909.jpg"
+    },
+    {
+      "model": "Bearbrick x Despicable Me 3 Mel Minion 1000% Multi",
+      "img": ["../img/IMG_3910.jpg"],
+      "price": "От 192 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3910.jpg"
+    },
+    {
+      "model": "Bearbrick Van Gogh Museum Courtesan after Eisen 100% & 400% Set",
+      "img": ["../img/IMG_3907.jpg"],
+      "price": "От 38 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3907.jpg"
+    },
+    {
+      "model": "Bearbrick Psychedelic Paisley 100% & 400% Set",
+      "img": ["../img/IMG_3904.jpg"],
+      "price": "От 30 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3904.jpg"
+    },
+    {
+      "model": "Bearbrick Jackson Pollock Studio Splash 100% & 400% Set",
+      "img": ["../img/IMG_3905.jpg"],
+      "price": "От 30 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3905.jpg"
+    },
+    {
+      "model": "Bearbrick Andy Warhol Marilyn Monroe #2 100% & 400% Set",
+      "img": ["../img/IMG_3896.jpg"],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3896.jpg"
+    },
+    {
+      "model": "Bearbrick Agent M 400% Black",
+      "img": ["../img/IMG_3898.jpg"],
+      "price": "От 38 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3898.jpg"
+    },
+    {
+      "model": "Superman BatmanHush Ver Bearbrick 100% and 400%",
+      "img": [
+        "../img/superman-batman-hush-ver-bearbrick-100-and-400-4.jpg",
+        "../img/superman-batman-hush-ver-bearbrick-100-and-400-3.jpg",
+        "../img/superman-batman-hush-ver-bearbrick-100-and-400-2.jpg",
+        "../img/superman-batman-hush-ver-bearbrick-100-and-400.jpg"
+      ],
+      "price": "От 42 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/superman-batman-hush-ver-bearbrick-100-and-400.jpg"
+    },
+    {
+      "model": "ROBE JAPONICA MIRROR BEARBRICK 100% and 400%",
+      "img": [
+        "../img/robe-japonica-mirror-bearbrick-100-and-400-4.jpg",
+        "../img/robe-japonica-mirror-bearbrick-100-and-400-3.jpg",
+        "../img/robe-japonica-mirror-bearbrick-100-and-400-2.jpg",
+        "../img/robe-japonica-mirror-bearbrick-100-and-400.jpg"
+      ],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/robe-japonica-mirror-bearbrick-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Tom and Jerry: Tom Flocky 100% & 400% Set",
+      "img": ["../img/IMG_3640.jpg"],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3640.jpg"
+    },
+    {
+      "model": "Bearbrick Pushead #6 400%",
+      "img": ["../img/IMG_3631.jpg"],
+      "price": "От 27 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3631.jpg"
+    },
+    {
+      "model": "Bearbrick Keith Haring Andy Mouse 400%",
+      "img": ["../img/IMG_1922.jpg"],
+      "price": "От 22 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_1922.jpg"
+    },
+    {
+      "model": "Bearbrick Casper the Friendly Ghost 100% & 400% Set White",
+      "img": ["../img/IMG_1919.jpg"],
+      "price": "От 38 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_1919.jpg"
+    },
+    {
+      "model": "Bearbrick Medicom TMNT Leonardo 100% & 400% Set Green",
+      "img": ["../img/image_2b64f8f6-1ada-4985-8b05-4f9e67230acb.jpg"],
+      "price": "От 42 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/image_2b64f8f6-1ada-4985-8b05-4f9e67230acb.jpg"
+    },
+    {
+      "model": "Bearbrick x WF Fashion x My First Bearbrick Baby 1000% Green",
+      "img": ["../img/IMG_3497_65e412f7-5f65-43bb-bb33-6d34cdaf7ef9.jpg"],
+      "price": "От 103 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3497_65e412f7-5f65-43bb-bb33-6d34cdaf7ef9.jpg"
+    },
+    {
+      "model": "Bearbrick Flora Flower 1000%",
+      "img": ["../img/IMG_3498.jpg"],
+      "price": "От 70 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3498.jpg"
+    },
+    {
+      "model": "Bearbrick x La Maison du Chocolate 1000% Passion Fruits",
+      "img": ["../img/image_e28360e7-266a-4ec3-bd51-2954471058e8.jpg"],
+      "price": "От 62 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/image_e28360e7-266a-4ec3-bd51-2954471058e8.jpg"
+    },
+    {
+      "model": "Bearbrick x Gelato Pique Pajamas 400% White / Blue",
+      "img": ["../img/image_1f6c4d53-eb1f-4f8e-be08-c6fee11d2614.jpg"],
+      "price": "От 30 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/image_1f6c4d53-eb1f-4f8e-be08-c6fee11d2614.jpg"
+    },
+    {
+      "model": "Bearbrick Shaun the Sheep 100% & 400% Set",
+      "img": ["../img/IMG_8698.jpg"],
+      "price": "От 27 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_8698.jpg"
+    },
+    {
+      "model": "Bearbrick x Kith Palette 10-Year Anniversary 100% & 400% Set Multi",
+      "img": ["../img/IMG_3033.jpg"],
+      "price": "От 39 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3033.jpg"
+    },
+    {
+      "model": "Bearbrick x BAPE Camo Shark 400% Green",
+      "img": ["../img/IMG_3031.jpg"],
+      "price": "От 66 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3031.jpg"
+    },
+    {
+      "model": "Bearbrick x atmos x Sean Wotherspoon 100% and 400% Set Brown",
+      "img": ["../img/IMG_3029.jpg"],
+      "price": "От 32 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3029.jpg"
+    },
+    {
+      "model": "Bearbrick Oasis 1000% Black Rubber",
+      "img": ["../img/IMG_3039.jpg"],
+      "price": "От 123 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3039.jpg"
+    },
+    {
+      "model": "Bearbrick ADER 1000%",
+      "img": ["../img/IMG_3026.jpg"],
+      "price": "От 138 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_3026.jpg"
+    },
+    {
+      "model": "GCDS x Bearbrick MACAU 2022 100% and 400%",
+      "img": ["../img/IMG_8391.jpg"],
+      "price": "От 25 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_8391.jpg"
+    },
+    {
+      "model": "Bearbrick x Care Bears Cheer Bear Costume Ver. 400% Pink",
+      "img": ["../img/IMG_2688.jpg"],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_2688.jpg"
+    },
+    {
+      "model": "Bearbrick Flora Flower 400%",
+      "img": ["../img/IMG_2687.jpg"],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_2687.jpg"
+    },
+    {
+      "model": "Bearbrick x Acronym White Chrome 100% & 400% Set",
+      "img": ["../img/IMG_5528.jpg"],
+      "price": "От 57 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5528.jpg"
+    },
+    {
+      "model": "Bearbrick The British Museum (The Gayer-Anderson Cat) 100% & 400% Set",
+      "img": ["../img/IMG_5527.jpg"],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5527.jpg"
+    },
+    {
+      "model": "Bearbrick x Grateful Dead (Dancing Bear) 100% & 400% Set",
+      "img": ["../img/IMG_5526.jpg"],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/IMG_5526.jpg"
+    },
+    {
+      "model": "Bearbrick Shareef 3 100% & 400% Set",
+      "img": ["../img/BearbrickShareef3100_400_Set.jpg"],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/BearbrickShareef3100_400_Set.jpg"
+    },
+    {
+      "model": "Bearbrick Jean Michel Basquiat #8 100% and 400%",
+      "img": [
+        "../img/bearbrick-jean-michel-basquiat-8-100-400-3.jpg",
+        "../img/bearbrick-jean-michel-basquiat-8-100-400-2.jpg",
+        "../img/bearbrick-jean-michel-basquiat-8-100-400.jpg"
+      ],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-jean-michel-basquiat-8-100-400.jpg"
+    },
+    {
+      "model": "Bearbrick Disneyfuture Mickey Mouse x Sorayama 1000%",
+      "img": [
+        "../img/bearbrick-1000-disneyfuture-mickey-mouse-x-sorayama-3.jpg",
+        "../img/bearbrick-1000-disneyfuture-mickey-mouse-x-sorayama-2.jpg",
+        "../img/bearbrick-1000-disneyfuture-mickey-mouse-x-sorayama.jpg"
+      ],
+      "price": "От 208 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-1000-disneyfuture-mickey-mouse-x-sorayama.jpg"
+    },
+    {
+      "model": "Bearbrick Andy Warhol x Jean Michel Basquiat #2 100% and 400%",
+      "img": [
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-2-100-400-4.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-2-100-400-3.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-2-100-400-2.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-2-100-400.jpg"
+      ],
+      "price": "От 45 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-2-100-400.jpg"
+    },
+    {
+      "model": "Bearbrick Andy Warhol x Jean Michel Basquiat #2 1000%",
+      "img": [
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-2-1000-4.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-2-1000-3.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-2-1000-2.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-2-1000.jpg"
+      ],
+      "price": "От 93 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-2-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Andy Warhol x Jean Michel Basquiat #4 400%",
+      "img": [
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-4-400-4.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-4-400-3.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-4-400-2.jpg",
+        "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-4-400.jpg"
+      ],
+      "price": "От 39 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-andy-warhol-x-jean-michel-basquiat-4-400.jpg"
+    },
+    {
+      "model": "Bearbrick Utagawa Kuniyoshi The Haunted Old Palace 100% and 400%",
+      "img": [
+        "../img/bearbrick-utagawa-kuniyoshi-the-haunted-old-palace-400-4.jpg",
+        "../img/bearbrick-utagawa-kuniyoshi-the-haunted-old-palace-400-3.jpg",
+        "../img/bearbrick-utagawa-kuniyoshi-the-haunted-old-palace-400-2.jpg",
+        "../img/bearbrick-utagawa-kuniyoshi-the-haunted-old-palace-400.jpg"
+      ],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-utagawa-kuniyoshi-the-haunted-old-palace-400.jpg"
+    },
+    {
+      "model": "Bearbrick Utagawa Kuniyoshi The Haunted Old Palace 1000%",
+      "img": [
+        "../img/bearbrick-utagawa-kuniyoshi-the-haunted-old-palace-1000-4.jpg",
+        "../img/bearbrick-utagawa-kuniyoshi-the-haunted-old-palace-1000-3.jpg",
+        "../img/bearbrick-utagawa-kuniyoshi-the-haunted-old-palace-1000-2.jpg",
+        "../img/bearbrick-utagawa-kuniyoshi-the-haunted-old-palace-1000.jpg"
+      ],
+      "price": "От 103 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-utagawa-kuniyoshi-the-haunted-old-palace-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Toshusai Sharaku Sansei Otanioniji No Ya 100% and 400%",
+      "img": [
+        "../img/bearbrick-toshusai-sharaku-sansei-otanioniji-no-ya-400-4.jpg",
+        "../img/bearbrick-toshusai-sharaku-sansei-otanioniji-no-ya-400-3.jpg",
+        "../img/bearbrick-toshusai-sharaku-sansei-otanioniji-no-ya-400-2.jpg",
+        "../img/bearbrick-toshusai-sharaku-sansei-otanioniji-no-ya-400.jpg"
+      ],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-toshusai-sharaku-sansei-otanioniji-no-ya-400.jpg"
+    },
+    {
+      "model": "Bearbrick Tony The Tiger 100% and 400%",
+      "img": [
+        "../img/bearbrick-tony-the-tiger-100-and-400-4.jpg",
+        "../img/bearbrick-tony-the-tiger-100-and-400-3.jpg",
+        "../img/bearbrick-tony-the-tiger-100-and-400-2.jpg",
+        "../img/bearbrick-tony-the-tiger-100-and-400.jpg"
+      ],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-tony-the-tiger-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Benjamin Grant Tokyo 100% and 400%",
+      "img": [
+        "../img/bearbrick-benjamin-grant-tokyo-100-and-400-4.jpg",
+        "../img/bearbrick-benjamin-grant-tokyo-100-and-400-3.jpg",
+        "../img/bearbrick-benjamin-grant-tokyo-100-and-400-2.jpg",
+        "../img/bearbrick-benjamin-grant-tokyo-100-and-400.jpg"
+      ],
+      "price": "От 38 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-benjamin-grant-tokyo-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick x Kellogg's Sooty The Bear 400%",
+      "img": [
+        "../img/bearbrick-x-kelloggs-sooty-the-bear-400-4.jpg",
+        "../img/bearbrick-x-kelloggs-sooty-the-bear-400-3.jpg",
+        "../img/bearbrick-x-kelloggs-sooty-the-bear-400-2.jpg",
+        "../img/bearbrick-x-kelloggs-sooty-the-bear-400.jpg"
+      ],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-x-kelloggs-sooty-the-bear-400.jpg"
+    },
+    {
+      "model": "Bearbrick Hitohata Rabbit 1000%",
+      "img": [
+        "../img/bearbrick-hitohata-rabbit-1000-4.jpg",
+        "../img/bearbrick-hitohata-rabbit-1000-3.jpg",
+        "../img/bearbrick-hitohata-rabbit-1000-2.jpg",
+        "../img/bearbrick-hitohata-rabbit-1000.jpg"
+      ],
+      "price": "От 96 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-hitohata-rabbit-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Grateful Dead Dancing Bears 1000%",
+      "img": [
+        "../img/bearbrick-1000-grateful-dead-dancing-bears-4.jpg",
+        "../img/bearbrick-1000-grateful-dead-dancing-bears-3.jpg",
+        "../img/bearbrick-1000-grateful-dead-dancing-bears-2.jpg",
+        "../img/bearbrick-1000-grateful-dead-dancing-bears.jpg"
+      ],
+      "price": "От 287 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-1000-grateful-dead-dancing-bears.jpg"
+    },
+    {
+      "model": "Bearbrick Andy Warhols Marilyn Monroe 1000%",
+      "img": [
+        "../img/bearbrick-andy-warhols-marilyn-monroe-1000-4.jpg",
+        "../img/bearbrick-andy-warhols-marilyn-monroe-1000-3.jpg",
+        "../img/bearbrick-andy-warhols-marilyn-monroe-1000-2.jpg",
+        "../img/bearbrick-andy-warhols-marilyn-monroe-1000.jpg"
+      ],
+      "price": "От 118 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-andy-warhols-marilyn-monroe-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Love Rat 100% and 400%",
+      "img": [
+        "../img/bearbrick-love-rat-100-and-400-4.jpg",
+        "../img/bearbrick-love-rat-100-and-400-3.jpg",
+        "../img/bearbrick-love-rat-100-and-400-2.jpg",
+        "../img/bearbrick-love-rat-100-and-400.jpg"
+      ],
+      "price": "От 46 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-love-rat-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Riot Cop 100% and 400%",
+      "img": [
+        "../img/bearbrick-riot-cop-100-and-400-4.jpg",
+        "../img/bearbrick-riot-cop-100-and-400-3.jpg",
+        "../img/bearbrick-riot-cop-100-and-400-2.jpg",
+        "../img/bearbrick-riot-cop-100-and-400.jpg"
+      ],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-riot-cop-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Pil Chrome 100% and 400%",
+      "img": [
+        "../img/bearbrick-pil-chrome-100-and-400-4.jpg",
+        "../img/bearbrick-pil-chrome-100-and-400-3.jpg",
+        "../img/bearbrick-pil-chrome-100-and-400-2.jpg",
+        "../img/bearbrick-pil-chrome-100-and-400.jpg"
+      ],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-pil-chrome-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Batman Hush 100% and 400%",
+      "img": [
+        "../img/bearbrick-batman-hush-100-and-400-4.jpg",
+        "../img/bearbrick-batman-hush-100-and-400-3.jpg",
+        "../img/bearbrick-batman-hush-100-and-400-2.jpg",
+        "../img/bearbrick-batman-hush-100-and-400.jpg"
+      ],
+      "price": "От 47 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-batman-hush-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Johannes Vermeer 100% and 400%",
+      "img": [
+        "../img/bearbrick-johannes-vermeer-100-and-400-4.jpg",
+        "../img/bearbrick-johannes-vermeer-100-and-400-3.jpg",
+        "../img/bearbrick-johannes-vermeer-100-and-400-2.jpg",
+        "../img/bearbrick-johannes-vermeer-100-and-400.jpg"
+      ],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-johannes-vermeer-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Anti Social Social Club 1000%",
+      "img": [
+        "../img/bearbrick-1000-anti-social-social-club-3.jpg",
+        "../img/bearbrick-1000-anti-social-social-club-2.jpg",
+        "../img/bearbrick-1000-anti-social-social-club.jpg",
+        "../img/bearbrick-1000-anti-social-social-club-4.jpg"
+      ],
+      "price": "От 188 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-1000-anti-social-social-club.jpg"
+    },
+    {
+      "model": "Bearbrick Louis De Guzman 1000%",
+      "img": [
+        "../img/bearbrick-louis-de-guzman-1000-4.jpg",
+        "../img/bearbrick-louis-de-guzman-1000-3.jpg",
+        "../img/bearbrick-louis-de-guzman-1000-2.jpg",
+        "../img/bearbrick-louis-de-guzman-1000.jpg"
+      ],
+      "price": "От 123 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-louis-de-guzman-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Pil 100% and 1000%",
+      "img": [
+        "../img/bearbrick-pil-100-and-1000-5.jpg",
+        "../img/bearbrick-pil-100-and-1000-4.jpg",
+        "../img/bearbrick-pil-100-and-1000-3.jpg",
+        "../img/bearbrick-pil-100-and-1000-2.jpg",
+        "../img/bearbrick-pil-100-and-1000.jpg"
+      ],
+      "price": "От 128 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-pil-100-and-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Tweety 100% and 400%",
+      "img": [
+        "../img/bearbrick-tweety-100-and-400-4.jpg",
+        "../img/bearbrick-tweety-100-and-400-3.jpg",
+        "../img/bearbrick-tweety-100-and-400-2.jpg",
+        "../img/bearbrick-tweety-100-and-400.jpg"
+      ],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-tweety-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Matthew 100% and 400%",
+      "img": [
+        "../img/bearbrick-matthew-100-and-400-3.jpg",
+        "../img/bearbrick-matthew-100-and-400-2.jpg",
+        "../img/bearbrick-matthew-100-and-400.jpg"
+      ],
+      "price": "От 45 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-matthew-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Keith Haring №8 1000%",
+      "img": [
+        "../img/bearbrick-keith-haring-8-1000-4.jpg",
+        "../img/bearbrick-keith-haring-8-1000-3.jpg",
+        "../img/bearbrick-keith-haring-8-1000-2.jpg",
+        "../img/bearbrick-keith-haring-8-1000.jpg"
+      ],
+      "price": "От 113 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-keith-haring-8-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Highwayman 100% and 400%",
+      "img": [
+        "../img/bearbrick-highwayman-100-and-400-4.jpg",
+        "../img/bearbrick-highwayman-100-and-400-3.jpg",
+        "../img/bearbrick-highwayman-100-and-400-2.jpg",
+        "../img/bearbrick-highwayman-100-and-400.jpg"
+      ],
+      "price": "От 43 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-highwayman-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Space Shuttle 1000%",
+      "img": [
+        "../img/bearbrick-space-shuttle-1000-4.jpg",
+        "../img/bearbrick-space-shuttle-1000-3.jpg",
+        "../img/bearbrick-space-shuttle-1000-2.jpg",
+        "../img/bearbrick-space-shuttle-1000.jpg"
+      ],
+      "price": "От 103 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-space-shuttle-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Tristan Eaton 1000%",
+      "img": [
+        "../img/bearbrick-tristan-eaton-1000-4.jpg",
+        "../img/bearbrick-tristan-eaton-1000-3.jpg",
+        "../img/bearbrick-tristan-eaton-1000-2.jpg",
+        "../img/bearbrick-tristan-eaton-1000.jpg"
+      ],
+      "price": "От 103 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-tristan-eaton-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Death Stranding 1000%",
+      "img": [
+        "../img/bearbrick-death-stranding-1000-4.jpg",
+        "../img/bearbrick-death-stranding-1000-3.jpg",
+        "../img/bearbrick-death-stranding-1000-2.jpg",
+        "../img/bearbrick-death-stranding-1000.jpg"
+      ],
+      "price": "От 117 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-death-stranding-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Space Invaders 1000%",
+      "img": [
+        "../img/bearbrick-space-invaders-1000-4.jpg",
+        "../img/bearbrick-space-invaders-1000-3.jpg",
+        "../img/bearbrick-space-invaders-1000-2.jpg",
+        "../img/bearbrick-space-invaders-1000.jpg"
+      ],
+      "price": "От 108 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-space-invaders-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Joe-Cool 1000%",
+      "img": [
+        "../img/bearbrick-joe-cool-1000-4.jpg",
+        "../img/bearbrick-joe-cool-1000-3.jpg",
+        "../img/bearbrick-joe-cool-1000-2.jpg",
+        "../img/bearbrick-joe-cool-1000.jpg"
+      ],
+      "price": "От 103 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-joe-cool-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Pac-Man 1000%",
+      "img": [
+        "../img/bearbrick-pac-man-1000-4.jpg",
+        "../img/bearbrick-pac-man-1000-3.jpg",
+        "../img/bearbrick-pac-man-1000-2.jpg",
+        "../img/bearbrick-pac-man-1000.jpg"
+      ],
+      "price": "От 118 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-pac-man-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Riot Cop 1000%",
+      "img": [
+        "../img/bearbrick-riot-cop-1000-4.jpg",
+        "../img/bearbrick-riot-cop-1000-3.jpg",
+        "../img/bearbrick-riot-cop-1000-2.jpg",
+        "../img/bearbrick-riot-cop-1000.jpg"
+      ],
+      "price": "От 108 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-riot-cop-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Love Rat 1000%",
+      "img": [
+        "../img/bearbrick-love-rat-1000-4.jpg",
+        "../img/bearbrick-love-rat-1000-3.jpg",
+        "../img/bearbrick-love-rat-1000-2.jpg",
+        "../img/bearbrick-love-rat-1000.jpg"
+      ],
+      "price": "От 113 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-love-rat-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Pil Chrome 1000%",
+      "img": [
+        "../img/bearbrick-pil-chrome-1000-4.jpg",
+        "../img/bearbrick-pil-chrome-1000-3.jpg",
+        "../img/bearbrick-pil-chrome-1000-2.jpg",
+        "../img/bearbrick-pil-chrome-1000.jpg"
+      ],
+      "price": "От 98 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-pil-chrome-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Anever 1000%",
+      "img": [
+        "../img/bearbrick-anever-1000-4.jpg",
+        "../img/bearbrick-anever-1000-3.jpg",
+        "../img/bearbrick-anever-1000-2.jpg",
+        "../img/bearbrick-anever-1000.jpg"
+      ],
+      "price": "От 108 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-anever-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Tweety 1000%",
+      "img": [
+        "../img/bearbrick-tweety-1000-4.jpg",
+        "../img/bearbrick-tweety-1000-3.jpg",
+        "../img/bearbrick-tweety-1000-2.jpg",
+        "../img/bearbrick-tweety-1000.jpg"
+      ],
+      "price": "От 101 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-tweety-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Highwayman 1000%",
+      "img": [
+        "../img/bearbrick-highwayman-1000-4.jpg",
+        "../img/bearbrick-highwayman-1000-3.jpg",
+        "../img/bearbrick-highwayman-1000-2.jpg",
+        "../img/bearbrick-highwayman-1000.jpg"
+      ],
+      "price": "От 98 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-highwayman-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Death Stranding 100% and 400%",
+      "img": [
+        "../img/bearbrick-death-stranding-100-and-400-4.jpg",
+        "../img/bearbrick-death-stranding-100-and-400-3.jpg",
+        "../img/bearbrick-death-stranding-100-and-400-2.jpg",
+        "../img/bearbrick-death-stranding-100-and-400.jpg"
+      ],
+      "price": "От 53 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-death-stranding-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Pink Panther 100% and 400%",
+      "img": [
+        "../img/bearbrick-pink-panther-100-and-400-4.jpg",
+        "../img/bearbrick-pink-panther-100-and-400-3.jpg",
+        "../img/bearbrick-pink-panther-100-and-400-2.jpg",
+        "../img/bearbrick-pink-panther-100-and-400.jpg"
+      ],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-pink-panther-100-and-400.jpg"
+    },
+    {
+      "model": "Bearbrick Benjamin Grant Fuji 1000%",
+      "img": [
+        "../img/bearbrick-benjamin-grant-fuji-1000-4.jpg",
+        "../img/bearbrick-benjamin-grant-fuji-1000-3.jpg",
+        "../img/bearbrick-benjamin-grant-fuji-1000-2.jpg",
+        "../img/bearbrick-benjamin-grant-fuji-1000.jpg"
+      ],
+      "price": "От 113 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-benjamin-grant-fuji-1000.jpg"
+    },
+    {
+      "model": "Bearbrick Benjamin Grant Tokyo 1000%",
+      "img": [
+        "../img/bearbrick-benjamin-grant-tokyo.jpg",
+        "../img/bearbrick-benjamin-grant-tokyo-4.jpg",
+        "../img/bearbrick-benjamin-grant-tokyo-3.jpg",
+        "../img/bearbrick-benjamin-grant-tokyo-2.jpg"
+      ],
+      "price": "От 113 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-benjamin-grant-tokyo.jpg"
+    },
+    {
+      "model": "Bearbrick The British Museum Rosetta Stone 100% and 400%",
+      "img": [
+        "../img/bearbrick-the-british-museum-rosetta-stone-4.jpg",
+        "../img/bearbrick-the-british-museum-rosetta-stone-3.jpg",
+        "../img/bearbrick-the-british-museum-rosetta-stone-2.jpg",
+        "../img/bearbrick-the-british-museum-rosetta-stone.jpg"
+      ],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-the-british-museum-rosetta-stone.jpg"
+    },
+    {
+      "model": "Bearbrick Benjamin Grant Overview Fuji 100% & 400% Set",
+      "img": [
+        "../img/bearbrick-benjamin-grant-fuji-100-and-400-4.jpg",
+        "../img/bearbrick-benjamin-grant-fuji-100-and-400-3.jpg",
+        "../img/bearbrick-benjamin-grant-fuji-100-and-400-2.jpg",
+        "../img/bearbrick-benjamin-grant-fuji-100-and-400.jpg"
+      ],
+      "price": "От 40 000 ₽",
+      "brand": "Kaws",
+      "thum": "../img/bearbrick-benjamin-grant-fuji-100-and-400.jpg"
+    }
+  ]
+}

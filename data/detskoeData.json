@@ -1,0 +1,1217 @@
+{
+  "products": [
+    {
+      "model": "Air Jordan 2 Retro PS Lucky Green",
+      "img": ["../img/IMG_4156.jpg"],
+      "price": "От 30 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/IMG_4156.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High OG PS Chicago Lost and Found",
+      "img": [
+        "../img/air-jordan-1-high-retro-high-og-ps-chicago-lost-found.jpg",
+        "../img/air-jordan-1-high-retro-high-og-ps-chicago-lost-found-2.jpg",
+        "../img/air-jordan-1-high-retro-high-og-ps-chicago-lost-found-3.jpg",
+        "../img/air-jordan-1-high-retro-high-og-ps-chicago-lost-found-4.jpg",
+        "../img/air-jordan-1-high-retro-high-og-ps-chicago-lost-found-5.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-high-retro-high-og-ps-chicago-lost-found.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro Low OG SP PS Travis Scott Black Phantom",
+      "img": [
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-ps.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-ps-2.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-ps-3.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-ps-4.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-ps-5.jpg"
+      ],
+      "price": "От 26 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro Low OG SP TD Travis Scott Black Phantom",
+      "img": [
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-td.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-td-2.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-td-3.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-td-4.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-td-5.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-retro-low-og-sp-travis-scott-black-phantom-td.jpg"
+    },
+    {
+      "model": "Dunk Low TD White Gypsy Rose",
+      "img": [
+        "../img/nike-dunk-low-white-gypsy-rose-td.jpg",
+        "../img/nike-dunk-low-white-gypsy-rose-td-2.jpg",
+        "../img/nike-dunk-low-white-gypsy-rose-td-3.jpg",
+        "../img/nike-dunk-low-white-gypsy-rose-td-4.jpg",
+        "../img/nike-dunk-low-white-gypsy-rose-td-5.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/nike-dunk-low-white-gypsy-rose-td.jpg"
+    },
+    {
+      "model": "Dunk Low PS Halloween 2022",
+      "img": [
+        "../img/dunk-low-se-halloween-cauldron-ps.jpg",
+        "../img/dunk-low-se-halloween-cauldron-ps-2.jpg",
+        "../img/dunk-low-se-halloween-cauldron-ps-3.jpg",
+        "../img/dunk-low-se-halloween-cauldron-ps-4.jpg",
+        "../img/dunk-low-se-halloween-cauldron-ps-5.jpg"
+      ],
+      "price": "От 20 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/dunk-low-se-halloween-cauldron-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid TD Diamond Shorts",
+      "img": [
+        "../img/air-jordan-1-mid-se-td-diamond.jpg",
+        "../img/air-jordan-1-mid-se-td-diamond-2.jpg",
+        "../img/air-jordan-1-mid-se-td-diamond-3.jpg",
+        "../img/air-jordan-1-mid-se-td-diamond-4.jpg",
+        "../img/air-jordan-1-mid-se-td-diamond-5.jpg"
+      ],
+      "price": "От 26 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-mid-se-td-diamond.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High OG TD Chicago Lost and Found",
+      "img": [
+        "../img/air-jordan-1-high-retro-og-td-lost-and-found.jpg",
+        "../img/air-jordan-1-high-retro-og-td-lost-and-found-2.jpg",
+        "../img/air-jordan-1-high-retro-og-td-lost-and-found-3.jpg",
+        "../img/air-jordan-1-high-retro-og-td-lost-and-found-4.jpg",
+        "../img/air-jordan-1-high-retro-og-td-lost-and-found-5.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-high-retro-og-td-lost-and-found.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Crib Bootie I Taxi",
+      "img": ["../img/IMG_7382.jpg"],
+      "price": "От 17 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/IMG_7382.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid Alt SE PS Orange Suede",
+      "img": ["../img/IMG_8741.jpg"],
+      "price": "От 24 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/IMG_8741.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid ALT PS Barely Grape",
+      "img": ["../img/IMG_5722.jpg"],
+      "price": "От 27 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/IMG_5722.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid SE PS Coconut Milk Particle Grey",
+      "img": [
+        "../img/jordan-1-mid-se-ps-coconut-milk.jpg",
+        "../img/jordan-1-mid-se-ps-coconut-milk-2.jpg",
+        "../img/jordan-1-mid-se-ps-coconut-milk-3.jpg",
+        "../img/jordan-1-mid-se-ps-coconut-milk-4.jpg",
+        "../img/jordan-1-mid-se-ps-coconut-milk-5.jpg"
+      ],
+      "price": "От 24 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/jordan-1-mid-se-ps-coconut-milk.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid SE PS White Pine Green Smoke Grey",
+      "img": [
+        "../img/air-jordan-1-mid-se-white-pine-green-smoke-grey-ps.jpg",
+        "../img/air-jordan-1-mid-se-white-pine-green-smoke-grey-ps-2.jpg",
+        "../img/air-jordan-1-mid-se-white-pine-green-smoke-grey-ps-3.jpg",
+        "../img/air-jordan-1-mid-se-white-pine-green-smoke-grey-ps-4.jpg",
+        "../img/air-jordan-1-mid-se-white-pine-green-smoke-grey-ps-5.jpg"
+      ],
+      "price": "От 27 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-mid-se-white-pine-green-smoke-grey-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid Alt TD White Black Red Spruce",
+      "img": ["../img/IMG_5733.jpg"],
+      "price": "От 20 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/IMG_5733.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Infant Light",
+      "img": [
+        "../img/yeezy-boost-350-v2-infant-light.jpg",
+        "../img/yeezy-boost-350-v2-infant-light-2.jpg",
+        "../img/yeezy-boost-350-v2-infant-light-3.jpg",
+        "../img/yeezy-boost-350-v2-infant-light-4.jpg",
+        "../img/yeezy-boost-350-v2-infant-light-5.jpg"
+      ],
+      "price": "От 43 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/yeezy-boost-350-v2-infant-light.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS Black Fire Red",
+      "img": [
+        "../img/jordan-1-mid-ps-alternate-bred-toe.jpg",
+        "../img/jordan-1-mid-ps-alternate-bred-toe-2.jpg",
+        "../img/jordan-1-mid-ps-alternate-bred-toe-3.jpg",
+        "../img/jordan-1-mid-ps-alternate-bred-toe-4.jpg",
+        "../img/jordan-1-mid-ps-alternate-bred-toe-5.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/jordan-1-mid-ps-alternate-bred-toe.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS White Shadow",
+      "img": [
+        "../img/air-jordan-1-mid-white-shadow-ps.jpg",
+        "../img/air-jordan-1-mid-white-shadow-ps-2.jpg",
+        "../img/air-jordan-1-mid-white-shadow-ps-3.jpg",
+        "../img/air-jordan-1-mid-white-shadow-ps-4.jpg",
+        "../img/air-jordan-1-mid-white-shadow-ps-5.jpg"
+      ],
+      "price": "От 31 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-mid-white-shadow-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS White Pollen Black",
+      "img": [
+        "../img/air-jordan-1-mid-white-pollen-black-ps.jpg",
+        "../img/air-jordan-1-mid-white-pollen-black-ps-2.jpg",
+        "../img/air-jordan-1-mid-white-pollen-black-ps-3.jpg",
+        "../img/air-jordan-1-mid-white-pollen-black-ps-4.jpg",
+        "../img/air-jordan-1-mid-white-pollen-black-ps-5.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-mid-white-pollen-black-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS Mystic Navy Mint Foam",
+      "img": [
+        "../img/air-jordan-1-mid-mystic-navy-ps.jpg",
+        "../img/air-jordan-1-mid-mystic-navy-ps-2.jpg",
+        "../img/air-jordan-1-mid-mystic-navy-ps-3.jpg",
+        "../img/air-jordan-1-mid-mystic-navy-ps-4.jpg",
+        "../img/air-jordan-1-mid-mystic-navy-ps-5.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-mid-mystic-navy-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS Metallic Gold Black White",
+      "img": [
+        "../img/air-jordan-1-mid-metallic-gold-black-white-ps.jpg",
+        "../img/air-jordan-1-mid-metallic-gold-black-white-ps-2.jpg",
+        "../img/air-jordan-1-mid-metallic-gold-black-white-ps.jpg",
+        "../img/air-jordan-1-mid-metallic-gold-black-white-ps-4.jpg",
+        "../img/air-jordan-1-mid-metallic-gold-black-white-ps-5.jpg"
+      ],
+      "price": "От 28 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-mid-metallic-gold-black-white-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS Gym Red Black White",
+      "img": [
+        "../img/air-jordan-1-mid-gym-red-black-white-ps.jpg",
+        "../img/air-jordan-1-mid-gym-red-black-white-ps-2.jpg",
+        "../img/air-jordan-1-mid-gym-red-black-white-ps-3.jpg",
+        "../img/air-jordan-1-mid-gym-red-black-white-ps-4.jpg",
+        "../img/air-jordan-1-mid-gym-red-black-white-ps-5.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-mid-gym-red-black-white-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS Dark Iris",
+      "img": [
+        "../img/air-jordan-1-mid-dark-iris-ps.jpg",
+        "../img/air-jordan-1-mid-dark-iris-ps-2.jpg",
+        "../img/air-jordan-1-mid-dark-iris-ps-3.jpg",
+        "../img/air-jordan-1-mid-dark-iris-ps-4.jpg",
+        "../img/air-jordan-1-mid-dark-iris-ps-5.jpg"
+      ],
+      "price": "От 26 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-mid-dark-iris-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro Low OG SP PS Travis Scott Olive",
+      "img": [
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-olive-ps.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-olive-ps-2.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-olive-ps-3.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-olive-ps-4.jpg",
+        "../img/air-jordan-1-retro-low-og-sp-travis-scott-olive-ps-5.jpg"
+      ],
+      "price": "От 29 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-retro-low-og-sp-travis-scott-olive-ps.jpg"
+    },
+    {
+      "model": "Dunk Low TD Two-Toned Grey",
+      "img": [
+        "../img/nike-dunk-low-two-toned-grey-td.jpg",
+        "../img/nike-dunk-low-two-toned-grey-td-2.jpg",
+        "../img/nike-dunk-low-two-toned-grey-td-3.jpg",
+        "../img/nike-dunk-low-two-toned-grey-td-4.jpg",
+        "../img/nike-dunk-low-two-toned-grey-td-5.jpg"
+      ],
+      "price": "От 18 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/nike-dunk-low-two-toned-grey-td.jpg"
+    },
+    {
+      "model": "SB Dunk Low PS St. Patrick's Day 2022",
+      "img": [
+        "../img/sb-dunk-low-st-patricks-day-2022-ps-5.jpg",
+        "../img/sb-dunk-low-st-patricks-day-2022-ps-4.jpg",
+        "../img/sb-dunk-low-st-patricks-day-2022-ps-3.jpg",
+        "../img/sb-dunk-low-st-patricks-day-2022-ps-2.jpg",
+        "../img/sb-dunk-low-st-patricks-day-2022-ps.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/sb-dunk-low-st-patricks-day-2022-ps.jpg"
+    },
+    {
+      "model": "SB Dunk Low PS Los Angeles Dodgers",
+      "img": [
+        "../img/sb-dunk-low-ps-los-angeles-dodgers-5.jpg",
+        "../img/sb-dunk-low-ps-los-angeles-dodgers-4.jpg",
+        "../img/sb-dunk-low-ps-los-angeles-dodgers-3.jpg",
+        "../img/sb-dunk-low-ps-los-angeles-dodgers-2.jpg",
+        "../img/sb-dunk-low-ps-los-angeles-dodgers.jpg"
+      ],
+      "price": "От 29 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/sb-dunk-low-ps-los-angeles-dodgers.jpg"
+    },
+    {
+      "model": "Dunk Low PS White Gypsy Rose",
+      "img": [
+        "../img/dunk-low-white-gypsy-rose-ps-5.jpg",
+        "../img/dunk-low-white-gypsy-rose-ps-4.jpg",
+        "../img/dunk-low-white-gypsy-rose-ps-3.jpg",
+        "../img/dunk-low-white-gypsy-rose-ps-2.jpg",
+        "../img/dunk-low-white-gypsy-rose-ps.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/dunk-low-white-gypsy-rose-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid TD Top 3",
+      "img": ["../img/IMG_3980.jpg"],
+      "price": "От 28 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/IMG_3980.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid ALT Utility PS Fleece Pearl White",
+      "img": ["../img/IMG_3979.jpg"],
+      "price": "От 18 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/IMG_3979.jpg"
+    },
+    {
+      "model": "Air Jordan 2 Retro OG TD Chicago 2022",
+      "img": ["../img/IMG_3861.jpg"],
+      "price": "От 18 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/IMG_3861.jpg"
+    },
+    {
+      "model": "Air Jordan 4 Retro TD University Blue",
+      "img": [
+        "../img/jordan-4-retro-td-university-blue-5.jpg",
+        "../img/jordan-4-retro-td-university-blue-4.jpg",
+        "../img/jordan-4-retro-td-university-blue-3.jpg",
+        "../img/jordan-4-retro-td-university-blue-2.jpg",
+        "../img/jordan-4-retro-td-university-blue.jpg"
+      ],
+      "price": "От 20 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/jordan-4-retro-td-university-blue.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High OG PS Starfish",
+      "img": [
+        "../img/jordan-1-retro-high-og-ps-starfish-5.jpg",
+        "../img/jordan-1-retro-high-og-ps-starfish-4.jpg",
+        "../img/jordan-1-retro-high-og-ps-starfish-3.jpg",
+        "../img/jordan-1-retro-high-og-ps-starfish-2.jpg",
+        "../img/jordan-1-retro-high-og-ps-starfish.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/jordan-1-retro-high-og-ps-starfish.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS Armory Navy",
+      "img": [
+        "../img/jordan-1-mid-ps-armory-navy-5.jpg",
+        "../img/jordan-1-mid-ps-armory-navy-4.jpg",
+        "../img/jordan-1-mid-ps-armory-navy-3.jpg",
+        "../img/jordan-1-mid-ps-armory-navy-2.jpg",
+        "../img/jordan-1-mid-ps-armory-navy.jpg"
+      ],
+      "price": "От 26 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/jordan-1-mid-ps-armory-navy.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High OG PS Atmosphere",
+      "img": [
+        "../img/air-jordan-1-retro-high-og-ps-bubble-gum-5.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-bubble-gum-4.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-bubble-gum-3.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-bubble-gum-2.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-bubble-gum.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-retro-high-og-ps-bubble-gum.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid TD Armory Navy",
+      "img": [
+        "../img/air-jordan-1-mid-td-armory-navy-5.jpg",
+        "../img/air-jordan-1-mid-td-armory-navy-4.jpg",
+        "../img/air-jordan-1-mid-td-armory-navy-3.jpg",
+        "../img/air-jordan-1-mid-td-armory-navy-2.jpg",
+        "../img/air-jordan-1-mid-td-armory-navy.jpg"
+      ],
+      "price": "От 19 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-mid-td-armory-navy.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid SE PS Diamond",
+      "img": [
+        "../img/air-jordan-1-mid-se-diamond-ps-5.jpg",
+        "../img/air-jordan-1-mid-se-diamond-ps-4.jpg",
+        "../img/air-jordan-1-mid-se-diamond-ps-3.jpg",
+        "../img/air-jordan-1-mid-se-diamond-ps-2.jpg",
+        "../img/air-jordan-1-mid-se-diamond-ps.jpg"
+      ],
+      "price": "От 26 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-mid-se-diamond-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS Pinksicle Safety Orange",
+      "img": [
+        "../img/air-jordan-1-mid-pinksicle-safety-orange-ps-5.jpg",
+        "../img/air-jordan-1-mid-pinksicle-safety-orange-ps-4.jpg",
+        "../img/air-jordan-1-mid-pinksicle-safety-orange-ps-3.jpg",
+        "../img/air-jordan-1-mid-pinksicle-safety-orange-ps-2.jpg",
+        "../img/air-jordan-1-mid-pinksicle-safety-orange-ps.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-mid-pinksicle-safety-orange-ps.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS Racer Blue",
+      "img": [
+        "../img/jordan-1-mid-ps-black-white-racer-blue-5.jpg",
+        "../img/jordan-1-mid-ps-black-white-racer-blue-4.jpg",
+        "../img/jordan-1-mid-ps-black-white-racer-blue-3.jpg",
+        "../img/jordan-1-mid-ps-black-white-racer-blue-2.jpg",
+        "../img/jordan-1-mid-ps-black-white-racer-blue.jpg"
+      ],
+      "price": "От 28 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/jordan-1-mid-ps-black-white-racer-blue.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid TD Fleece Pearl White",
+      "img": ["../img/DO2210-264.jpg"],
+      "price": "От 19 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/DO2210-264.jpg"
+    },
+    {
+      "model": "Dunk Low TD Georgetown",
+      "img": [
+        "../img/dunk-low-td-georgetown-5.jpg",
+        "../img/dunk-low-td-georgetown-4.jpg",
+        "../img/dunk-low-td-georgetown-3.jpg",
+        "../img/dunk-low-td-georgetown-2.jpg",
+        "../img/dunk-low-td-georgetown.jpg"
+      ],
+      "price": "От 17 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/dunk-low-td-georgetown.jpg"
+    },
+    {
+      "model": "Dunk High PS Panda 2021",
+      "img": [
+        "../img/dunk-high-ps-panda-5.jpg",
+        "../img/dunk-high-ps-panda-4.jpg",
+        "../img/dunk-high-ps-panda-3.jpg",
+        "../img/dunk-high-ps-panda-2.jpg",
+        "../img/dunk-high-ps-panda.jpg"
+      ],
+      "price": "От 23 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/dunk-high-ps-panda.jpg"
+    },
+    {
+      "model": "Yeezy Slide Infant Glow Green",
+      "img": [
+        "../img/yeezy-slide-infant-glow-5.jpg",
+        "../img/yeezy-slide-infant-glow-4.jpg",
+        "../img/yeezy-slide-infant-glow-3.jpg",
+        "../img/yeezy-slide-infant-glow-2.jpg",
+        "../img/yeezy-slide-infant-glow.jpg"
+      ],
+      "price": "От 17 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/yeezy-slide-infant-glow.jpg"
+    },
+    {
+      "model": "Air Rubber Dunk PS Off-White - University Blue",
+      "img": ["../img/CW7410-00.jpg"],
+      "price": "От 35 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/CW7410-00.jpg"
+    },
+    {
+      "model": "Yeezy 450 Kids Cloud White",
+      "img": [
+        "../img/yeezy-450-kids-cloud-white-5.jpg",
+        "../img/yeezy-450-kids-cloud-white-4.jpg",
+        "../img/yeezy-450-kids-cloud-white-3.jpg",
+        "../img/yeezy-450-kids-cloud-white-2.jpg",
+        "../img/yeezy-450-kids-cloud-white.jpg"
+      ],
+      "price": "От 27 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/yeezy-450-kids-cloud-white.jpg"
+    },
+    {
+      "model": "Air Jordan 5 Retro PS Off-White Sail",
+      "img": [
+        "../img/air-jordan-5-retro-sp-ps-off-white-sail-5.jpg",
+        "../img/air-jordan-5-retro-sp-ps-off-white-sail-4.jpg",
+        "../img/air-jordan-5-retro-sp-ps-off-white-sail-3.jpg",
+        "../img/air-jordan-5-retro-sp-ps-off-white-sail-2.jpg",
+        "../img/air-jordan-5-retro-sp-ps-off-white-sail.jpg"
+      ],
+      "price": "От 34 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-5-retro-sp-ps-off-white-sail.jpg"
+    },
+    {
+      "model": "Dunk Low PS Georgetown",
+      "img": [
+        "../img/dunk-low-ps-georgetown-5.jpg",
+        "../img/dunk-low-ps-georgetown-4.jpg",
+        "../img/dunk-low-ps-georgetown-3.jpg",
+        "../img/dunk-low-ps-georgetown-2.jpg",
+        "../img/dunk-low-ps-georgetown.jpg"
+      ],
+      "price": "От 28 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/dunk-low-ps-georgetown.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High OG PS Heritage",
+      "img": [
+        "../img/air-jordan-1-retro-high-og-ps-heritage-5.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-heritage-4.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-heritage-3.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-heritage-2.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-heritage.jpg"
+      ],
+      "price": "От 24 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-retro-high-og-ps-heritage.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High OG PS Bred Patent",
+      "img": [
+        "../img/air-jordan-1-retro-high-og-ps-bred-patent-5.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-bred-patent-4.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-bred-patent-3.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-bred-patent-2.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-bred-patent.jpg"
+      ],
+      "price": "От 26 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-retro-high-og-ps-bred-patent.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High OG PS Pollen",
+      "img": [
+        "../img/air-jordan-1-retro-high-og-ps-pollen-5.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-pollen-4.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-pollen-3.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-pollen-2.jpg",
+        "../img/air-jordan-1-retro-high-og-ps-pollen.jpg"
+      ],
+      "price": "От 27 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-retro-high-og-ps-pollen.jpg"
+    },
+    {
+      "model": "Yeezy 450 Infant Dark Slate",
+      "img": ["../img/GY5370.jpg"],
+      "price": "От 35 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/GY5370.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High OG TD A Ma Maniére",
+      "img": [
+        "../img/jordan-1-retro-high-og-sp-td-a-ma-maniere-5.jpg",
+        "../img/jordan-1-retro-high-og-sp-td-a-ma-maniere-4.jpg",
+        "../img/jordan-1-retro-high-og-sp-td-a-ma-maniere-3.jpg",
+        "../img/jordan-1-retro-high-og-sp-td-a-ma-maniere-2.jpg",
+        "../img/jordan-1-retro-high-og-sp-td-a-ma-maniere.jpg"
+      ],
+      "price": "От 24 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/jordan-1-retro-high-og-sp-td-a-ma-maniere.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High OG PS A Ma Maniére",
+      "img": [
+        "../img/jordan-1-retro-high-og-sp-a-ma-maniere-5.jpg",
+        "../img/jordan-1-retro-high-og-sp-a-ma-maniere-4.jpg",
+        "../img/jordan-1-retro-high-og-sp-a-ma-maniere-3.jpg",
+        "../img/jordan-1-retro-high-og-sp-a-ma-maniere-2.jpg",
+        "../img/jordan-1-retro-high-og-sp-a-ma-maniere.jpg"
+      ],
+      "price": "От 23 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/jordan-1-retro-high-og-sp-a-ma-maniere.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids Core Black Red",
+      "img": ["../img/IMG_1411.jpg"],
+      "price": "От 23 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/IMG_1411.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids Slate",
+      "img": ["../img/001-adidas-yeezy-boost-350-v2-ki.jpg"],
+      "price": "От 65 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/001-adidas-yeezy-boost-350-v2-ki.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids Dazzling Blue",
+      "img": [
+        "../img/yeezy-boost-350-v2-kids-dazzling-blue-5.jpg",
+        "../img/yeezy-boost-350-v2-kids-dazzling-blue-4.jpg",
+        "../img/yeezy-boost-350-v2-kids-dazzling-blue-3.jpg",
+        "../img/yeezy-boost-350-v2-kids-dazzling-blue-2.jpg",
+        "../img/yeezy-boost-350-v2-kids-dazzling-blue.jpg"
+      ],
+      "price": "От 70 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/yeezy-boost-350-v2-kids-dazzling-blue.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro Low OG SP PS Travis Scott - Reverse Mocha",
+      "img": [
+        "../img/air-jordan-1-low-og-sp-ps-travis-scott-reverse-mocha-5.jpg",
+        "../img/air-jordan-1-low-og-sp-ps-travis-scott-reverse-mocha-4.jpg",
+        "../img/air-jordan-1-low-og-sp-ps-travis-scott-reverse-mocha-3.jpg",
+        "../img/air-jordan-1-low-og-sp-ps-travis-scott-reverse-mocha-2.jpg",
+        "../img/air-jordan-1-low-og-sp-ps-travis-scott-reverse-mocha.jpg"
+      ],
+      "price": "От 43 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-low-og-sp-ps-travis-scott-reverse-mocha.jpg"
+    },
+    {
+      "model": "Dunk Low PS Hot Curry Game Royal",
+      "img": [
+        "../img/dunk-low-ps-hot-curry-5.jpg",
+        "../img/dunk-low-ps-hot-curry-4.jpg",
+        "../img/dunk-low-ps-hot-curry-3.jpg",
+        "../img/dunk-low-ps-hot-curry-2.jpg",
+        "../img/dunk-low-ps-hot-curry.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/dunk-low-ps-hot-curry.jpg"
+    },
+    {
+      "model": "Dunk Low PS Chlorophyll",
+      "img": [
+        "../img/dunk-low-ps-chlorophyll-5.jpg",
+        "../img/dunk-low-ps-chlorophyll-4.jpg",
+        "../img/dunk-low-ps-chlorophyll-3.jpg",
+        "../img/dunk-low-ps-chlorophyll-2.jpg",
+        "../img/dunk-low-ps-chlorophyll.jpg"
+      ],
+      "price": "От 19 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/dunk-low-ps-chlorophyll.jpg"
+    },
+    {
+      "model": "Dunk Low PS Two-Toned Grey",
+      "img": [
+        "../img/dunk-low-ps-pure-platinum-5.jpg",
+        "../img/dunk-low-ps-pure-platinum-4.jpg",
+        "../img/dunk-low-ps-pure-platinum-3.jpg",
+        "../img/dunk-low-ps-pure-platinum-2.jpg",
+        "../img/dunk-low-ps-pure-platinum.jpg"
+      ],
+      "price": "От 19 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/dunk-low-ps-pure-platinum.jpg"
+    },
+    {
+      "model": "Dunk Low PS Triple Pink",
+      "img": [
+        "../img/dunk-low-triple-pink-ps-5.jpg",
+        "../img/dunk-low-triple-pink-ps-4.jpg",
+        "../img/dunk-low-triple-pink-ps-3.jpg",
+        "../img/dunk-low-triple-pink-ps-2.jpg",
+        "../img/dunk-low-triple-pink-ps.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/dunk-low-triple-pink-ps.jpg"
+    },
+    {
+      "model": "Dunk Low PS UNC 2021",
+      "img": [
+        "../img/nike-dunk-low-ps-unc-5.jpg",
+        "../img/nike-dunk-low-ps-unc-4.jpg",
+        "../img/nike-dunk-low-ps-unc-3.jpg",
+        "../img/nike-dunk-low-ps-unc-2.jpg",
+        "../img/nike-dunk-low-ps-unc.jpg"
+      ],
+      "price": "От 27 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/nike-dunk-low-ps-unc.jpg"
+    },
+    {
+      "model": "Dunk Low PRM PS Halloween 2021",
+      "img": [
+        "../img/dunk-low-prm-ps-halloween-2021-5.jpg",
+        "../img/dunk-low-prm-ps-halloween-2021-4.jpg",
+        "../img/dunk-low-prm-ps-halloween-2021-3.jpg",
+        "../img/dunk-low-prm-ps-halloween-2021-2.jpg",
+        "../img/dunk-low-prm-ps-halloween-2021.jpg"
+      ],
+      "price": "От 19 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/dunk-low-prm-ps-halloween-2021.jpg"
+    },
+    {
+      "model": "Air Jordan 4 Retro PS Lightning 2021",
+      "img": [
+        "../img/jordan-4-retro-ps-lightning-5.jpg",
+        "../img/jordan-4-retro-ps-lightning-4.jpg",
+        "../img/jordan-4-retro-ps-lightning-3.jpg",
+        "../img/jordan-4-retro-ps-lightning-2.jpg",
+        "../img/jordan-4-retro-ps-lightning.jpg"
+      ],
+      "price": "От 24 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/jordan-4-retro-ps-lightning.jpg"
+    },
+    {
+      "model": "Air Jordan 4 Retro PS Military Black",
+      "img": [
+        "../img/BQ7669-111-5.jpg",
+        "../img/BQ7669-111-4.jpg",
+        "../img/BQ7669-111-3.jpg",
+        "../img/BQ7669-111-2.jpg",
+        "../img/BQ7669-111.jpg"
+      ],
+      "price": "От 27 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/BQ7669-111.jpg"
+    },
+    {
+      "model": "Air Jordan 4 Retro PS Red Thunder",
+      "img": [
+        "../img/air-jordan-4-retro-ps-red-thunder-5.jpg",
+        "../img/air-jordan-4-retro-ps-red-thunder-4.jpg",
+        "../img/air-jordan-4-retro-ps-red-thunder-3.jpg",
+        "../img/air-jordan-4-retro-ps-red-thunder-2.jpg",
+        "../img/air-jordan-4-retro-ps-red-thunder.jpg"
+      ],
+      "price": "От 29 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-4-retro-ps-red-thunder.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High PS Satin Snake Chicago",
+      "img": [
+        "../img/air-jordan-1-high-retro-ps-satin-snake-5.jpg",
+        "../img/air-jordan-1-high-retro-ps-satin-snake-4.jpg",
+        "../img/air-jordan-1-high-retro-ps-satin-snake-3.jpg",
+        "../img/air-jordan-1-high-retro-ps-satin-snake-2.jpg",
+        "../img/air-jordan-1-high-retro-ps-satin-snake.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/air-jordan-1-high-retro-ps-satin-snake.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Low Alt PS Cool Grey",
+      "img": ["../img/BQ6066053.jpg"],
+      "price": "От 31 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/BQ6066053.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Low Alt PS Washed Denim",
+      "img": ["../img/DM8948100.jpg"],
+      "price": "От 19 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/DM8948100.jpg"
+    },
+    {
+      "model": "Sky Jordan 1 PS Pine Green Black",
+      "img": ["../img/bq7197003.jpg"],
+      "price": "От 54 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/bq7197003.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid Alt PS Taxi",
+      "img": ["../img/AR6351701.jpg"],
+      "price": "От 30 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/AR6351701.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid Alt PS Light Smoke Gray",
+      "img": ["../img/AR6351078.jpg"],
+      "price": "От 27 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/AR6351078.jpg"
+    },
+    {
+      "model": "Sky Jordan 1 PS Black Volt",
+      "img": ["../img/BQ7197007.jpg"],
+      "price": "От 81 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/BQ7197007.jpg"
+    },
+    {
+      "model": "Sky Jordan 1 PS Shattered Backboard",
+      "img": ["../img/BQ7197008.jpg"],
+      "price": "От 27 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/BQ7197008.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS Sonics 2021",
+      "img": [
+        "../img/640734371-5.jpg",
+        "../img/640734371-4.jpg",
+        "../img/640734371-3.jpg",
+        "../img/640734371-2.jpg",
+        "../img/640734371.jpg"
+      ],
+      "price": "От 27 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/640734371.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid PS Light Smoke Grey 2022",
+      "img": [
+        "../img/jordan-1-mid-ps-light-smoke-grey-5.jpg",
+        "../img/jordan-1-mid-ps-light-smoke-grey-4.jpg",
+        "../img/jordan-1-mid-ps-light-smoke-grey-3.jpg",
+        "../img/jordan-1-mid-ps-light-smoke-grey-2.jpg",
+        "../img/jordan-1-mid-ps-light-smoke-grey.jpg"
+      ],
+      "price": "От 26 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/jordan-1-mid-ps-light-smoke-grey.jpg"
+    },
+    {
+      "model": "Dunk Low EMB PS NBA 75th Anniversary Chicago",
+      "img": [
+        "../img/nike-dunk-low-ps-nba-chicago-bulls-5.jpg",
+        "../img/nike-dunk-low-ps-nba-chicago-bulls-4.jpg",
+        "../img/nike-dunk-low-ps-nba-chicago-bulls-3.jpg",
+        "../img/nike-dunk-low-ps-nba-chicago-bulls-2.jpg",
+        "../img/nike-dunk-low-ps-nba-chicago-bulls.jpg"
+      ],
+      "price": "От 21 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/nike-dunk-low-ps-nba-chicago-bulls.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids “Clay”",
+      "img": [
+        "../img/EG6872_5.png",
+        "../img/EG6872_4A.png",
+        "../img/EG6872_3.png",
+        "../img/EG6872_2_1.png",
+        "../img/EG6872_1_1.png"
+      ],
+      "price": "От 47 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/EG6872_1_1.png"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids “Cloud White”",
+      "img": [
+        "../img/yeezy-boost-350-v2-kids-cloud-white-5.jpg",
+        "../img/yeezy-boost-350-v2-kids-cloud-white-4.jpg",
+        "../img/yeezy-boost-350-v2-kids-cloud-white-3.jpg",
+        "../img/yeezy-boost-350-v2-kids-cloud-white-2.jpg",
+        "../img/yeezy-boost-350-v2-kids-cloud-white.jpg"
+      ],
+      "price": "От 45 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/yeezy-boost-350-v2-kids-cloud-white.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids Zyon",
+      "img": [
+        "../img/yeezy-boost-350-v2-kids-zyon-5.jpg",
+        "../img/yeezy-boost-350-v2-kids-zyon-4.jpg",
+        "../img/yeezy-boost-350-v2-kids-zyon-3.jpg",
+        "../img/yeezy-boost-350-v2-kids-zyon-2.jpg",
+        "../img/yeezy-boost-350-v2-kids-zyon.jpg"
+      ],
+      "price": "От 53 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/yeezy-boost-350-v2-kids-zyon.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids “Black”",
+      "img": [
+        "../img/fu9013_5.png",
+        "../img/fu9013_4a.png",
+        "../img/fu9013_3.png",
+        "../img/fu9013_2.png",
+        "../img/fu9013_1.png"
+      ],
+      "price": "От 83 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/fu9013_1.png"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Infant “Zyon”",
+      "img": [
+        "../img/FZ1284_5.png",
+        "../img/FZ1284_4A.png",
+        "../img/FZ1284_3.png",
+        "../img/FZ1284_2.png",
+        "../img/FZ1284_1.png"
+      ],
+      "price": "От 44 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/FZ1284_1.png"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Infant “Black”",
+      "img": [
+        "../img/FU9011_5.png",
+        "../img/FU9011_4A.png",
+        "../img/FU9011_3.png",
+        "../img/FU9011_2.png",
+        "../img/FU9011_1.png"
+      ],
+      "price": "От 60 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/FU9011_1.png"
+    },
+    {
+      "model": "Yeezy Boost 380 Infant Blue Oat",
+      "img": [
+        "../img/yeezy-boost-380-infant-blue-oat-5.jpg",
+        "../img/yeezy-boost-380-infant-blue-oat-4.jpg",
+        "../img/yeezy-boost-380-infant-blue-oat-3.jpg",
+        "../img/yeezy-boost-380-infant-blue-oat-2.jpg",
+        "../img/yeezy-boost-380-infant-blue-oat.jpg"
+      ],
+      "price": "От 33 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/yeezy-boost-380-infant-blue-oat.jpg"
+    },
+    {
+      "model": "Yeezy Boost 380 Kids Blue Oat",
+      "img": [
+        "../img/yeezy-boost-380-kids-blue-oat-5.jpg",
+        "../img/yeezy-boost-380-kids-blue-oat-4.jpg",
+        "../img/yeezy-boost-380-kids-blue-oat-3.jpg",
+        "../img/yeezy-boost-380-kids-blue-oat-2.jpg",
+        "../img/yeezy-boost-380-kids-blue-oat.jpg"
+      ],
+      "price": "От 38 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/yeezy-boost-380-kids-blue-oat.jpg"
+    },
+    {
+      "model": "Yeezy Boost 380 Infant Mist",
+      "img": [
+        "../img/yeezy-boost-380-infant-mist-2.jpg",
+        "../img/yeezy-boost-380-infant-mist.jpg"
+      ],
+      "price": "От 35 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/yeezy-boost-380-infant-mist.jpg"
+    },
+    {
+      "model": "Yeezy QNTM Infant Barium",
+      "img": [
+        "../img/yeezy-qntm-infant-barium-5.jpg",
+        "../img/yeezy-qntm-infant-barium-4.jpg",
+        "../img/yeezy-qntm-infant-barium-3.jpg",
+        "../img/yeezy-qntm-infant-barium-2.jpg",
+        "../img/yeezy-qntm-infant-barium.jpg"
+      ],
+      "price": "От 31 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/yeezy-qntm-infant-barium.jpg"
+    },
+    {
+      "model": "Yeezy QNTM Kids Barium",
+      "img": [
+        "../img/yzy-qntm-kids-barium-5.jpg",
+        "../img/yzy-qntm-kids-barium-4.jpg",
+        "../img/yzy-qntm-kids-barium-3.jpg",
+        "../img/yzy-qntm-kids-barium-2.jpg",
+        "../img/yzy-qntm-kids-barium.jpg"
+      ],
+      "price": "От 36 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/yzy-qntm-kids-barium.jpg"
+    },
+    {
+      "model": "Dunk Low PS Orange Pearl",
+      "img": [
+        "../img/DunkLowPSOrangePearl_5.jpg",
+        "../img/DunkLowPSOrangePearl_4.jpg",
+        "../img/DunkLowPSOrangePearl_3.jpg",
+        "../img/DunkLowPSOrangePearl_2.jpg",
+        "../img/DunkLowPSOrangePearl_1.jpg"
+      ],
+      "price": "От 26 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/DunkLowPSOrangePearl_1.jpg"
+    },
+    {
+      "model": "Dunk Low PS Black / White",
+      "img": [
+        "../img/DunkLowPSBlackWhite_5.jpg",
+        "../img/DunkLowPSBlackWhite_4.jpg",
+        "../img/DunkLowPSBlackWhite_3.jpg",
+        "../img/DunkLowPSBlackWhite_2.jpg",
+        "../img/DunkLowPSBlackWhite_1.jpg"
+      ],
+      "price": "От 19 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/DunkLowPSBlackWhite_1.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Mid SE PS Signal Blue",
+      "img": [
+        "../img/AirJordan1MidSEPSSignalBlue_5.jpg",
+        "../img/AirJordan1MidSEPSSignalBlue_4.jpg",
+        "../img/AirJordan1MidSEPSSignalBlue_3.jpg",
+        "../img/AirJordan1MidSEPSSignalBlue_2.jpg",
+        "../img/AirJordan1MidSEPSSignalBlue_1.jpg"
+      ],
+      "price": "От 27 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/AirJordan1MidSEPSSignalBlue_1.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High PS Silver Toe",
+      "img": [
+        "../img/Jordan1RetroHighPSSilverToe_5.jpg",
+        "../img/Jordan1RetroHighPSSilverToe_4.jpg",
+        "../img/Jordan1RetroHighPSSilverToe_3.jpg",
+        "../img/Jordan1RetroHighPSSilverToe_2.jpg",
+        "../img/Jordan1RetroHighPSSilverToe_1.jpg"
+      ],
+      "price": "От 35 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/Jordan1RetroHighPSSilverToe_1.jpg"
+    },
+    {
+      "model": "Air Jordan 4 Retro PS University Blue",
+      "img": [
+        "../img/AirJordan4RetroPSUniversityBlue_5.jpg",
+        "../img/AirJordan4RetroPSUniversityBlue_4.jpg",
+        "../img/AirJordan4RetroPSUniversityBlue_3.jpg",
+        "../img/AirJordan4RetroPSUniversityBlue_2.jpg",
+        "../img/AirJordan4RetroPSUniversityBlue_1.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/AirJordan4RetroPSUniversityBlue_1.jpg"
+    },
+    {
+      "model": "Air Jordan 1 Retro High OG PS Lucky Green",
+      "img": [
+        "../img/AirJordan1RetroHighOGPSLuckyGreen_2.jpg",
+        "../img/AirJordan1RetroHighOGPSLuckyGreen_1.jpg"
+      ],
+      "price": "От 27 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/AirJordan1RetroHighOGPSLuckyGreen_1.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids Israfil",
+      "img": [
+        "../img/adidas-yeezy-kids-israfil_5.jpg",
+        "../img/adidas-yeezy-kids-israfil_4.jpg",
+        "../img/adidas-yeezy-kids-israfil_3.jpg",
+        "../img/adidas-yeezy-kids-israfil_2.jpg",
+        "../img/adidas-yeezy-kids-israfil.jpg"
+      ],
+      "price": "От 65 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/adidas-yeezy-kids-israfil.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 Kids Ash Pearl",
+      "img": [
+        "../img/adidas-yeezy-kids-ash-pearl_5.jpg",
+        "../img/adidas-yeezy-kids-ash-pearl_4.jpg",
+        "../img/adidas-yeezy-kids-ash-pearl_3.jpg",
+        "../img/adidas-yeezy-kids-ash-pearl_2.jpg",
+        "../img/adidas-yeezy-kids-ash-pearl.jpg"
+      ],
+      "price": "От 58 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/adidas-yeezy-kids-ash-pearl.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids Synth",
+      "img": [
+        "../img/adidas-kids-yeezy-boost-350-v2-synt_5.jpg",
+        "../img/adidas-kids-yeezy-boost-350-v2-synt_4.jpg",
+        "../img/adidas-kids-yeezy-boost-350-v2-synt_3.jpg",
+        "../img/adidas-kids-yeezy-boost-350-v2-synt_2.jpg",
+        "../img/adidas-kids-yeezy-boost-350-v2-synt.jpg"
+      ],
+      "price": "От 83 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/adidas-kids-yeezy-boost-350-v2-synt.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids Carbon",
+      "img": [
+        "../img/adidas-yeezy-kids-carbon_5.jpg",
+        "../img/adidas-yeezy-kids-carbon_4.jpg",
+        "../img/adidas-yeezy-kids-carbon_3.jpg",
+        "../img/adidas-yeezy-kids-carbon_2.jpg",
+        "../img/adidas-yeezy-kids-carbon.jpg"
+      ],
+      "price": "От 62 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/adidas-yeezy-kids-carbon.jpg"
+    },
+    {
+      "model": "Yeezy Slides Kids Enflame Orange",
+      "img": [
+        "../img/Yeezy_Slides_Enflame_Orange_4_449fccbf-bbe0-425b-ad6e-8f4fa8f1c01c.jpg",
+        "../img/Yeezy_Slides_Enflame_Orange_3_cf3aee90-1596-40ff-a30b-9bced7301352.jpg",
+        "../img/Yeezy_Slides_Enflame_Orange_2_d61aac58-6586-49fe-97de-85356d09f439.jpg",
+        "../img/Yeezy_Slides_Enflame_Orange_1_c4f00bfd-06c7-4bea-a3f6-e55616762429.jpg",
+        "../img/Yeezy_Slides_Enflame_Orange_0868a76d-43d0-4572-aa52-8efe2dc26c65.jpg"
+      ],
+      "price": "От 33 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/Yeezy_Slides_Enflame_Orange_0868a76d-43d0-4572-aa52-8efe2dc26c65.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids Antlia",
+      "img": [
+        "../img/Yeezy-Boost-Antlia_5.jpg",
+        "../img/Yeezy-Boost-Antlia_4.jpg",
+        "../img/Yeezy-Boost-Antlia_3.jpg",
+        "../img/Yeezy-Boost-Antlia_2.jpg",
+        "../img/Yeezy-Boost-Antlia.jpg"
+      ],
+      "price": "От 51 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/Yeezy-Boost-Antlia.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Kids Lundmark",
+      "img": [
+        "../img/adidas-yeezy-kids-lundmark_5.jpg",
+        "../img/adidas-yeezy-kids-lundmark_4.jpg",
+        "../img/adidas-yeezy-kids-lundmark_3.jpg",
+        "../img/adidas-yeezy-kids-lundmark_2.jpg",
+        "../img/adidas-yeezy-kids-lundmark.jpg"
+      ],
+      "price": "От 83 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/adidas-yeezy-kids-lundmark.jpg"
+    },
+    {
+      "model": "Yeezy Boost 350 V2 Infant Triple White",
+      "img": [
+        "../img/adidas-yeezy-kids-white_5.jpg",
+        "../img/adidas-yeezy-kids-white_4.jpg",
+        "../img/adidas-yeezy-kids-white_3.jpg",
+        "../img/adidas-yeezy-kids-white_2.jpg",
+        "../img/adidas-yeezy-kids-white.jpg"
+      ],
+      "price": "От 38 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/adidas-yeezy-kids-white.jpg"
+    },
+    {
+      "model": "Yeezy 500 Kids Bone White",
+      "img": [
+        "../img/adidas-kids-yeezy-500-bone_4.jpg",
+        "../img/adidas-kids-yeezy-500-bone_3.jpg",
+        "../img/adidas-kids-yeezy-500-bone_2.jpg",
+        "../img/adidas-kids-yeezy-500-bone.jpg",
+        "../img/adidas-kids-yeezy-500-bone_5.jpg"
+      ],
+      "price": "От 74 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/adidas-kids-yeezy-500-bone.jpg"
+    },
+    {
+      "model": "Yeezy 450 Kids Dark Slate",
+      "img": [
+        "../img/Yeezy-450-Kids-Dark-Slate_5.jpg",
+        "../img/Yeezy-450-Kids-Dark-Slate_4.jpg",
+        "../img/Yeezy-450-Kids-Dark-Slate_3.jpg",
+        "../img/Yeezy-450-Kids-Dark-Slate_2.jpg",
+        "../img/Yeezy-450-Kids-Dark-Slate.jpg"
+      ],
+      "price": "От 46 000 ₽",
+      "brand": "detskoe",
+      "thum": "../img/Yeezy-450-Kids-Dark-Slate.jpg"
+    }
+  ]
+}

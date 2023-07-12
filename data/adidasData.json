@@ -1,0 +1,262 @@
+{
+  "products": [
+    {
+      "model": "Samba OG Royal Blue Gum",
+      "img": ["../img/IMG_5101.jpg"],
+      "price": "От 25 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/IMG_5101.jpg"
+    },
+    {
+      "model": "Samba Wales Bonner Silver",
+      "img": [
+        "../img/adidas-wb-silver-samba-wales-bonner-silver.jpg",
+        "../img/adidas-wb-silver-samba-wales-bonner-silver-2.jpg",
+        "../img/adidas-wb-silver-samba-wales-bonner-silver-3.jpg",
+        "../img/adidas-wb-silver-samba-wales-bonner-silver-4.jpg",
+        "../img/adidas-wb-silver-samba-wales-bonner-silver-5.jpg"
+      ],
+      "price": "От 36 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/adidas-wb-silver-samba-wales-bonner-silver.jpg"
+    },
+    {
+      "model": "Samba Vegan Black Gum",
+      "img": [
+        "../img/adidas-samba-vegan-black-gum.jpg",
+        "../img/adidas-samba-vegan-black-gum-2.jpg",
+        "../img/adidas-samba-vegan-black-gum-3.jpg",
+        "../img/adidas-samba-vegan-black-gum-4.jpg",
+        "../img/adidas-samba-vegan-black-gum-5.jpg"
+      ],
+      "price": "От 22 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/adidas-samba-vegan-black-gum.jpg"
+    },
+    {
+      "model": "Samba OG Sporty & Rich Blue Rush",
+      "img": [
+        "../img/adidas-samba-og-sporty-and-rich-blue-grey.jpg",
+        "../img/adidas-samba-og-sporty-and-rich-blue-grey-2.jpg",
+        "../img/adidas-samba-og-sporty-and-rich-blue-grey-3.jpg",
+        "../img/adidas-samba-og-sporty-and-rich-blue-grey-4.jpg",
+        "../img/adidas-samba-og-sporty-and-rich-blue-grey-5.jpg"
+      ],
+      "price": "От 29 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/adidas-samba-og-sporty-and-rich-blue-grey.jpg"
+    },
+    {
+      "model": "Samba OG Black White Gum",
+      "img": [
+        "../img/adidas-samba-black-white-gum.jpg",
+        "../img/adidas-samba-black-white-gum-2.jpg",
+        "../img/adidas-samba-black-white-gum-3.jpg",
+        "../img/adidas-samba-black-white-gum-4.jpg",
+        "../img/adidas-samba-black-white-gum-5.jpg"
+      ],
+      "price": "От 22 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/adidas-samba-black-white-gum.jpg"
+    },
+    {
+      "model": "Samba Vegan White Gum",
+      "img": [
+        "../img/samba-vegan-white-gum.jpg",
+        "../img/samba-vegan-white-gum-2.jpg",
+        "../img/samba-vegan-white-gum-3.jpg",
+        "../img/samba-vegan-white-gum-4.jpg",
+        "../img/samba-vegan-white-gum-5.jpg"
+      ],
+      "price": "От 19 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/samba-vegan-white-gum.jpg"
+    },
+    {
+      "model": "Samba OG Kith Classics Program White",
+      "img": ["../img/IMG_5114.jpg"],
+      "price": "От 34 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/IMG_5114.jpg"
+    },
+    {
+      "model": "Samba OG Sporty & Rich Cream Blue",
+      "img": [
+        "../img/adidas-samba-og-sporty-and-rich-beige-blue.jpg",
+        "../img/adidas-samba-og-sporty-and-rich-beige-blue-2.jpg",
+        "../img/adidas-samba-og-sporty-and-rich-beige-blue-3.jpg",
+        "../img/adidas-samba-og-sporty-and-rich-beige-blue-4.jpg",
+        "../img/adidas-samba-og-sporty-and-rich-beige-blue-5.jpg"
+      ],
+      "price": "От 33 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/adidas-samba-og-sporty-and-rich-beige-blue.jpg"
+    },
+    {
+      "model": "Samba OG Sporty & Rich White Green",
+      "img": [
+        "../img/adidas-samba-og-sporty-rich-white-green.jpg",
+        "../img/adidas-samba-og-sporty-rich-white-green-2.jpg",
+        "../img/adidas-samba-og-sporty-rich-white-green-3.jpg",
+        "../img/adidas-samba-og-sporty-rich-white-green-4.jpg",
+        "../img/adidas-samba-og-sporty-rich-white-green-5.jpg"
+      ],
+      "price": "От 54 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/adidas-samba-og-sporty-rich-white-green.jpg"
+    },
+    {
+      "model": "Samba OG Cloud White Core Black",
+      "img": [
+        "../img/adidas-samba-og-white-black.jpg",
+        "../img/adidas-samba-og-white-black-2.jpg",
+        "../img/adidas-samba-og-white-black-3.jpg",
+        "../img/adidas-samba-og-white-black-4.jpg",
+        "../img/adidas-samba-og-white-black-5.jpg"
+      ],
+      "price": "От 24 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/adidas-samba-og-white-black.jpg"
+    },
+    {
+      "model": "Superstar Sean Wotherspoon - Superearth",
+      "img": [
+        "../img/superstar-superearth-sean-wotherspoon.jpg",
+        "../img/superstar-superearth-sean-wotherspoon-2.jpg",
+        "../img/superstar-superearth-sean-wotherspoon-3.jpg",
+        "../img/superstar-superearth-sean-wotherspoon-4.jpg",
+        "../img/superstar-superearth-sean-wotherspoon-5.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/superstar-superearth-sean-wotherspoon.jpg"
+    },
+    {
+      "model": "Aloha Super Gonz One Black Eye",
+      "img": ["../img/image_c1c8a794-5513-433a-89f9-be3c520443fa.jpg"],
+      "price": "От 25 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/image_c1c8a794-5513-433a-89f9-be3c520443fa.jpg"
+    },
+    {
+      "model": "Aloha Super Gonz Chair Fight",
+      "img": ["../img/IMG_5109.jpg"],
+      "price": "От 23 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/IMG_5109.jpg"
+    },
+    {
+      "model": "Hamburg Chalky Brown",
+      "img": ["../img/IMG_5111.jpg"],
+      "price": "От 24 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/IMG_5111.jpg"
+    },
+    {
+      "model": "Hamburg Wonder Steel",
+      "img": ["../img/IMG_5112.jpg"],
+      "price": "От 27 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/IMG_5112.jpg"
+    },
+    {
+      "model": "Campus 00s Dark Green Cloud White",
+      "img": [
+        "../img/adidas-campus-00s-dark-green.jpg",
+        "../img/adidas-campus-00s-dark-green-2.jpg",
+        "../img/adidas-campus-00s-dark-green-3.jpg",
+        "../img/adidas-campus-00s-dark-green-4.jpg",
+        "../img/adidas-campus-00s-dark-green-5.jpg"
+      ],
+      "price": "От 24 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/adidas-campus-00s-dark-green.jpg"
+    },
+    {
+      "model": "Campus 00s Grey White",
+      "img": [
+        "../img/campus-00s-grey-white.jpg",
+        "../img/campus-00s-grey-white-2.jpg",
+        "../img/campus-00s-grey-white-3.jpg",
+        "../img/campus-00s-grey-white-4.jpg",
+        "../img/campus-00s-grey-white-5.jpg"
+      ],
+      "price": "От 24 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/campus-00s-grey-white.jpg"
+    },
+    {
+      "model": "Forum Buckle Low Bad Bunny Last Forum",
+      "img": [
+        "../img/adidas-forum-buckle-low-white.jpg",
+        "../img/adidas-forum-buckle-low-white-2.jpg",
+        "../img/adidas-forum-buckle-low-white-3.jpg",
+        "../img/adidas-forum-buckle-low-white-4.jpg",
+        "../img/adidas-forum-buckle-low-white-5.jpg"
+      ],
+      "price": "От 35 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/adidas-forum-buckle-low-white.jpg"
+    },
+    {
+      "model": "Campus 80s Sporty & Rich Merlot Cream",
+      "img": ["../img/IMG_6236.jpg"],
+      "price": "От 30 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/IMG_6236.jpg"
+    },
+    {
+      "model": "Campus 00s Dust Cargo Clear Pink",
+      "img": ["../img/IMG_6235.jpg"],
+      "price": "От 25 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/IMG_6235.jpg"
+    },
+    {
+      "model": "Forum Buckle Low Bad Bunny - Pink Easter Egg",
+      "img": [
+        "../img/forum-buckle-low-bad-bunny-easter-egg.jpg",
+        "../img/forum-buckle-low-bad-bunny-easter-egg-2.jpg",
+        "../img/forum-buckle-low-bad-bunny-easter-egg-3.jpg",
+        "../img/forum-buckle-low-bad-bunny-easter-egg-4.jpg",
+        "../img/forum-buckle-low-bad-bunny-easter-egg-5.jpg"
+      ],
+      "price": "От 75 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/forum-buckle-low-bad-bunny-easter-egg.jpg"
+    },
+    {
+      "model": "Campus 80S South Park - Towelie",
+      "img": [
+        "../img/campus-80s-sp-towelie-south-park-towelie.jpg",
+        "../img/campus-80s-sp-towelie-south-park-towelie-2.jpg",
+        "../img/campus-80s-sp-towelie-south-park-towelie-3.jpg",
+        "../img/campus-80s-sp-towelie-south-park-towelie-4.jpg",
+        "../img/campus-80s-sp-towelie-south-park-towelie-5.jpg"
+      ],
+      "price": "От 26 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/campus-80s-sp-towelie-south-park-towelie.jpg"
+    },
+    {
+      "model": "Campus 00s Core Black",
+      "img": [
+        "../img/adidas-campus-00s-core-black.jpg",
+        "../img/adidas-campus-00s-core-black-2.jpg",
+        "../img/adidas-campus-00s-core-black-3.jpg",
+        "../img/adidas-campus-00s-core-black-4.jpg",
+        "../img/adidas-campus-00s-core-black-5.jpg"
+      ],
+      "price": "От 24 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/adidas-campus-00s-core-black.jpg"
+    },
+    {
+      "model": "Forum Low The Grinch",
+      "img": ["../img/image_dec739a1-e2dc-4fac-ba2d-3757033d5c5e.jpg"],
+      "price": "От 24 000 ₽",
+      "brand": "Adidas Originals",
+      "thum": "../img/image_dec739a1-e2dc-4fac-ba2d-3757033d5c5e.jpg"
+    }
+  ]
+}

@@ -19,7 +19,7 @@ const row = document.querySelector('.catalog__row');
 
 export const fill = async function (brand) {
   try {
-    const brandJson = await fetch(`./data/${brand}.json`);
+    const brandJson = await fetch(`./data/${brand}Data.json`);
 
     const data = await brandJson.json();
 
@@ -27,18 +27,16 @@ export const fill = async function (brand) {
 
     console.log(products);
 
-    products.forEach(product => {
-      product['articul'] = product['web-scraper-order'];
-      delete product['web-scraper-order'];
-      delete product['web-scraper-start-url'];
+    products.reverse();
 
-      if (brand === 'kaws' || brand === 'clothes') {
+    products.forEach(product => {
+      if (brand === 'kaws' || brand === 'clothes' || brand === 'Kaws') {
         row.insertAdjacentHTML(
           'afterbegin',
           ` <a class="catalog__link" href="productview.html" oncontextmenu="return false" >
               <div class="catalog__product" >
               <div class="catalog__product-img">
-              <img class="catalog__productImg" src=${product['img-src']} alt="" srcset=""  />
+              <img class="catalog__productImg" src=${product.thum} alt="" srcset=""  />
               </div>
               <div class="catalog__text-kaws"> 
               <h3 class="catalog__product-model">${product['model']}</h3>
@@ -54,12 +52,16 @@ export const fill = async function (brand) {
         ` <a class="catalog__link" href="productview.html" oncontextmenu="return false" >
               <div class="catalog__product" >
               <div class="catalog__product-img">
-              <img class="catalog__productImg" src=${product['img-src']} alt="" srcset=""  />
+              <img class="catalog__productImg" src=${
+                product.thum
+              } alt="" srcset=""  />
               </div>
               <div class="catalog__text-content"> 
 
               <h3 class="catalog__product-model">${product['model']}</h3>
-              <p class="catalog__product-brand">${product['brand']}</p>
+              <p class="catalog__product-brand">${
+                product['brand'] == 'detskoe' ? '' : product['brand']
+              }</p>
               <span class="catalog__product-price">${product['price']}</span>
               </div>
           </div></a>`

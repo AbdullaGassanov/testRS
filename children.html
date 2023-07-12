@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+    </style>
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,user-scalable=no"
+    />
+    <meta content="width=1140" name="viewport" id="viewport" />
+    <meta name="robots" content="index, follow, noodp" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta name="description" content="Ramster Online Shop " />
+    <meta
+      name="keywords"
+      content="Магазин одежды, онлайн магазин, YEEZY, Jordan, Caws, Clothes, Adidas"
+    />
+    <meta name="author" content="NewGen" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    
+    <title>Ramster Shop - Онлайн Магазин</title>
+    
+  </head>
+  <body>
+    <div class="loader"></div>
+    <nav class="nav nav__transform">
+      <div class="nav__content">
+        <div class="nav__content-box">
+          <div class="nav__close">
+            <svg class="nav__icon">
+              <use xlink:href="img/symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </div>
+    
+          <div class="nav__close-box">
+            <svg class="nav__close-box-icon">
+              <use xlink:href="img/symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </div>
+    
+          <!--       <div class="nav__search-box">
+            <label class="nav__title" for="nav__search">Поиск</label>
+            <input
+              class="nav__search-input"
+              type="text"
+              name="nav__seach"
+              id="nav__search"
+            />
+            <a class="nav__icon-link" href="#">
+              <svg class="nav__icon-search">
+                <use xlink:href="img/symbol-defs.svg#icon-search"></use>
+              </svg>
+            </a>
+          </div> -->
+    
+          <!--NAV MENU-->
+          <ol class="nav__menu">
+            <h2 class="nav__menu-title">Каталог товаров</h2>
+    
+            <li class="nav__menu-item">
+              <a href="adidas.html" class="nav__menu-link" data-brand="adidas"
+                >Adidas
+              </a>
+            </li>
+    
+            <li class="nav__menu-item">
+              <div class="nav__menu-item-header">
+                <a href="yeezy.html" class="nav__menu-link">YEEZY</a>
+                <a class="nav__menu-link-open" data-brand="yeezy"> &#9661;</a>
+              </div>
+    
+              <div class="nav__menu-content nav__menu-hide" data-brandID="1">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">YEEZY 350</li>
+                  <li class="nav__menu-list-item">YEEZY 380</li>
+                  <li class="nav__menu-list-item">YEEZY 450</li>
+                  <li class="nav__menu-list-item">YEEZY 500</li>
+                  <li class="nav__menu-list-item">YEEZY 700</li>
+                  <li class="nav__menu-list-item">desert boot</li>
+                  <li class="nav__menu-list-item">Yeezy foam</li>
+                  <li class="nav__menu-list-item">Yeezy slide</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__menu-item">
+              <div class="nav__menu-item-header">
+                <a href="nike.html" class="nav__menu-link">Nike</a>
+                <a class="nav__menu-link-open" data-brand="nike"> &#9661;</a>
+              </div>
+    
+              <div class="nav__menu-content nav__menu-hide" data-brandID="2">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">Dunk</li>
+                  <li class="nav__menu-list-item">AirForce 1</li>
+                  <li class="nav__menu-list-item">Nike & Sacal</li>
+                  <li class="nav__menu-list-item">Air Max</li>
+                  <li class="nav__menu-list-item">Nike X OFF-White</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__menu-item">
+              <div class="nav__menu-item-header">
+                <a href="jordan.html" class="nav__menu-link">Jordan</a>
+                <a class="nav__menu-link-open" data-brand="jordan"> &#9661;</a>
+              </div>
+              <div class="nav__menu-content nav__menu-hide" data-brandID="3">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">Air jordan 1</li>
+                  <li class="nav__menu-list-item">Air jordan 3</li>
+                  <li class="nav__menu-list-item">Air jordan 4</li>
+                  <li class="nav__menu-list-item">Air jordan 5</li>
+                  <li class="nav__menu-list-item">Air jordan 6</li>
+                  <li class="nav__menu-list-item">Air jordan 11</li>
+                  <li class="nav__menu-list-item">Air jordan 13</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__menu-item">
+              <div class="nav__menu-item-header">
+                <a href="newbalance.html" class="nav__menu-link">New balance</a>
+                <a class="nav__menu-link-open" data-brand="newbalance"> &#9661;</a>
+              </div>
+    
+              <div class="nav__menu-content nav__menu-hide" data-brandID="4">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">530</li>
+                  <li class="nav__menu-list-item">550</li>
+                  <li class="nav__menu-list-item">574</li>
+                  <li class="nav__menu-list-item">650R</li>
+                  <li class="nav__menu-list-item">827</li>
+                  <li class="nav__menu-list-item">2002R</li>
+                  <li class="nav__menu-list-item">990</li>
+                  <li class="nav__menu-list-item">991</li>
+                  <li class="nav__menu-list-item">992</li>
+                  <li class="nav__menu-list-item">9060</li>
+                  <li class="nav__menu-list-item">XC-72</li>
+                  <li class="nav__menu-list-item">1906D</li>
+                  <li class="nav__menu-list-item">1906R</li>
+                  <li class="nav__menu-list-item">997</li>
+                  <li class="nav__menu-list-item">Ct302</li>
+                  <li class="nav__menu-list-item">327</li>
+                  <li class="nav__menu-list-item">993</li>
+                  <li class="nav__menu-list-item">FuelCell</li>
+                  <li class="nav__menu-list-item">Rc</li>
+                  <li class="nav__menu-list-item">920</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__menu-item">
+              <div class="nav__menu-item-header">
+                <a href="clothes.html" class="nav__menu-link">Одежда</a>
+                <a class="nav__menu-link-open" data-brand="clothes"> &#9661;</a>
+              </div>
+              <div class="nav__menu-content nav__menu-hide" data-brandID="5">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">Travis scott</li>
+                  <li class="nav__menu-list-item">supreme</li>
+                  <li class="nav__menu-list-item">fear of god</li>
+                  <li class="nav__menu-list-item">carhartt wip</li>
+                  <li class="nav__menu-list-item">chrome hearts</li>
+                  <li class="nav__menu-list-item">jordan</li>
+                  <li class="nav__menu-list-item">kith</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__menu-item">
+              <a href="children.html" class="nav__menu-link" data-brand="children"
+                >Детское
+              </a>
+            </li>
+            <li class="nav__menu-item">
+              <a href="crocs.html" class="nav__menu-link" data-brand="crocs"
+                >Crocs
+              </a>
+            </li>
+            <li class="nav__menu-item">
+              <div class="nav__menu-item-header">
+                <a href="kaws.html" class="nav__menu-link">Коллекционные фигурки</a>
+                <a class="nav__menu-link-open" data-brand="toys"> &#9661;</a>
+              </div>
+              <div class="nav__menu-content nav__menu-hide" data-brandID="6">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-list-item">Kaws</li>
+                  <li class="nav__menu-list-item">Medicom toy</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+    
+          <div class="nav__menu-nav">
+            <h3 class="nav__menu-sub-title">Навигация</h3>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="delivery.html" class="nav__list-link">Доставка и оплата</a>
+              </li>
+              <li class="nav__item">
+                <a href="change.html" class="nav__list-link">Обмен и возврат</a>
+              </li>
+    
+              <li class="nav__item">
+                <a href="productview.html" class="nav__list-link">Отзывы</a>
+              </li>
+            </ul>
+    
+            <div class="nav__contact">
+              <div class="nav__contact-title">Контакты</div>
+              <div class="nav__contact-address">
+                <div class="footer__social">
+                  <div class="footer__social-icons">
+                    <img
+                      class="footer__social-icon"
+                      src="img/icons8-telegram__1_.svg"
+                      alt="icon"
+                    />
+                    <img
+                      class="footer__social-icon"
+                      src="img//icons8-whatsapp__1_.svg"
+                      alt="icon"
+                    />
+                    <img
+                      class="footer__social-icon"
+                      src="img//icons8-instagram__1_.svg"
+                      alt="icon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="cart cart__transform" oncontextmenu="return false">
+      <div class="cart__close">
+        <svg class="icon cart__icon-close">
+          <use xlink:href="img/symbol-defs.svg#icon-cross"></use>
+        </svg>
+      </div>
+    
+      <div class="cart__success">
+        <img
+          src="img/greenMark2.png"
+          alt=""
+          srcset=""
+          style="background-color: white; border-radius: 50%"
+        />
+        <p class="cart__success-txt">
+          Ваш заказ отправлен. Наш менеджер свяжется с вами в ближайщее время
+        </p>
+        <a href="index.html" class="btn">На главную</a>
+      </div>
+    
+      <!--   <div class="cart__close-absolute">
+        <svg class="icon cart__icon-close">
+          <use xlink:href="img/symbol-defs.svg#icon-cross"></use>
+        </svg>
+      </div> -->
+    
+      <div class="cart__content" id="cart__content" oncontextmenu="return false">
+        <div class="cart__logo">
+          <img src="img/logo-rs.webp" alt="" srcset="" />
+        </div>
+        <div class="cart__order">
+          <ul class="cart__list">
+            <li class="cart__item">
+              <span class="cart__item-number">1</span>
+    
+              <div class="cart__item-name">New Balance Protection Pack Grey</div>
+              <div class="cart__item-price">28 000 Р</div>
+    
+              <div class="cart__item-img">
+                <img
+                  class="cart__item-img-item"
+                  src="img/2002r-protection-pack-grey.jpg"
+                  alt="img"
+                />
+              </div>
+            </li>
+          </ul>
+          <div class="cart__summary">
+            <span class="cart__all">Итого:</span>
+            <div class="cart__sum-box">
+              <div class="cart__sum">28 000</div>
+              <span>P</span>
+            </div>
+          </div>
+        </div>
+    
+        <form action="#" class="cart__contact">
+          <h2 class="cart__title">Контактная информация</h2>
+          <input
+            type="text"
+            name="cart__customer"
+            id="cart__customer"
+            class="cart__cuctomer"
+            placeholder="Ваше имя"
+            required
+          />
+          <input
+            type="text"
+            name="cart__address"
+            id="cart__address"
+            class="cart__address"
+            placeholder="Ваш адрес"
+          />
+          <input
+            type="email"
+            name="cart__email"
+            id="cart__email"
+            class="cart__email"
+            placeholder="Ваш Email"
+          />
+          <input
+            class="cart__phone"
+            type="text"
+            name="cart__phone"
+            id="cart__phone"
+            placeholder="Контактный номер"
+            required
+          />
+          <div class="cart__connection">
+            <label for="" class="cart__conopt"> Как лучше с вами связаться? </label>
+            <div class="cart__radio-watsapp">
+              <input
+                type="radio"
+                class="cart__whatsapp"
+                name="cart__link"
+                id="cart__whatsapp"
+                required
+              />
+              <label for="cart__whatsapp">По Whatsapp</label>
+            </div>
+            <div class="cart__radio-telegram">
+              <input
+                type="radio"
+                class="cart__telegram"
+                name="cart__link"
+                id="cart__telegram"
+              />
+              <label for="cart__telegram">По Telegram</label>
+            </div>
+          </div>
+    
+          <div class="cart__additional">
+            <div class="cart__agrrement">
+              <input
+                class="cart__agree"
+                type="radio"
+                name="cart__agree"
+                id="cart__agree"
+              />
+              <div class="cart__agreement-txt">
+                Нажимая на кнопку, вы даёте согласие на обработку Ваших персональных
+                данных и соглашаетесь с
+                <a href="#">
+                  условием пользовательского соглашения и политикой
+                  конфиденциальности.</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="cart__footer">
+            <input
+              type="submit"
+              class="btn cart__btnconfirm"
+              value="Подтердить заказ"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <div class="overlay"></div>
+
+    <div class="page">
+      <header class="header">
+        <div class="header__content">
+          <div class="header__head">
+            <div class="header__logo">
+              <a href="index.html"> <img src="img/logo-rs.PNG" alt="logo" /></a>
+            </div>
+          </div>
+          <div class="header__top">
+            <div class="header__hamburger">
+              <svg class="icon header__icon">
+                <use xlink:href="img/symbol-defs.svg#icon-menu"></use>
+              </svg>
+              <div class="header__span-menu">Menu</div>
+            </div>
+      
+            <div class="header__brand-search">
+              <div class="header__close-search" title="Закрыть">X</div>
+              <input class="header__brand-searchTXT" type="text" name="" id="" />
+              <button class="header__brand-btn">
+                <svg class="icon header_brand-icon">
+                  <use xlink:href="img/symbol-defs.svg#icon-search"></use>
+                </svg>
+              </button>
+            </div>
+      
+            <div class="header__action">
+              <svg class="icon header__icon header__icon--search">
+                <use xlink:href="img/symbol-defs.svg#icon-search"></use>
+              </svg>
+              <div class="header__icon-cart-item">
+                <a class="header__icon-cart-box" href="neworder.html">
+                  <svg class="icon header__icon header__icon--cart">
+                    <use xlink:href="img/symbol-defs.svg#icon-shopping-cart"></use>
+                  </svg>
+                </a>
+                <span class="header__icon-cart-piece">1</span>
+              </div>
+            </div>
+          </div>
+          <div class="header__footer">
+            <ol class="header__menu">
+              <li class="header__menu-item header__menu-item--main">
+                <a href="#" class="header__menu-link">Главная</a>
+              </li>
+      
+              <li class="header__menu-item">
+                <a href="adidas.html" class="header__menu-link" data-brand="adidas"
+                  >Adidas
+                </a>
+              </li>
+      
+              <li class="header__menu-item">
+                <a href="yeezy.html" class="header__menu-link" data-brand="yeezy"
+                  >YEEZY &#9661;</a
+                >
+      
+                <div class="header__menu-content" data-brandID="1">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">YEEZY 350</li>
+                    <li class="header__menu-list-item">YEEZY 380</li>
+                    <li class="header__menu-list-item">YEEZY 450</li>
+                    <li class="header__menu-list-item">YEEZY 500</li>
+                    <li class="header__menu-list-item">YEEZY 700</li>
+                    <li class="header__menu-list-item">desert boot</li>
+                    <li class="header__menu-list-item">Yeezy foam</li>
+                    <li class="header__menu-list-item">Yeezy slide</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__menu-item">
+                <a href="nike.html" class="header__menu-link" data-brand="nike"
+                  >Nike &#9661;</a
+                >
+                <div class="header__menu-content" data-brandID="2">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">Dunk</li>
+                    <li class="header__menu-list-item">AirForce 1</li>
+                    <li class="header__menu-list-item">Nike & Sacal</li>
+                    <li class="header__menu-list-item">Air Max</li>
+                    <li class="header__menu-list-item">Nike X OFF-White</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__menu-item">
+                <a href="jordan.html" class="header__menu-link" data-brand="jordan"
+                  >Jordan &#9661;</a
+                >
+                <div class="header__menu-content" data-brandID="3">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">Air jordan 1</li>
+                    <li class="header__menu-list-item">Air jordan 3</li>
+                    <li class="header__menu-list-item">Air jordan 4</li>
+                    <li class="header__menu-list-item">Air jordan 5</li>
+                    <li class="header__menu-list-item">Air jordan 6</li>
+                    <li class="header__menu-list-item">Air jordan 11</li>
+                    <li class="header__menu-list-item">Air jordan 13</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__menu-item">
+                <a
+                  href="newbalance.html"
+                  class="header__menu-link"
+                  data-brand="newbalance"
+                  >New balance &#9661;</a
+                >
+                <div class="header__menu-content" data-brandID="4">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">530</li>
+                    <li class="header__menu-list-item">550</li>
+                    <li class="header__menu-list-item">574</li>
+                    <li class="header__menu-list-item">650R</li>
+                    <li class="header__menu-list-item">827</li>
+                    <li class="header__menu-list-item">2002R</li>
+                    <li class="header__menu-list-item">990</li>
+                    <li class="header__menu-list-item">991</li>
+                    <li class="header__menu-list-item">992</li>
+                    <li class="header__menu-list-item">9060</li>
+                    <li class="header__menu-list-item">XC-72</li>
+                    <li class="header__menu-list-item">1906D</li>
+                    <li class="header__menu-list-item">1906R</li>
+                    <li class="header__menu-list-item">997</li>
+                    <li class="header__menu-list-item">Ct302</li>
+                    <li class="header__menu-list-item">327</li>
+                    <li class="header__menu-list-item">993</li>
+                    <li class="header__menu-list-item">FuelCell</li>
+                    <li class="header__menu-list-item">Rc</li>
+                    <li class="header__menu-list-item">920</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__menu-item">
+                <a href="clothes.html" class="header__menu-link" data-brand="clothes"
+                  >Одежда &#9661;</a
+                >
+                <div class="header__menu-content" data-brandID="5">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">Travis scott</li>
+                    <li class="header__menu-list-item">supreme</li>
+                    <li class="header__menu-list-item">fear of god</li>
+                    <li class="header__menu-list-item">carhartt wip</li>
+                    <li class="header__menu-list-item">chrome hearts</li>
+                    <li class="header__menu-list-item">jordan</li>
+                    <li class="header__menu-list-item">kith</li>
+                  </ul>
+                </div>
+              </li>
+      
+              <li class="header__menu-item">
+                <a
+                  href="children.html"
+                  class="header__menu-link"
+                  data-brand="children"
+                  >Детское
+                </a>
+              </li>
+              <li class="header__menu-item">
+                <a href="crocs.html" class="header__menu-link" data-brand="crocs"
+                  >Crocs
+                </a>
+              </li>
+              <li class="header__menu-item">
+                <a href="kaws.html" class="header__menu-link" data-brand="toys"
+                  >Коллекционные фигурки &#9661;</a
+                >
+      
+                <div class="header__menu-content" data-brandID="5">
+                  <ul class="header__menu-list">
+                    <li class="header__menu-list-item">Kaws</li>
+                    <li class="header__menu-list-item">Medicom toy</li>
+                  </ul>
+                </div>
+              </li>
+      
+              <!-- 	&#10225; -->
+            </ol>
+          </div>
+          <!-- <div class="header__footer-search">
+            <div class="header__footer-search-box">
+              <input class="header__brand-searchTXT" type="text" name="" id="" />
+              <button class="header__brand-btn">
+                <svg class="icon header_brand-icon">
+                  <use xlink:href="img/symbol-defs.svg#icon-search"></use>
+                </svg>
+              </button>
+            </div>
+          </div> -->
+        </div>
+      </header>
+      
+      <main class="main offtop">
+        <div class="catalog-main-page">
+          <div class="catalog">
+            <div class="catalog__content">
+              <div class="catalog__row"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!--  <a class="catalog__link" href="#" data-id="1">
+                <div class="catalog__product">
+                  <div class="catalog__product-img">
+                    <img class="catalog__productImg" src="" alt="" srcset="" />
+                  </div>
+                  <h3 class="catalog__product-model"></h3>
+        
+                  <p class="catalog__product-brand"></p>
+                  <span class="catalog__product-price"></span></div
+              ></a> -->
+        
+      </main>
+    </div>
+  </body>
+
+  <script type="module" src="../js/goodscart.js"></script>
+  <script type="module" src="../js/detskoe.js"></script>
+  <!--   <script type="module" src="../js/jordantest.js"></script> -->
+</html>

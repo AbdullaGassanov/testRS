@@ -1,0 +1,102 @@
+{
+  "products": [
+    {
+      "model": "Pollex Clog Salehe Bembury - Stratus",
+      "img": [
+        "../img/pollex-clog-salehe-bembury-stratus.jpg",
+        "../img/pollex-clog-salehe-bembury-stratus-2.jpg",
+        "../img/pollex-clog-salehe-bembury-stratus-3.jpg",
+        "../img/pollex-clog-salehe-bembury-stratus-4.jpg",
+        "../img/pollex-clog-salehe-bembury-stratus-5.jpg"
+      ],
+      "price": "От 34 000 ₽",
+      "brand": "Crocs",
+      "thum": "../img/pollex-clog-salehe-bembury-stratus.jpg"
+    },
+    {
+      "model": "Pollex Clog Salehe Bembury - Urchin",
+      "img": [
+        "../img/pollex-clog-salehe-bembury-urchin.jpg",
+        "../img/pollex-clog-salehe-bembury-urchin-2.jpg",
+        "../img/pollex-clog-salehe-bembury-urchin-3.jpg",
+        "../img/pollex-clog-salehe-bembury-urchin-4.jpg",
+        "../img/pollex-clog-salehe-bembury-urchin-5.jpg"
+      ],
+      "price": "От 30 000 ₽",
+      "brand": "Crocs",
+      "thum": "../img/pollex-clog-salehe-bembury-urchin.jpg"
+    },
+    {
+      "model": "Pollex Clog Salehe Bembury - Crocodile",
+      "img": [
+        "../img/pollex-clog-salehe-bembury-crocodile.jpg",
+        "../img/pollex-clog-salehe-bembury-crocodile-2.jpg",
+        "../img/pollex-clog-salehe-bembury-crocodile-3.jpg",
+        "../img/pollex-clog-salehe-bembury-crocodile-4.jpg",
+        "../img/pollex-clog-salehe-bembury-crocodile-5.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "Crocs",
+      "thum": "../img/pollex-clog-salehe-bembury-crocodile.jpg"
+    },
+    {
+      "model": "Pollex Clog Salehe Bembury - Sasquatch",
+      "img": [
+        "../img/pollex-clog-salehe-bembury-sasquatch.jpg",
+        "../img/pollex-clog-salehe-bembury-sasquatch-2.jpg",
+        "../img/pollex-clog-salehe-bembury-sasquatch-3.jpg",
+        "../img/pollex-clog-salehe-bembury-sasquatch-4.jpg",
+        "../img/pollex-clog-salehe-bembury-sasquatch-5.jpg"
+      ],
+      "price": "От 25 000 ₽",
+      "brand": "Crocs",
+      "thum": "../img/pollex-clog-salehe-bembury-sasquatch.jpg"
+    },
+    {
+      "model": "Pollex Clog Salehe Bembury Kuwata",
+      "img": [
+        "../img/pollex-clog-salehe-bembury-kuwata.jpg",
+        "../img/pollex-clog-salehe-bembury-kuwata-2.jpg",
+        "../img/pollex-clog-salehe-bembury-kuwata-3.jpg",
+        "../img/pollex-clog-salehe-bembury-kuwata-4.jpg",
+        "../img/pollex-clog-salehe-bembury-kuwata-5.jpg"
+      ],
+      "price": "От 18 000 ₽",
+      "brand": "Crocs",
+      "thum": "../img/pollex-clog-salehe-bembury-kuwata.jpg"
+    },
+    {
+      "model": "Pollex Clog Salehe Bembury - Tide",
+      "img": [
+        "../img/pollex-clog-salehe-bembury-tide.jpg",
+        "../img/pollex-clog-salehe-bembury-tide-2.jpg",
+        "../img/pollex-clog-salehe-bembury-tide-3.jpg",
+        "../img/pollex-clog-salehe-bembury-tide-4.jpg",
+        "../img/pollex-clog-salehe-bembury-tide-5.jpg"
+      ],
+      "price": "От 20 000 ₽",
+      "brand": "Crocs",
+      "thum": "../img/pollex-clog-salehe-bembury-tide.jpg"
+    },
+    {
+      "model": "Pollex Clog Salehe Bembury - Cobbler",
+      "img": [
+        "../img/pollex-clog-salehe-bembury-cobbler.jpg",
+        "../img/pollex-clog-salehe-bembury-cobbler-2.jpg",
+        "../img/pollex-clog-salehe-bembury-cobbler-3.jpg",
+        "../img/pollex-clog-salehe-bembury-cobbler-4.jpg",
+        "../img/pollex-clog-salehe-bembury-cobbler-5.jpg"
+      ],
+      "price": "От 22 000 ₽",
+      "brand": "Crocs",
+      "thum": "../img/pollex-clog-salehe-bembury-cobbler.jpg"
+    },
+    {
+      "model": "Pollex Clog Salehe Bembury - Wear Test Sample - Paris Fashion Week Exclusive",
+      "img": ["../img/image_20ec9e0f-4980-4eaa-afe6-c78528dcd56e.jpg"],
+      "price": "От 47 000 ₽",
+      "brand": "Crocs",
+      "thum": "../img/image_20ec9e0f-4980-4eaa-afe6-c78528dcd56e.jpg"
+    }
+  ]
+}
