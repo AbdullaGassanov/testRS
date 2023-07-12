@@ -95,7 +95,7 @@ export const cardOpen = function () {
           }
 
           if (cardItem[0].img[index] == undefined) {
-            console.log('Found endefined');
+            console.log('Found undefined image');
             i.src = tempImg;
           }
         });
@@ -106,11 +106,13 @@ export const cardOpen = function () {
             i.src = cardItem[0].img[index];
           }
           if (cardItem[0].img[index] == undefined) {
-            console.log('Found endefined');
+            console.log('Found undefined select image');
             i.src = tempImg;
           }
         });
       }
+
+      // if only one image of product set it to default image
 
       if (cardItem[0].img.length == 1) {
         splideList.querySelector('.splide__slide-img').src = cardItem[0].img[0];
@@ -171,11 +173,13 @@ export const cardOpen = function () {
         cardItem[0].brand == 'Carhartt WIP' ||
         cardItem[0].brand == 'Fear of God' ||
         cardItem[0].brand == 'Jordan Clothes' ||
+        cardItem[0].brand == 'Kith' ||
         cardItem[0].brand == 'Supreme' ||
         cardItem[0].brand == 'TRAVIS SCOTT'
       ) {
         brandLink.href = 'clothes.html';
         sizeBox.innerHTML = '';
+        //Adding another sizes to productView
         sizeBox.insertAdjacentHTML(
           'afterbegin',
           `
