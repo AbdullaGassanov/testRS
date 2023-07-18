@@ -11,13 +11,15 @@ window.order = { id: 'global' }; */
     document.body.classList.remove('loaded_hiding');
   }, 500);
 }; */
+const splash = document.querySelector('.splash');
 
-window.addEventListener('load', () => {
-  const loader = document.querySelector('.loader');
-  loader.classList.add('loader-hidden');
-  loader.addEventListener('transitionend', () => {
-    loader.remove();
-  });
+window.addEventListener('load', function () {
+  document.body.style.overflowY = 'hidden';
+  setTimeout(() => {
+    document.body.style.overflowY = 'scroll';
+    splash.remove();
+  }, 2000);
+  console.log(splash);
 });
 
 /* import { slide } from "./slider.js"; */
