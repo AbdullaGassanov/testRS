@@ -272,17 +272,50 @@
         </svg>
       </div> -->
     
-      <div class="cart__content" id="cart__content" oncontextmenu="return false">
+      <form
+        method="POST"
+        action="/quickorder"
+        class="cart__content"
+        id="cart__content"
+        oncontextmenu="return false"
+      >
         <div class="cart__logo">
           <img src="img/logo-rs.webp" alt="" srcset="" />
         </div>
         <div class="cart__order">
           <ul class="cart__list">
             <li class="cart__item">
-              <span class="cart__item-number">1</span>
+              <span class="cart__item-number"></span>
     
-              <div class="cart__item-name">New Balance Protection Pack Grey</div>
+              <div class="cart__item-details">
+                <div class="cart__item-name">New Balance Protection Pack Grey</div>
+                <div class="cart__item-size">222</div>
+              </div>
+    
+              <!--           <input
+                class="hidden-input-item"
+                type="text"
+                name="cart__item-model-input"
+                id="cart__item-model-input"
+                value=""
+              />
+              <input
+                class="hidden-input-item"
+                type="text"
+                name="cart__item-size-input"
+                id="cart__item-size-input"
+                value=""
+              /> -->
+    
               <div class="cart__item-price">28 000 Р</div>
+    
+              <!--           <input
+                class="hidden-input-item"
+                type="text"
+                name="cart__item-price-input"
+                id="cart__item-price-input"
+                value=""
+              /> -->
     
               <div class="cart__item-img">
                 <img
@@ -291,6 +324,14 @@
                   alt="img"
                 />
               </div>
+    
+              <!--           <input
+                class="hidden-input-item"
+                type="text"
+                name="cart__item-img-input"
+                id="cart__item-img-input"
+                value=""
+              /> -->
             </li>
           </ul>
           <div class="cart__summary">
@@ -302,7 +343,7 @@
           </div>
         </div>
     
-        <form action="#" class="cart__contact">
+        <div class="cart__contact">
           <h2 class="cart__title">Контактная информация</h2>
           <input
             type="text"
@@ -317,7 +358,7 @@
             name="cart__address"
             id="cart__address"
             class="cart__address"
-            placeholder="Ваш адрес"
+            placeholder="Ваш город"
           />
           <input
             type="email"
@@ -342,7 +383,6 @@
                 class="cart__whatsapp"
                 name="cart__link"
                 id="cart__whatsapp"
-                required
               />
               <label for="cart__whatsapp">По Whatsapp</label>
             </div>
@@ -355,18 +395,20 @@
               />
               <label for="cart__telegram">По Telegram</label>
             </div>
+            <div class="cart__connection-hide"></div>
           </div>
     
           <div class="cart__additional">
             <div class="cart__agrrement">
               <input
                 class="cart__agree"
-                type="radio"
+                type="checkbox"
                 name="cart__agree"
                 id="cart__agree"
+                required
               />
-              <div class="cart__agreement-txt">
-                Нажимая на кнопку, вы даёте согласие на обработку Ваших персональных
+              <div class="cart__agreement-txt" checked>
+                Галочка означает, Вы даёте согласие на обработку Ваших персональных
                 данных и соглашаетесь с
                 <a href="#">
                   условием пользовательского соглашения и политикой
@@ -380,10 +422,11 @@
               type="submit"
               class="btn cart__btnconfirm"
               value="Подтердить заказ"
+              name="cart__btnconfirm"
             />
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
     
     <div class="overlay"></div>
@@ -391,11 +434,7 @@
     <div class="page">
       <header class="header">
         <div class="header__content">
-          <div class="header__head">
-            <div class="header__logo">
-              <a href="index.html"> <img src="img/logo-rs.PNG" alt="logo" /></a>
-            </div>
-          </div>
+          <!--   <div class="header__head"></div> -->
           <div class="header__top">
             <div class="header__hamburger">
               <svg class="icon header__icon">
@@ -404,10 +443,14 @@
               <div class="header__span-menu">Menu</div>
             </div>
       
+            <div class="header__logo">
+              <a href="index.html"> <img src="img/logo-rs.PNG" alt="logo" /></a>
+            </div>
+      
             <div class="header__brand-search">
               <div class="header__close-search" title="Закрыть">X</div>
               <input class="header__brand-searchTXT" type="text" name="" id="" />
-              <button class="header__brand-btn">
+              <button type="submit" class="header__brand-btn">
                 <svg class="icon header_brand-icon">
                   <use xlink:href="img/symbol-defs.svg#icon-search"></use>
                 </svg>

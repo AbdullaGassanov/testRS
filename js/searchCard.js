@@ -6,9 +6,11 @@ const searchInput = document.querySelector('.header__brand-searchTXT');
 const headerTop = document.querySelector('.header__top');
 const humburg = document.querySelector('.header__hamburger');
 const closeBtn = document.querySelector('.header__close-search');
+const headerLogo = document.querySelector('.header__logo');
 
 export const searchCard = function () {
   closeBtn.addEventListener('click', () => {
+    headerLogo.style.display = 'block';
     console.log('close');
     sectionSearch.removeAttribute('open', 'open');
     sectionSearch.setAttribute('close', 'close');

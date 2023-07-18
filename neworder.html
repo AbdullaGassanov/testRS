@@ -287,17 +287,50 @@
         </svg>
       </div> -->
     
-      <div class="cart__content" id="cart__content" oncontextmenu="return false">
+      <form
+        method="POST"
+        action="/quickorder"
+        class="cart__content"
+        id="cart__content"
+        oncontextmenu="return false"
+      >
         <div class="cart__logo">
           <img src="img/logo-rs.webp" alt="" srcset="" />
         </div>
         <div class="cart__order">
           <ul class="cart__list">
             <li class="cart__item">
-              <span class="cart__item-number">1</span>
+              <span class="cart__item-number"></span>
     
-              <div class="cart__item-name">New Balance Protection Pack Grey</div>
+              <div class="cart__item-details">
+                <div class="cart__item-name">New Balance Protection Pack Grey</div>
+                <div class="cart__item-size">222</div>
+              </div>
+    
+              <!--           <input
+                class="hidden-input-item"
+                type="text"
+                name="cart__item-model-input"
+                id="cart__item-model-input"
+                value=""
+              />
+              <input
+                class="hidden-input-item"
+                type="text"
+                name="cart__item-size-input"
+                id="cart__item-size-input"
+                value=""
+              /> -->
+    
               <div class="cart__item-price">28 000 Р</div>
+    
+              <!--           <input
+                class="hidden-input-item"
+                type="text"
+                name="cart__item-price-input"
+                id="cart__item-price-input"
+                value=""
+              /> -->
     
               <div class="cart__item-img">
                 <img
@@ -306,6 +339,14 @@
                   alt="img"
                 />
               </div>
+    
+              <!--           <input
+                class="hidden-input-item"
+                type="text"
+                name="cart__item-img-input"
+                id="cart__item-img-input"
+                value=""
+              /> -->
             </li>
           </ul>
           <div class="cart__summary">
@@ -317,7 +358,7 @@
           </div>
         </div>
     
-        <form action="#" class="cart__contact">
+        <div class="cart__contact">
           <h2 class="cart__title">Контактная информация</h2>
           <input
             type="text"
@@ -332,7 +373,7 @@
             name="cart__address"
             id="cart__address"
             class="cart__address"
-            placeholder="Ваш адрес"
+            placeholder="Ваш город"
           />
           <input
             type="email"
@@ -357,7 +398,6 @@
                 class="cart__whatsapp"
                 name="cart__link"
                 id="cart__whatsapp"
-                required
               />
               <label for="cart__whatsapp">По Whatsapp</label>
             </div>
@@ -370,18 +410,20 @@
               />
               <label for="cart__telegram">По Telegram</label>
             </div>
+            <div class="cart__connection-hide"></div>
           </div>
     
           <div class="cart__additional">
             <div class="cart__agrrement">
               <input
                 class="cart__agree"
-                type="radio"
+                type="checkbox"
                 name="cart__agree"
                 id="cart__agree"
+                required
               />
-              <div class="cart__agreement-txt">
-                Нажимая на кнопку, вы даёте согласие на обработку Ваших персональных
+              <div class="cart__agreement-txt" checked>
+                Галочка означает, Вы даёте согласие на обработку Ваших персональных
                 данных и соглашаетесь с
                 <a href="#">
                   условием пользовательского соглашения и политикой
@@ -395,10 +437,11 @@
               type="submit"
               class="btn cart__btnconfirm"
               value="Подтердить заказ"
+              name="cart__btnconfirm"
             />
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
     
     <div class="overlay"></div>
@@ -406,11 +449,7 @@
     <div class="page">
       <header class="header">
         <div class="header__content">
-          <div class="header__head">
-            <div class="header__logo">
-              <a href="index.html"> <img src="img/logo-rs.PNG" alt="logo" /></a>
-            </div>
-          </div>
+          <!--   <div class="header__head"></div> -->
           <div class="header__top">
             <div class="header__hamburger">
               <svg class="icon header__icon">
@@ -419,10 +458,14 @@
               <div class="header__span-menu">Menu</div>
             </div>
       
+            <div class="header__logo">
+              <a href="index.html"> <img src="img/logo-rs.PNG" alt="logo" /></a>
+            </div>
+      
             <div class="header__brand-search">
               <div class="header__close-search" title="Закрыть">X</div>
               <input class="header__brand-searchTXT" type="text" name="" id="" />
-              <button class="header__brand-btn">
+              <button type="submit" class="header__brand-btn">
                 <svg class="icon header_brand-icon">
                   <use xlink:href="img/symbol-defs.svg#icon-search"></use>
                 </svg>
@@ -612,9 +655,9 @@
         
           <div class="order__content" oncontextmenu="return false">
             <h2 class="order__title">Контактные данные</h2>
-            <div class="order__box">
+            <form  method="POST" action="/send" class="order__box">
               <div class="order__left">
-                <form action="#" class="order__form">
+                <div class="order__form">
                   <p class="form-dialog">
                     <label for="order__txtName" class="order__lblName"
                       >Ваше имя <span class="star">*</span>
@@ -649,13 +692,37 @@
                       class="order__txtEmail"
                     />
                   </p>
+                  <div class="form-dialog">
+                     <div class="order__connection">
+                      <label for="" class="order__conopt"> Как лучше с вами связаться? </label>
+                      <div class="order__radio-watsapp">
+                        <input
+                          type="radio"
+                          class="order__whatsapp"
+                          name="order__link"
+                          id="order__whatsapp"
+                        />
+                        <label for="order__whatsapp">По Whatsapp</label>
+                      </div>
+                      <div class="order__radio-telegram">
+                        <input
+                          type="radio"
+                          class="order__telegram"
+                          name="order__link"
+                          id="order__telegram"
+                        />
+                        <label for="order__telegram">По Telegram</label>
+                     </div>
+                <div class="order__connection-hide"></div>
+              </div>
+                  </div>
                   <p class="form-dialog order__delivery-place">
                     <h3 class="order__delivery-title">Доставка</h3>
                     <label for="order__txtName" class="order__lblName"
                       >Населенный пункт<span class="star">*</span>
                     </label>
                     <div class="block">
-                      <input class="search" type="text" placeholder="Поиск города" />
+                      <input class="search" type="text" name="order_city" id="order_city"  placeholder="Поиск города" />
                       <ul class="city" name="city" id="city">
                         <li value=""></li>
                       </ul>
@@ -688,15 +755,13 @@
                         </div>
         
                         <div class="order__pay-notice">
-                            <input class="order__pay-inpCheck" type="checkbox" name="order__chkNotice" id="order__chkNotice">
-                            <p>
-                            <span class="order__pay-notice-title">Получать уведомления о заказе</span>
-                            <span class="order__pay-notice-small">С помощью уведомлений о заказе можно не только получать актуальную
-        информацию по заказу, но и иметь быстрый канал связи с магазином</span></p>
+                        
+                           
+                           
                         </div>
         
                         <div class="order__pay-agree">
-                             <input type="checkbox" name="order__chkAgree" id="order__chkAgree">
+                             <input type="checkbox" name="order__chkAgree" id="order__chkAgree" required>
                              <span>Согласие на обработку персональных данных</span>
                         </div>
         
@@ -716,7 +781,7 @@
                 />
                   </div>
                
-                </form>
+                </div>
               </div>
         
               <div class="order__right">
@@ -748,7 +813,7 @@
         
         
               </div>
-            </div>
+            </form>
           </div>
         </div>
         

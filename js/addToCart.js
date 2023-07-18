@@ -22,6 +22,7 @@ const order = {
   name: '',
   price: '',
   img: '',
+  size: '',
 };
 
 const btn = document.querySelector('.wrapper__splide__btnCart');
@@ -74,6 +75,9 @@ export const addProductToCart = function () {
       const price = Number(
         card.querySelector('.wrapper__splide__price').textContent
       );
+      const size = document.querySelector(
+        '.wrapper__splide-size-detail'
+      ).textContent;
       const imgPath = card
         .querySelector('.splide__slide-img')
         .src.replace('http://localhost:3000/', '');
@@ -81,6 +85,7 @@ export const addProductToCart = function () {
       order.name = name;
       order.price = price;
       order.img = imgPath;
+      order.size = size;
       orderCart.push(order);
       localStorage.setItem('order', JSON.stringify(orderCart));
       ++pieces;
@@ -112,12 +117,16 @@ export const addProductToCart = function () {
         const price = Number(
           card.querySelector('.wrapper__splide__price').textContent
         );
+        const size = document.querySelector(
+          '.wrapper__splide-size-detail'
+        ).textContent;
         const imgPath = card
           .querySelector('.splide__slide-img')
           .src.replace('http://localhost:3000/', ''); // Cutting begging part of images if exist
 
         order.name = name;
         order.price = price;
+        order.size = size;
         order.img = imgPath;
 
         orderCart.push(order);
