@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* const CARTT = { apparel: 'Jordan' };
 
@@ -11,40 +11,37 @@ window.order = { id: 'global' }; */
     document.body.classList.remove('loaded_hiding');
   }, 500);
 }; */
-const splash = document.querySelector('.splash');
+const splash = document.querySelector(".splash");
 
-window.addEventListener('load', function () {
-  document.body.style.overflowY = 'hidden';
-  setTimeout(() => {
-    document.body.style.overflowY = 'scroll';
-    splash.remove();
-  }, 2000);
-  console.log(splash);
+window.addEventListener("load", function () {
+	splash.remove();
+
+	console.log(splash);
 });
 
 /* import { slide } from "./slider.js"; */
-import { slider } from './slider.js';
-import { cardSave } from './cardSave.js';
-import { nav } from './nav.js';
-import { openSearch } from './openSearch.js';
-import { checkPiece } from './cartItem.js';
-import { openCatalogList } from './linkOpenNavCatalog.js';
-import { searchCard } from './searchCard.js';
+import { slider } from "./slider.js";
+import { cardSave } from "./cardSave.js";
+import { nav } from "./nav.js";
+import { openSearch } from "./openSearch.js";
+import { checkPiece } from "./cartItem.js";
+import { openCatalogList } from "./linkOpenNavCatalog.js";
+import { searchCard } from "./searchCard.js";
 /* import { sliderFuncIntro } from './intro.js';
 sliderFuncIntro(); */
 searchCard();
 openCatalogList();
 
 try {
-  slider('.receipt');
-  slider('.promo');
-  slider('.yeezy');
-  slider('.nike');
-  slider('.nbalance');
-  slider('.jordan');
-  slider('.kaws');
+	slider(".receipt");
+	slider(".promo");
+	slider(".yeezy");
+	slider(".nike");
+	slider(".nbalance");
+	slider(".jordan");
+	slider(".kaws");
 } catch (e) {
-  console.log(`Message: ${e.message}`);
+	console.log(`Message: ${e.message}`);
 }
 cardSave();
 nav();
